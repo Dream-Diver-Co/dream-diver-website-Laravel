@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Ticket;
+use App\Models\Attachment;
 use App\Models\Tickethistory;
 use Illuminate\Http\Request;
 use App\Http\Requests\StoreTicketRequest;
@@ -42,6 +43,7 @@ class TicketController extends Controller
     {
         $data = $request->all();
 
+        //dd($data);
 
         $ticket = new Ticket();
 
@@ -50,6 +52,26 @@ class TicketController extends Controller
         $ticket->issue = $data['issue'];
         $ticket->status = $data['status'];
         $ticket->save();
+
+        //attachment save
+
+        $files = $request->file('files');
+
+        if ($files) {
+            foreach ($files as $file) {
+
+                //$image = $request->file('image');
+                $name = $file->getClientOriginalName();
+                $extension = $file->getClientOriginalExtension();
+
+                $filename = pathinfo($name, PATHINFO_FILENAME) . time() . '.' . $extension;
+
+                $attachment = new Attachment();
+                $attachment->ticket_id = $ticket->id;
+                $attachment->attachment_name = $file->storeAs('attachments_folder', $filename);
+                $attachment->save();
+            }
+        }
 
 
 
@@ -71,12 +93,9 @@ class TicketController extends Controller
      */
     public function edit(Ticket $ticket)
     {
-        // $ticket_history = Tickethistory(where(ticket_id = $ticket->id))->get();
-        // return view('tickets.edit', compact('ticket'));
-
-
         $ticket_history = Tickethistory::where('ticket_id', $ticket->id)->get();
-        return view('tickets.edit', compact('ticket', 'ticket_history'));
+        $attachments = Attachment::where('ticket_id', $ticket->id)->get();
+        return view('tickets.edit', compact('ticket', 'ticket_history','attachments'));
 
     }
 

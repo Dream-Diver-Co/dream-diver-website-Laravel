@@ -31,7 +31,6 @@
             <form class="row g-3" action="{{ route('tickethistory_store') }}" method="POST" enctype="multipart/form-data">
                 @csrf
 
-
                 <div class="col-12">
                     <label for="inputAddress2" class="form-label">Ticket id (hidden)</label>
                     <input type="text"  name="ticket_id"  class="form-control" id="inputAddress2" value="{{ $ticket->id}}" readonly>
@@ -64,6 +63,19 @@
                     <label for="inputAddress2" class="form-label">Issue</label>
                     <input type="text"  name="issue"  class="form-control" id="inputAddress2" value="{{ $ticket->issue}}"  placeholder="" readonly>
                 </div>
+
+
+
+                <div class="col-12 mt-4" >
+                    <label for="inputAddress2" class="form-label">Atached files</label><br>
+                    @foreach($attachments as $attachment)
+                        <img src="{{ asset('storage/' .$attachment->attachment_name) }}" alt="" width="200" height="200" style="border: 1px solid green;" class="mr 4">
+                    @endforeach
+                </div>
+
+
+
+
 
                 <div class="col-12 mt-4">
                     <P>Ticket comment history</P>

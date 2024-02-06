@@ -4,15 +4,15 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use App\Models\Attachment;
+use App\Models\Ticket;
 
-class Ticket extends Model
+class Attachment extends Model
 {
     use HasFactory;
 
-    public function attachments()
+    public function ticket()
     {
-        return $this->hasMany(Attachment::class);
+        return $this->belongsTo(Ticket::class);
     }
 
 }
