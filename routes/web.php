@@ -21,11 +21,20 @@ Use App\Http\Controllers\FrontendController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
+Route::get('/', [FrontendController::class, 'index'])->name('frontend.index');
 Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
+Route::get('/about', [FrontendController::class, 'about'])->name('about');
+Route::get('/service', [FrontendController::class, 'service'])->name('service');
+Route::get('/portfolio', [FrontendController::class, 'portfolio'])->name('portfolio');
+Route::get('/ticket', [FrontendController::class, 'ticket'])->name('ticket');
+Route::get('/faq', [FrontendController::class, 'faq'])->name('faq');
+Route::get('/career', [FrontendController::class, 'career'])->name('career');
+Route::get('/review', [FrontendController::class, 'review'])->name('review');
+
 
 Route::get('/admin', function () {
     return view('admin.index');
