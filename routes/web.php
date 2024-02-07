@@ -35,6 +35,7 @@ Route::get('/ticket', [FrontendController::class, 'ticket'])->name('ticket');
 Route::get('/faq', [FrontendController::class, 'faq'])->name('faq');
 Route::get('/career', [FrontendController::class, 'career'])->name('career');
 Route::get('/review', [FrontendController::class, 'review'])->name('review');
+Route::get('/loginfromfrontend', [FrontendController::class, 'login'])->name('loginfromfrontend');
 
 
 Route::get('/admin', function () {

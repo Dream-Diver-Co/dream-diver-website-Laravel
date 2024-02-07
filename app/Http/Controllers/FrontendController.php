@@ -41,4 +41,8 @@ class FrontendController extends Controller
         return view('frontend.page.review');
     }
 
+    public function login() {
+        return view('frontend.page.login');
+    }
+
 }

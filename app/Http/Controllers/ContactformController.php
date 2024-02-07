@@ -28,7 +28,7 @@ class ContactformController extends Controller
         'phone' => 'required|string|max:20',
         'message' => 'required|string',
         'note' => 'string|nullable',
-        'g-recaptcha-response' => 'required|captcha',
+        //'g-recaptcha-response' => 'required|captcha',
     ];
 
     // Validate the request data
