@@ -34,12 +34,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Style Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{ asset('frontend/css/style.css') }}" rel="stylesheet">
+    {{-- <link href="{{ asset('frontend') }}/css/style.css" rel="stylesheet"> --}}
         <!-- custome Stylesheet -->
-    <link href="css/custome.css" rel="stylesheet">
+    <link href="{{ asset('frontend/css/custome.css') }}" rel="stylesheet">
 
 
 </head>
@@ -54,9 +55,9 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
         <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <h1 class="m-0"><img class="img-fluid " src="img/logo.png" alt="logo" alt=""></h1>
+            <h1 class="m-0"><img class="img-fluid " src="{{ asset('frontend/img/logo.png') }}" alt="logo" alt=""></h1>
         </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler" datphpa-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -76,7 +77,7 @@
                     </div>
                   </div>
                 <a href="portfolio.html" class="nav-item nav-link ">Portfolio</a>
-                <a href="" class="nav-item nav-link">Contact Us</a>
+                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
                 <a href="ticket.html" class="nav-item nav-link">Support Ticket</a>
                 <a href="faq.html" class="nav-item nav-link">Faq</a>
                 <a href="career.html" class="nav-item nav-link">Career</a>
@@ -97,7 +98,7 @@
             <!-- Arif Begins Solar -->
             <div class="solar">
             <div class="sun">
-                <img class="sun-img" src="img/logo.png" alt="sun">
+                <img class="sun-img" src="{{ asset('frontend/img/logo.png') }}" alt="sun">
               </div>
                 <a href="mobile-app.html" class="uranus-link">
                     <div class="jupiter"></div>
@@ -281,42 +282,42 @@
             <div >
                 <div >
                     <a href="aeon.html">
-                        <img src="img/aeon.png" alt="aeon" class="card-img-top img-fluid">
+                        <img src="{{ asset('frontend/img/aeon.png') }}" alt="aeon" class="card-img-top img-fluid">
                     </a>
                 </div>
             </div>
             <div >
                 <div >
                    <a href="misi.html">
-                    <img src="img/misilogo.png" alt="misi" class="card-img-top">
+                    <img src="{{ asset('frontend/img/misilogo.png') }}" alt="misi" class="card-img-top">
                    </a>
                 </div>
             </div>
             <div >
                 <div >
                     <a href="pos.html">
-                        <img src="img/pos.png" alt="pos" class="card-img-top img-fluid">
+                        <img src="{{ asset('frontend/img/pos.png') }}" alt="pos" class="card-img-top img-fluid">
                     </a>
                 </div>
             </div>
             <div >
                 <div >
                     <a href="aeon.html">
-                        <img src="img/aeon.png" alt="aeon" class="card-img-top img-fluid">
+                        <img src="{{ asset('frontend/img/aeon.png') }}" alt="aeon" class="card-img-top img-fluid">
                     </a>
                 </div>
             </div>
             <div >
                 <div >
                     <a href="misi.html">
-                        <img src="img/misilogo.png" alt="misi" class="card-img-top img-fluid">
+                        <img src="{{ asset('frontend/img/misilogo.png') }}" alt="misi" class="card-img-top img-fluid">
                     </a>
                 </div>
             </div>
             <div >
                 <div >
                     <a href="pos.html">
-                        <img src="img/pos.png" alt="pos" class="card-img-top img-fluid">
+                        <img src="{{ asset('frontend/img/pos.png') }}" alt="pos" class="card-img-top img-fluid">
                     </a>
                 </div>
             </div>
@@ -345,10 +346,10 @@
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
                                               <div class="flip-box-front">
-                                                <img class="img-service" src="img/service/Software Development1.jpg" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Software Development1.jpg') }}" alt="Paris">
                                               </div>
                                               <div class="flip-box-back">
-                                                <img class="img-service" src="img/service/Software Development.jpg" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Software Development.jpg') }}" alt="Paris">
                                                 <div class="flip-text">
                                                     <h2>Dream Diver</h2>
                                                     <p>Software Development</p>
@@ -369,10 +370,10 @@
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
                                               <div class="flip-box-front">
-                                                <img class="img-service" src="img/service/Mobile App Development.jpg" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Mobile App Development.jpg') }}" alt="Paris">
                                               </div>
                                               <div class="flip-box-back">
-                                                <img class="img-service" src="img/service/Mobile App Development1.jpg" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Mobile App Development1.jpg') }}" alt="Paris">
                                                 <div class="flip-text">
                                                     <!-- <img class="img-service" src="img/portfolio/portfolio-2.jpg" alt="Paris"> -->
                                                     <h2>Dream Diver</h2>
@@ -396,10 +397,10 @@
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
                                               <div class="flip-box-front">
-                                                <img class="img-service" src="img/service/Software Services.jpg" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Software Services.jpg') }}" alt="Paris">
                                               </div>
                                               <div class="flip-box-back">
-                                                <img class="img-service" src="img/service/Software Services1.jpg" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Software Services1.jpg') }}" alt="Paris">
                                                 <div class="flip-text">
                                                     <h2>Dream Diver</h2>
                                                     <p>Software Services</p>
@@ -423,10 +424,10 @@
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
                                               <div class="flip-box-front">
-                                                <img class="img-service" src="img/service/Web_Design.jpg" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Web_Design.jpg') }}" alt="Paris">
                                               </div>
                                               <div class="flip-box-back">
-                                                <img class="img-service" src="img/service/Web_Design1.jpg" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Web_Design1.jpg') }}" alt="Paris">
                                                 <div class="flip-text">
                                                     <h2>Dream Diver</h2>
                                                     <p>Web Design & Development</p>
@@ -450,10 +451,10 @@
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
                                               <div class="flip-box-front">
-                                                <img class="img-service" src="img/service/seo.jpg" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/seo.jpg') }}" alt="Paris">
                                               </div>
                                               <div class="flip-box-back">
-                                                <img class="img-service" src="img/service/seo1.jpg" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/seo1.jpg') }}" alt="Paris">
                                                 <div class="flip-text">
                                                     <h2>Dream Diver</h2>
                                                     <p>Search Engine Optimization(SEO)</p>
@@ -477,10 +478,10 @@
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
                                               <div class="flip-box-front">
-                                                <img class="img-service" src="img/service/Digital_Marketing.jpg" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Digital_Marketing.jpg') }}" alt="Paris">
                                               </div>
                                               <div class="flip-box-back">
-                                                <img class="img-service" src="img/service/Digital_Marketing1.jpg" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Digital_Marketing1.jpg') }}" alt="Paris">
                                                 <div class="flip-text">
                                                     <h2>Dream Diver</h2>
                                                     <p>Digital Marketing</p>

@@ -24,7 +24,8 @@ Use App\Http\Controllers\FrontendController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/', [FrontendController::class, 'index'])->name('frontend.index');
+
+Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 
 Route::get('/admin', function () {
     return view('admin.index');
