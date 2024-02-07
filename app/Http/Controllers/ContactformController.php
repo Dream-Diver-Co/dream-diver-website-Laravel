@@ -28,6 +28,7 @@ class ContactformController extends Controller
         'phone' => 'required|string|max:20',
         'message' => 'required|string',
         'note' => 'string|nullable',
+        'g-recaptcha-response' => 'required|captcha',
     ];
 
     // Validate the request data
@@ -47,7 +48,8 @@ class ContactformController extends Controller
     $contact_message->save();
 
     // Redirect back with a success message
-    return redirect()->back()->with('success', 'Contact message created successfully!');
+    return redirect()->back()->with('success', 'Thanks for you message. We will contact with you soon!');
+
 }
 
 

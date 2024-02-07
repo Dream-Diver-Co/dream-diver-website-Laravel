@@ -37,29 +37,76 @@
                             <div class=" form-wrapper slide-form align-items-center">
                                 <div class="form sign-in ">
                                     <h1>Please Contact Us</h1>
-                                    <div class="input-group">
-                                        <i class='bx bxs-user'></i>
-                                        <input type="text" placeholder="Your Name">
-                                    </div>
-                                    <div class="input-group">
-                                        <i class='bx bx-mail-send'></i>
-                                        <input type="email" placeholder="Email">
-                                    </div>
-                                    <div class="input-group">
-                                        <i class='bx bxs-lock-alt'></i>
-                                        <input type="text" placeholder="Phone">
-                                    </div>
-                                    <div class="input-group">
-                                        <i class='bx bxs-lock-alt'></i>
-                                        <input type="text" placeholder="Message">
-                                    </div>
-                                    <div class="input-group">
-                                        <i class='bx bxs-lock-alt'></i>
-                                        <textarea name="" id="" cols="55" rows="3" placeholder="Note"></textarea>
-                                    </div>
-                                    <button>
-                                        Send Message
-                                    </button>
+                                    @if(session('success'))
+                                        <div id="successMessage" class="alert alert-success">
+                                            {{ session('success') }}
+                                        </div>
+
+                                        <script>
+                                            // Auto-hide success message after 5 seconds
+                                            setTimeout(function(){
+                                                document.getElementById('successMessage').style.display = 'none';
+                                            }, 5000);
+                                        </script>
+                                    @endif
+
+                                    <!-- Display reCAPTCHA error -->
+                                    @if($errors->has('g-recaptcha-response'))
+                                    <div class="alert alert-danger">{{ $errors->first('g-recaptcha-response') }}</div>
+                                    @endif
+
+                                    <form class="row g-3" action="{{ route('contact_form_store') }}" method="POST" enctype="multipart/form-data">
+                                        @csrf
+
+                                        <div class="input-group">
+                                            <i class='bx bxs-user'></i>
+                                            <input type="text" placeholder="Your Name" name="name">
+                                        </div>
+                                        @error('name')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+
+                                        <div class="input-group">
+                                            <i class='bx bx-mail-send'></i>
+                                            <input type="email" placeholder="Email" name="email">
+                                        </div>
+                                        @error('email')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+
+                                        <div class="input-group">
+                                            <i class='bx bxs-lock-alt'></i>
+                                            <input type="text" placeholder="Phone" name="phone">
+                                        </div>
+                                        @error('phone')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+
+                                        <div class="input-group">
+                                            <i class='bx bxs-lock-alt'></i>
+                                            <input type="text" placeholder="Message" name="message">
+                                        </div>
+                                        @error('message')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+
+                                        <div class="input-group">
+                                            <i class='bx bxs-lock-alt'></i>
+                                            <textarea name="note" id="" cols="55" rows="3" placeholder="Note"></textarea>
+                                        </div>
+                                        @error('note')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+
+                                        <!-- reCAPTCHA field -->
+                                        <div class="g-recaptcha" data-sitekey="{{ config('nocaptcha.sitekey') }}"></div>
+
+
+                                        <button type="submit">
+                                            Send Message
+                                        </button>
+                                    </form>
+
                                     <p>
                                         <!-- <b>
                                             Forgot password?
