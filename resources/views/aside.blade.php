@@ -167,54 +167,6 @@
           </li>
 
 
-
-
-          @endrole
-
-
-
-
-
-          <li class="nav-item ">
-            <a href="#" class="nav-link ">
-              <i class="nav-icon fas fa-ticket-alt"></i>
-              <p>
-                Ticket
-                <i class="right fas fa-angle-left"></i>
-
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="{{route('tickets.index')}}" class="nav-link ">
-
-                  <i class="nav-icon fas fa-angle-right"></i>
-                  <p>Ticket All</p>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a href="{{route('tickets.index')}}" class="nav-link ">
-
-                  <i class="nav-icon fas fa-angle-right"></i>
-                  <p>My Ticket</p>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a href="{{route('tickets.create')}}" class="nav-link ">
-                    <i class="nav-icon fas fa-angle-right"></i>
-                  <p>Ticket Create</p>
-                </a>
-              </li>
-
-
-            </ul>
-
-          </li>
-
-
-
           <li class="nav-item ">
             <a href="#" class="nav-link ">
               <i class="nav-icon fas fa-ticket-alt"></i>
@@ -245,6 +197,65 @@
             </ul>
 
           </li>
+
+
+
+
+          @endrole
+
+
+
+
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link ">
+              <i class="nav-icon fas fa-ticket-alt"></i>
+              <p>
+                Ticket
+                <i class="right fas fa-angle-left"></i>
+
+              </p>
+            </a>
+
+
+
+
+            <ul class="nav nav-treeview">
+
+                @role('admin')
+              <li class="nav-item">
+                <a href="{{route('tickets.index')}}" class="nav-link ">
+
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Ticket All</p>
+                </a>
+              </li>
+
+              @endrole
+
+              <li class="nav-item">
+                <a href="{{route('tickets.index')}}" class="nav-link ">
+
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>My Ticket</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="{{route('tickets.create')}}" class="nav-link ">
+                    <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Ticket Create</p>
+                </a>
+              </li>
+
+
+            </ul>
+
+          </li>
+
+
+
+
 
 
 
