@@ -8,12 +8,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">FAQ Create</h1>
+            <h1 class="m-0">Ticket Create</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">FAQ Create</li>
+              <li class="breadcrumb-item active">Ticket Create</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -37,12 +37,17 @@
                 </div>
 
                 <div class="col-12">
-                    <label for="inputAddress2" class="form-label">User Email</label>
+                    <label for="inputAddress2" class="form-label">User Email (hide)</label>
                     <input type="text"  name="email"  class="form-control" id="inputAddress2" value="{{ auth()->user()->email }}" placeholder="" readonly>
                 </div>
                 <div class="col-12">
                     <label for="inputAddress2" class="form-label">Issue </label>
                     <input type="text"  name="issue"  class="form-control" id="inputAddress2" placeholder="">
+                </div>
+
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Attach File </label>
+                    <input type="file"  name="files[]"  class="form-control" id="inputAddress2" placeholder="" multiple>
                 </div>
 
                 <div class="col-12">
