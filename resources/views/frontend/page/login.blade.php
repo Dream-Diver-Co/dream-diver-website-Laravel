@@ -18,35 +18,39 @@
                 <!-- SIGN UP -->
                 <div class="col align-items-center flex-col flex-sign-up sign-up">
                     <div class="form-wrapper align-items-center">
-                        <div class="form sign-up">
-                            <div class="input-group">
-                                <i class='bx bxs-user'></i>
-                                <input type="text" placeholder="Username">
+                        <form method="POST" action="{{ route('register') }}">
+                            @csrf
+
+                            <div class="form sign-up">
+                                <div class="input-group">
+                                    <i class='bx bxs-user'></i>
+                                    <input type="text" placeholder="Username" name="name">
+                                </div>
+                                <div class="input-group">
+                                    <i class='bx bx-mail-send'></i>
+                                    <input type="email" placeholder="Email"  name="email">
+                                </div>
+                                <div class="input-group">
+                                    <i class='bx bxs-lock-alt'></i>
+                                    <input type="password" placeholder="Password"  name="password">
+                                </div>
+                                <div class="input-group">
+                                    <i class='bx bxs-lock-alt'></i>
+                                    <input type="password" placeholder="Confirm password" name="password_confirmation">
+                                </div>
+                                <button>
+                                    Sign up
+                                </button>
+                                <p>
+                                    <span>
+                                        Already have an account?
+                                    </span>
+                                    <b onclick="toggle()" class="pointer">
+                                        Sign in here
+                                    </b>
+                                </p>
                             </div>
-                            <div class="input-group">
-                                <i class='bx bx-mail-send'></i>
-                                <input type="email" placeholder="Email">
-                            </div>
-                            <div class="input-group">
-                                <i class='bx bxs-lock-alt'></i>
-                                <input type="password" placeholder="Password">
-                            </div>
-                            <div class="input-group">
-                                <i class='bx bxs-lock-alt'></i>
-                                <input type="password" placeholder="Confirm password">
-                            </div>
-                            <button>
-                                Sign up
-                            </button>
-                            <p>
-                                <span>
-                                    Already have an account?
-                                </span>
-                                <b onclick="toggle()" class="pointer">
-                                    Sign in here
-                                </b>
-                            </p>
-                        </div>
+                        </form>
                     </div>
 
                 </div>
@@ -54,22 +58,28 @@
                 <!-- SIGN IN -->
                 <div class="col align-items-center flex-col flex-sign-in sign-in">
                     <div class="form-wrapper align-items-center">
+                        <form method="POST" action="{{ route('login') }}">
+                            @csrf
+
                         <div class="form sign-in">
                             <div class="input-group">
                                 <i class='bx bxs-user'></i>
-                                <input type="text" placeholder="Username">
+                                <input type="text" placeholder="Username" name="email">
                             </div>
                             <div class="input-group">
                                 <i class='bx bxs-lock-alt'></i>
-                                <input type="password" placeholder="Password">
+                                <input type="password" placeholder="Password" name="password">
                             </div>
                             <button>
                                 Sign in
                             </button>
                             <p>
-                                <b>
-                                    Forgot password?
-                                </b>
+
+                                @if (Route::has('password.request'))
+                                    <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
+                                        Forgot password?
+                                    </a>
+                                @endif
                             </p>
                             <p>
                                 <span>
@@ -80,6 +90,8 @@
                                 </b>
                             </p>
                         </div>
+
+                        </form>
                     </div>
                     <div class="form-wrapper">
 
