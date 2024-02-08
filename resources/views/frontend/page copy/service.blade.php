@@ -159,7 +159,7 @@
 
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <a href="{{ route('marketing') }}">
+                        <a href="marketing.html">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                   <div class="flip-box-front">

@@ -34,7 +34,21 @@ Route::get('/ticket', [FrontendController::class, 'ticket'])->name('ticket');
 Route::get('/faq', [FrontendController::class, 'faq'])->name('faq');
 Route::get('/career', [FrontendController::class, 'career'])->name('career');
 Route::get('/review', [FrontendController::class, 'review'])->name('review');
-
+Route::get('/software_development', [FrontendController::class, 'softwareDevelopment'])->name('software_development');
+Route::get('/mobile_app', [FrontendController::class, 'mobileApp'])->name('mobile_app');
+Route::get('/software_service', [FrontendController::class, 'softwareService'])->name('software_service');
+Route::get('/web_design', [FrontendController::class, 'webDesign'])->name('web_design');
+Route::get('/seo', [FrontendController::class, 'seo'])->name('seo');
+Route::get('/marketing', [FrontendController::class, 'marketing'])->name('marketing');
+Route::get('/review', [FrontendController::class, 'review'])->name('review');
+Route::get('/review', [FrontendController::class, 'review'])->name('review');
+Route::get('/review', [FrontendController::class, 'review'])->name('review');
+Route::get('/review', [FrontendController::class, 'review'])->name('review');
+Route::get('/review', [FrontendController::class, 'review'])->name('review');
+Route::get('/review', [FrontendController::class, 'review'])->name('review');
+Route::get('/review', [FrontendController::class, 'review'])->name('review');
+Route::get('/review', [FrontendController::class, 'review'])->name('review');
+Route::get('/review', [FrontendController::class, 'review'])->name('review');
 
 Route::get('/admin', function () {
     return view('admin.index');
