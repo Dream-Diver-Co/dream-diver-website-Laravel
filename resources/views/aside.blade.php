@@ -167,6 +167,38 @@
           </li>
 
 
+          <li class="nav-item ">
+            <a href="#" class="nav-link ">
+              <i class="nav-icon fas fa-ticket-alt"></i>
+              <p>
+                Contact message
+                <i class="right fas fa-angle-left"></i>
+
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{route('contact_form_index')}}" class="nav-link ">
+
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Contact message All</p>
+                </a>
+              </li>
+
+
+              <li class="nav-item">
+                <a href="{{route('contact_form_create')}}" class="nav-link ">
+                    <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Contact message Create</p>
+                </a>
+              </li>
+
+
+            </ul>
+
+          </li>
+
+
 
 
           @endrole
@@ -184,7 +216,13 @@
 
               </p>
             </a>
+
+
+
+
             <ul class="nav nav-treeview">
+
+                @role('admin')
               <li class="nav-item">
                 <a href="{{route('tickets.index')}}" class="nav-link ">
 
@@ -192,6 +230,8 @@
                   <p>Ticket All</p>
                 </a>
               </li>
+
+              @endrole
 
               <li class="nav-item">
                 <a href="{{route('tickets.index')}}" class="nav-link ">
@@ -212,6 +252,14 @@
             </ul>
 
           </li>
+
+
+
+
+
+
+
+
 
 
         </ul>

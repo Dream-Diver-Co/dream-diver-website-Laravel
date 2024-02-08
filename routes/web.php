@@ -9,6 +9,7 @@ use App\Http\Controllers\FaqController;
 use App\Http\Controllers\TicketController;
 use App\Http\Controllers\TickethistoryController;
 Use App\Http\Controllers\FrontendController;
+Use App\Http\Controllers\ContactformController;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,15 +41,19 @@ Route::get('/software_service', [FrontendController::class, 'softwareService'])-
 Route::get('/web_design', [FrontendController::class, 'webDesign'])->name('web_design');
 Route::get('/seo', [FrontendController::class, 'seo'])->name('seo');
 Route::get('/marketing', [FrontendController::class, 'marketing'])->name('marketing');
-Route::get('/review', [FrontendController::class, 'review'])->name('review');
-Route::get('/review', [FrontendController::class, 'review'])->name('review');
-Route::get('/review', [FrontendController::class, 'review'])->name('review');
-Route::get('/review', [FrontendController::class, 'review'])->name('review');
-Route::get('/review', [FrontendController::class, 'review'])->name('review');
-Route::get('/review', [FrontendController::class, 'review'])->name('review');
-Route::get('/review', [FrontendController::class, 'review'])->name('review');
-Route::get('/review', [FrontendController::class, 'review'])->name('review');
-Route::get('/review', [FrontendController::class, 'review'])->name('review');
+// Route::get('/review', [FrontendController::class, 'review'])->name('review');
+// Route::get('/review', [FrontendController::class, 'review'])->name('review');
+// Route::get('/review', [FrontendController::class, 'review'])->name('review');
+// Route::get('/review', [FrontendController::class, 'review'])->name('review');
+// Route::get('/review', [FrontendController::class, 'review'])->name('review');
+// Route::get('/review', [FrontendController::class, 'review'])->name('review');
+// Route::get('/review', [FrontendController::class, 'review'])->name('review');
+// Route::get('/review', [FrontendController::class, 'review'])->name('review');
+// Route::get('/review', [FrontendController::class, 'review'])->name('review');
+
+Route::get('/loginfromfrontend', [FrontendController::class, 'login'])->name('loginfromfrontend');
+
+
 
 Route::get('/admin', function () {
     return view('admin.index');
@@ -83,6 +88,14 @@ Route::group(['middleware' => ['auth', 'verified', 'role:admin']], function () {
 
     // Route::resource('tickets', TicketController::class);
     // Route::post('/tickethistory_store', [TickethistoryController::class, 'store'])->name('tickethistory_store');
+
+    Route::get('/contact_form_index', [ContactformController::class, 'index'])->name('contact_form_index');
+    Route::get('/contact_form_create', [ContactformController::class, 'create'])->name('contact_form_create');
+    Route::post('/contact_form_store', [ContactformController::class, 'store'])->name('contact_form_store');
+    Route::get('/contact_form_edit/{id}', [ContactformController::class, 'edit'])->name('contact_form_edit');
+    Route::put('/contact_form_update/{id}', [ContactformController::class, 'update'])->name('contact_form_update');
+    Route::put('/contact_form_destroy/{id}', [ContactformController::class, 'destroy'])->name('contact_form_destroy');
+
 
 });
 

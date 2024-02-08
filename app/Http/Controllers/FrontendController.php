@@ -62,4 +62,9 @@ class FrontendController extends Controller
     }
 
 
+    public function login() {
+        return view('frontend.page.login');
+    }
+
+
 }
