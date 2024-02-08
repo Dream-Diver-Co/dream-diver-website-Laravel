@@ -25,6 +25,7 @@
         </div>
         <div class="container">
             <div class="row g-5">
+
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="container">
                         <!-- FORM SECTION -->
@@ -32,39 +33,83 @@
                             <!-- SIGN IN -->
                             <div class="col align-items-center flex-col sign-in">
                                 <div class=" form-wrapper slide-form align-items-center">
-                                    <div class="form sign-in">
-                                        <div class="input-group">
-                                            <i class='bx bxs-user'></i>
-                                            <input type="text" placeholder="Name">
-                                        </div>
-                                        <div class="input-group">
-                                            <i class='bx bx-mail-send'></i>
-                                            <input type="email" placeholder="Email">
-                                        </div>
-                                        <div class="input-group">
-                                            <i class='bx bxs-user'></i>
-                                            <input type="text" placeholder="Phone">
-                                        </div>
-                                        <div class="input-group">
-                                            <i class='bx bxs-user'></i>
-                                            <input type="text" placeholder="Problem">
-                                        </div>
-                                        <div class="input-group">
-                                            <i class='bx bxs-user'></i>
-                                            <input type="file" placeholder="file">
-                                        </div>
-                                        <div class="input-group">
-                                            <i class='bx bxs-lock-alt'></i>
-                                            <textarea name="" id="" cols="55" rows="3" placeholder="Note"></textarea>
-                                        </div>
-                                        <button>
-                                            Create Ticket
-                                        </button>
-                                        <!-- <p>
-                                            <b>
+                                    <div class="form sign-in ">
+                                        <h1>Contact Us</h1>
+                                        @if(session('success'))
+                                            <div id="successMessage" class="alert alert-success">
+                                                {{ session('success') }}
+                                            </div>
+
+                                            <script>
+                                                // Auto-hide success message after 5 seconds
+                                                setTimeout(function(){
+                                                    document.getElementById('successMessage').style.display = 'none';
+                                                }, 5000);
+                                            </script>
+                                        @endif
+
+                                        <!-- Display reCAPTCHA error -->
+                                        @if($errors->has('g-recaptcha-response'))
+                                        <div class="alert alert-danger">{{ $errors->first('g-recaptcha-response') }}</div>
+                                        @endif
+
+                                        <form class="row g-3" action="{{ route('contact_form_store') }}" method="POST" enctype="multipart/form-data">
+                                            @csrf
+
+                                            <div class="input-group">
+                                                <i class='bx bxs-user'></i>
+                                                <input type="text" placeholder="Your Name" name="name">
+                                            </div>
+                                            @error('name')
+                                                <div class="alert alert-danger">{{ $message }}</div>
+                                            @enderror
+
+                                            <div class="input-group">
+                                                <i class='bx bx-mail-send'></i>
+                                                <input type="email" placeholder="Email" name="email">
+                                            </div>
+                                            @error('email')
+                                                <div class="alert alert-danger">{{ $message }}</div>
+                                            @enderror
+
+                                            <div class="input-group">
+                                                <i class='bx bxs-lock-alt'></i>
+                                                <input type="text" placeholder="Phone" name="phone">
+                                            </div>
+                                            @error('phone')
+                                                <div class="alert alert-danger">{{ $message }}</div>
+                                            @enderror
+
+                                            <div class="input-group">
+                                                <i class='bx bxs-lock-alt'></i>
+                                                <input type="text" placeholder="Message" name="message">
+                                            </div>
+                                            @error('message')
+                                                <div class="alert alert-danger">{{ $message }}</div>
+                                            @enderror
+
+                                            <div class="input-group">
+                                                <i class='bx bxs-lock-alt'></i>
+                                                <textarea name="note" id="" cols="55" rows="3" placeholder="Note"></textarea>
+                                            </div>
+                                            @error('note')
+                                                <div class="alert alert-danger">{{ $message }}</div>
+                                            @enderror
+
+                                            <!-- reCAPTCHA field -->
+                                            <div class="g-recaptcha" data-sitekey="{{ config('nocaptcha.sitekey') }}"></div>
+
+
+                                            <button type="submit">
+                                                Send Message
+                                            </button>
+                                        </form>
+
+                                        <p>
+                                            <!-- <b>
                                                 Forgot password?
-                                            </b>
-                                        </p> -->
+                                            </b> -->
+                                        </p>
                                         <p>
                                             <!-- <span>
                                                 Don't have an account?
@@ -81,38 +126,27 @@
                         <!-- END FORM SECTION -->
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp align-items-center " data-wow-delay="0.5s">
-                    <div class="small-container slide-benar">
-                        <div class="custom-card">
-                              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active" style="text-align: center;">
-                                    <h5 class="custom-title">Support Ticket!</h5>
-                                    <p>We provide all kind of software solutions to your projects.</p>
-                                  </div>
-                                  <div class="carousel-item" style="text-align: center;">
-                                    <h5 class="custom-title">Support Ticket</h5>
-                                    <p>Web Design & Development, Android Applications</p>
-                                  </div>
-                                  <div class="carousel-item" style="text-align: center;">
-                                    <h5 class="custom-title">Support Ticket</h5>
-                                    <p>Search Engine Optimization, contact us for details</p>
-                                  </div>
+
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <!-- FORM SECTION -->
+                        <div class="row">
+                            <!-- SIGN IN -->
+                            <div class="col align-items-center flex-col sign-in">
+                                <div class="form-wrapper slide-form align-items-center">
+                                    <div class="form sign-in">
+                                        <h2>To create Ticket , Please login/Register.</h2>
+
+                                        <button >
+                                            <a href="{{ route('loginfromfrontend') }}" class="nav-item nav-link btn">Login</a>
+                                        </button>
+                                    </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-                                <a href="contact.html">
-                                    <button class="custom-btn">Support Ticket</button>
-                                  </a>
+                            </div>
+
+                            <!-- END SIGN IN -->
                         </div>
-                        <div class="custom-blob"></div>
+                        <!-- END FORM SECTION -->
                     </div>
                 </div>
             </div>
