@@ -24,7 +24,7 @@
 <section class="py-7">
 <div class="container-xxl py-5">
     <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-        <h1 class="display-6">Feel Free To Contact Us</h1>
+        <p class="display-6">Feel Free To Contact Us</p>
     </div>
     <div class="container">
         <div class="row g-5">
@@ -107,20 +107,6 @@
                                             Send Message
                                         </button>
                                     </form>
-
-                                    <p>
-                                        <!-- <b>
-                                            Forgot password?
-                                        </b> -->
-                                    </p>
-                                    <p>
-                                        <!-- <span>
-                                            Don't have an account?
-                                        </span> -->
-                                        <!-- <b onclick="toggle()" class="pointer">
-                                            Sign up here
-                                        </b> -->
-                                    </p>
                                 </div>
                             </div>
                         </div>
