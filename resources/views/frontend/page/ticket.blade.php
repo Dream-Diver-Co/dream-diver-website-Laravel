@@ -96,8 +96,12 @@
                                                 <div class="alert alert-danger">{{ $message }}</div>
                                             @enderror
 
-                                            <!-- reCAPTCHA field -->
-                                            <div class="g-recaptcha" data-sitekey="{{ config('nocaptcha.sitekey') }}"></div>
+                                            <div class="input-group">
+                                                {!! NoCaptcha::renderJs() !!}
+                                                {!! NoCaptcha::display() !!}
+                                            </div>
+
+
 
 
                                             <button type="submit">
@@ -137,9 +141,9 @@
                                     <div class="form sign-in">
                                         <h2>To create Ticket , Please login/Register.</h2>
 
-                                        <button >
+                                        <h3>
                                             <a href="{{ route('loginfromfrontend') }}" class="nav-item nav-link btn">Login</a>
-                                        </button>
+                                        </h3>
                                     </div>
                                 </div>
                             </div>

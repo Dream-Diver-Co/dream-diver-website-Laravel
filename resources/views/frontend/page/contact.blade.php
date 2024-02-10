@@ -98,9 +98,10 @@
                                             <div class="alert alert-danger">{{ $message }}</div>
                                         @enderror
 
-                                        <!-- reCAPTCHA field -->
-                                        <div class="g-recaptcha" data-sitekey="{{ config('nocaptcha.sitekey') }}"></div>
-
+                                        <div class="input-group">
+                                            {!! NoCaptcha::renderJs() !!}
+                                            {!! NoCaptcha::display() !!}
+                                        </div>
 
                                         <button type="submit">
                                             Send Message
