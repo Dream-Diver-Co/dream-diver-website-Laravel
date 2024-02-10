@@ -132,7 +132,7 @@ body {
     color: #000000;
     font-weight: 900;
     outline: none;
-    
+
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -267,14 +267,14 @@ body {
     top: -15em;
     left: -15em;
     width: 70em;
-    height: 70em; 
+    height: 70em;
     animation: orbit 22s linear infinite;
 }
 .jupiter {
     top: -15em;
     left: -15em;
     width: 70em;
-    height: 70em; 
+    height: 70em;
     animation: orbit 28s linear infinite;
 }
 .saturn {
@@ -288,21 +288,21 @@ body {
     top: -30em;
     left: -30em;
     width: 100em;
-    height: 100em; 
+    height: 100em;
     animation: orbit 20s linear infinite;
 }
 .neptune {
     top: -30em;
     left: -30em;
     width: 100em;
-    height: 100em; 
+    height: 100em;
     animation: orbit 30s linear infinite;
 }
 .pluto {
     top: -30em;
     left: -30em;
     width: 100em;
-    height: 100em; 
+    height: 100em;
     animation: orbit 24s linear infinite;
 }
 
@@ -653,7 +653,7 @@ body {
     border-radius: 30px;
     padding: auto;
   }
-  
+
   .flip-box-inner {
     position: relative;
     width: 100%;
@@ -661,13 +661,13 @@ body {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    
+
   }
-  
+
   .flip-box:hover .flip-box-inner {
     transform: rotateY(180deg);
   }
-  
+
   .flip-box-front, .flip-box-back {
     position: absolute;
     width: 100%;
@@ -676,18 +676,18 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-  
+
   .flip-box-front {
     background-color: #bbb;
     color: black;
     border-radius: 30px;
   }
-  
+
   .flip-box-back {
     /* background-color: #21217c; */
     color: white;
     transform: rotateY(180deg);
-    
+
   }
   .flip-box-back .img-service{
     /* background-color: #21217c;
@@ -702,7 +702,7 @@ body {
     margin-top: -203px;
     z-index: -1; */
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.4); 
+    background-color: rgba(0,0,0, 0.4);
     color: white;
     font-weight: bold;
     border: 3px solid #f0eaea;
@@ -718,7 +718,7 @@ body {
   .flip-btn{
     padding-left: 5px;
     border-radius: 5px;
-    background-color: #21217C;
+    background-color: #EFEFEF;
     box-shadow: rgba(0, 0, 0, 0.35) 3px 3px 5px 2px;
     border: teal;
     font-weight: 900;
@@ -818,7 +818,7 @@ body {
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -831,7 +831,7 @@ body {
     /* background-color: #0d1369; */
     background-size: cover;
     background-image: url(images/bradcum.jpg);
-  
+
 }
 
 .page-header .breadcrumb-item a,
@@ -1063,7 +1063,7 @@ body {
 
 .footer .btn.btn-link:hover {
     /* color: var(--primary); */
-    color: #001064;
+    color: #10183f !important;
     letter-spacing: 1px;
     box-shadow: none;
 }
@@ -1262,28 +1262,28 @@ body {
     --white: #ffffff;
     --gray: #efefef;
     --gray-2: #757575;
-  
+
     --facebook-color: #4267B2;
     --google-color: #DB4437;
     --twitter-color: #1DA1F2;
     --insta-color: #E1306C;
   } */
-  
+
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
-  
+
   * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   /* html,
   body {
     height: 100vh;
     overflow: hidden;
   } */
-  
+
   .container{
     position: relative;
     /* min-height: 100vh; */
@@ -1292,24 +1292,24 @@ body {
   .container-co{
     max-width:100%;
   }
-  
+
   .row-cod {
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
   }
-  
+
   .col {
     width: 50%;
   }
-  
+
   .align-items-center {
     display: flex;
     align-items: center ;
     justify-content: center;
     text-align: center;
   }
-  
+
   .form-wrapper {
     width: 100%;
     /* max-width: 28rem; */
@@ -1317,7 +1317,7 @@ body {
   .form-contact{
     margin-left: 50%;
   }
-  
+
   .form {
     margin: 15px;
     padding: 1rem;
@@ -1329,13 +1329,13 @@ body {
     transition: .5s ease-in-out;
     transition-delay: 1s;
   }
-  
+
   .input-group {
     position: relative;
     width: 100%;
     margin: 1rem 0;
   }
-  
+
   .input-group i {
     position: absolute;
     top: 50%;
@@ -1345,7 +1345,7 @@ body {
     color: var(--gray-2);
     /* color:#757575; */
   }
-  
+
   .input-group input {
     width: 100%;
     padding: 1rem 3rem;
@@ -1370,12 +1370,12 @@ body {
     /* border-color: white; */
     outline: none;
   }
-  
+
   .input-group input:focus {
     /* border: 0.125rem solid var(--primary-color); */
     border: 0.125rem solid var(#ff4f00);
   }
-  
+
   .form button {
     cursor: pointer;
     width: 100%;
@@ -1394,16 +1394,16 @@ body {
     font-weight: 900;
     background-color: #f5f5f5 !important;
 }
-  
+
   .form p {
     margin: 1rem 0;
     font-size: .7rem;
   }
-  
+
   .flex-col {
     flex-direction: column;
   }
-  
+
   .social-list {
     margin: 2rem 0;
     padding: 1rem;
@@ -1414,7 +1414,7 @@ body {
     transition: .5s ease-in-out;
     transition-delay: 1.2s;
   }
-  
+
   .social-list>div {
     color: var(--white);
     margin: 0 .5rem;
@@ -1425,56 +1425,56 @@ body {
     transform: scale(0);
     transition: .5s ease-in-out;
   }
-  
+
   .social-list>div:nth-child(1) {
     transition-delay: 1.4s;
   }
-  
+
   .social-list>div:nth-child(2) {
     transition-delay: 1.6s;
   }
-  
+
   .social-list>div:nth-child(3) {
     transition-delay: 1.8s;
   }
-  
+
   .social-list>div:nth-child(4) {
     transition-delay: 2s;
   }
-  
+
   .social-list>div>i {
     font-size: 1.5rem;
     transition: .4s ease-in-out;
   }
-  
+
   .social-list>div:hover i {
     transform: scale(1.5);
   }
-  
+
   .facebook-bg {
     /* background-color: var(--facebook-color); */
     background-color: #4267B2;
   }
-  
+
   .google-bg {
     /* background-color: var(--google-color); */
     background-color: var(--facebook-color);
   }
-  
+
   .twitter-bg {
     /* background-color: var(--twitter-color); */
     background-color: var(--facebook-color);
   }
-  
+
   .insta-bg {
     /* background-color: var(--insta-color); */
     background-color: var(--facebook-color);
   }
-  
+
   .pointer {
     cursor: pointer;
   }
-  
+
   .container.sign-in .form.sign-in,
   .container.sign-in .social-list.sign-in,
   .container.sign-in .social-list.sign-in>div,
@@ -1483,7 +1483,7 @@ body {
   .container.sign-up .social-list.sign-up>div {
     transform: scale(1);
   }
-  
+
   .content-row {
     position: absolute;
     top: 0;
@@ -1492,51 +1492,51 @@ body {
     z-index: 6;
     width: 100%;
   }
-  
+
   .text {
     margin: 4rem;
     color: var(--white);
     /* margin-top: 10%;
     margin-right: 70% !important; */
-    
+
   }
   .contact-text{
     margin-top: 10%;
     margin-right: 70% !important;
   }
- 
-  
+
+
   .text h2 {
     font-size: 3.5rem;
     font-weight: 800;
     margin: 2rem 0;
     transition: 1s ease-in-out;
   }
-  
+
   .text p {
     font-weight: 600;
     transition: 1s ease-in-out;
     transition-delay: .2s;
   }
-  
+
   .img img {
     width: 30vw;
     transition: 1s ease-in-out;
     transition-delay: .4s;
   }
-  
+
   .text.sign-in h2,
   .text.sign-in p,
   .img.sign-in img {
     transform: translateX(-250%);
   }
-  
+
   .text.sign-up h2,
   .text.sign-up p,
   .img.sign-up img {
     transform: translateX(250%);
   }
-  
+
   .container.sign-in .text.sign-in h2,
   .container.sign-in .text.sign-in p,
   .container.sign-in .img.sign-in img,
@@ -1545,9 +1545,9 @@ body {
   .container.sign-up .img.sign-up img {
     transform: translateX(0);
   }
-  
+
   /* BACKGROUND */
-  
+
   /* .container::before {
     content: "";
     position: absolute;
@@ -1579,21 +1579,21 @@ body {
     border-bottom-right-radius: max(50vw, 50vh);
     border-top-left-radius: max(50vw, 50vh);
   }
-  
+
   .container.sign-in::before {
     transform: translate(0, 0);
     right: 50%;
   }
-  
+
   .container.sign-up::before {
     transform: translate(100%, 0);
     right: 50%;
   }
-  
+
   /* RESPONSIVE */
-  
+
   @media only screen and (max-width: 425px) {
-  
+
     .container::before,
     .container.sign-in::before,
     .container.sign-up::before {
@@ -1604,25 +1604,25 @@ body {
         transform: none;
         right: 0;
     }
-  
+
     /* .container.sign-in .col.sign-up {
         transform: translateY(100%);
     } */
-  
+
     .container.sign-in .col.sign-in,
     .container.sign-up .col.sign-up {
         transform: translateY(0);
     }
-  
+
     .content-row {
         align-items: flex-start !important;
     }
-  
+
     .content-row .col {
         transform: translateY(0);
         background-color: unset;
     }
-  
+
     .col {
         width: 100%;
         position: absolute;
@@ -1634,27 +1634,27 @@ body {
         transform: translateY(100%);
         transition: 1s ease-in-out;
     }
-  
+
     .row {
         align-items: flex-end;
         justify-content: flex-end;
     }
-  
+
     .form,
     .social-list {
         box-shadow: none;
         margin: 0;
         padding: 0;
     }
-  
+
     .text {
         margin: 0;
     }
-  
+
     .text p {
         display: none;
     }
-  
+
     .text h2 {
         margin: .5rem;
         font-size: 2rem;
@@ -1929,7 +1929,7 @@ p {
 }
 
 .dropdown-content a:hover {
-  color: white;
+  color: white !important;
   background-color: #1F1F47;
   border-radius: 10px;
 }
@@ -1949,7 +1949,7 @@ p {
 .slide-section {
   position: relative;
   top: 0;
-  left: -100%; 
+  left: -100%;
   width: 100%;
   /* height: 100vh; */
   /* background-color: #f0f0f0; */
@@ -1959,18 +1959,18 @@ p {
 .slide-form {
   position: relative;
   top: 0;
-  left: -100%; 
+  left: -100%;
   width: 100%;
   animation: slideIn 0.9s ease forwards;
- 
+
 }
 .slide-benar {
   position: relative;
   top: 0;
-  left: 100%; 
+  left: 100%;
   width: 100%;
   animation: slideIn 0.9s ease forwards;
- 
+
 }
 
 @keyframes slideIn {
@@ -1999,7 +1999,7 @@ p {
     font-size: 35px;
   }
   a:hover {
-    color: #ffffff !important;
+    color: #0a0330 !important;
   }
   /* for mobile */
   @media screen and (max-width: 767px){
@@ -2007,7 +2007,7 @@ p {
       margin-top: 10px;
       font-size: 28px;
     }
-    
+
     .whatsapp_float {
       width: 40px;
       height: 40px;
@@ -2016,3 +2016,20 @@ p {
       font-size: 22px;
     }
   }
+
+  .service-text{
+    font-weight:bolder;
+    font-size: x-large;
+  }
+  .portfolio-text{
+    font-weight:bolder;
+    font-size: x-large;
+  }
+  .Subscribe {
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
