@@ -26,11 +26,13 @@
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-highlight mb-4">Follow Us</h5>
                 <div class="d-flex">
-                    <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-square rounded-circle me-1" href="https://twitter.com/home?logout=1701946567424"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square rounded-circle me-1" href="https://www.facebook.com/dreamdivernl"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square rounded-circle me-1" href="https://www.instagram.com/dream_diver1/?hl=en"><i class="fab fa-instagram"></i></a>
                     <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
+                <br>
+                <button class="Subscribe">Subscribe</button>
             </div>
         </div>
     </div>
@@ -41,7 +43,7 @@
                     &copy; 2017, Dream Diver IT Solutions. All Rights Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+
                     Developed By <a href="https://dreamdiver.nl">Dream Diver</a>
                 </div>
             </div>
