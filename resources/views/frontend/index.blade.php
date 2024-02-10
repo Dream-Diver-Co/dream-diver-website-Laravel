@@ -253,7 +253,7 @@
                         <div class="row g-4 justify-content-center">
                             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="service-item">
-                                    <a href="software-development.html">
+                                    <a href="{{ route('software_development') }} ">
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
                                               <div class="flip-box-front">
@@ -277,7 +277,7 @@
                             </div>
                             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="service-item">
-                                    <a href="mobile-app.html">
+                                    <a href="{{ route('mobile_app') }} ">
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
                                               <div class="flip-box-front">
@@ -304,7 +304,7 @@
                             </div>
                             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="service-item">
-                                    <a href="software-services.html">
+                                    <a href="{{ route('software_service') }} ">
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
                                               <div class="flip-box-front">
@@ -331,7 +331,7 @@
 
                             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="service-item">
-                                    <a href="web-design.html">
+                                    <a href="{{ route('web_design') }} ">
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
                                               <div class="flip-box-front">
@@ -358,7 +358,7 @@
 
                             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="service-item">
-                                    <a href="seo.html">
+                                    <a href="{{ route('seo') }} ">
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
                                               <div class="flip-box-front">
@@ -385,7 +385,7 @@
 
                             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="service-item">
-                                    <a href="marketing.html">
+                                    <a href="{{ route('marketing') }} ">
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
                                               <div class="flip-box-front">
@@ -409,20 +409,6 @@
                                     </a>
                                 </div>
                             </div>
-
-                            {{-- <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
-                               <a href="{{ route('frontend.our-service.digital-marketing')}}">
-                                    <div class="service-item">
-                                        <img class="img-fluid" src="{{ asset('frontend') }}/img/service-6-n.jpg" alt="service-6">
-                                        <div class="d-flex align-items-center bg-light">
-                                            <div class="service-icon flex-shrink-0 bg-primary">
-                                                <img class="img-fluid" src="{{ asset('frontend') }}/img/icon/icon-06-light.png" alt="icon-06-light">
-                                            </div>
-                                            <a class="h4 mx-4 mb-0" href="{{ route('frontend.our-service.digital-marketing')}}">Digital Marketing</a>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div> --}}
                         </div>
                     </div>
                 </div>

@@ -27,7 +27,7 @@
             <div class="row g-4 justify-content-center">
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <a href="aeon.html">
+                        <a href="{{ route('aeon') }}">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                   <div class="flip-box-front">
@@ -51,7 +51,7 @@
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <a href="pos.html">
+                        <a href="{{ route('pos') }}">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                   <div class="flip-box-front">
@@ -77,7 +77,7 @@
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <a href="misi.html">
+                        <a href="{{ route('misi') }}">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                   <div class="flip-box-front">
@@ -104,7 +104,7 @@
 
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <a href="shob-khobor.html">
+                        <a href="{{ route('shob_khobor') }}">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                   <div class="flip-box-front">
@@ -131,7 +131,7 @@
 
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <a href="fnf-stay.html">
+                        <a href="{{ route('fnf_stay') }}">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                   <div class="flip-box-front">
@@ -158,7 +158,7 @@
 
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <a href="de-was.html">
+                        <a href="{{ route('de_was') }}">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                   <div class="flip-box-front">
@@ -184,7 +184,7 @@
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <a href="de-shop.html">
+                        <a href="{{ route('de_shop') }}">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                   <div class="flip-box-front">
@@ -211,7 +211,7 @@
 
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <a href="book-change.html">
+                        <a href="{{ route('book_change') }}">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                   <div class="flip-box-front">
@@ -237,7 +237,7 @@
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <a href="foody-moody.html">
+                        <a href="{{ route('foody_moody') }}">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                   <div class="flip-box-front">

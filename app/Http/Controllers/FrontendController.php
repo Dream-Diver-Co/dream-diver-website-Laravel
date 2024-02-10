@@ -61,9 +61,44 @@ class FrontendController extends Controller
         return view('frontend.page.marketing');
     }
 
-
     public function login() {
         return view('frontend.page.login');
+    }
+
+    public function aeon() {
+        return view('frontend.page.aeon');
+    }
+
+    public function pos() {
+        return view('frontend.page.pos');
+    }
+
+    public function misi() {
+        return view('frontend.page.misi');
+    }
+
+    public function shobKhobor() {
+        return view('frontend.page.shob_khobor');
+    }
+
+    public function fnfStay() {
+        return view('frontend.page.fnf_stay');
+    }
+
+    public function deWas() {
+        return view('frontend.page.de_was');
+    }
+
+    public function deShop() {
+        return view('frontend.page.de_shop');
+    }
+
+    public function bookChange() {
+        return view('frontend.page.book_change');
+    }
+
+    public function foodyMoody() {
+        return view('frontend.page.foody_moody');
     }
 
 

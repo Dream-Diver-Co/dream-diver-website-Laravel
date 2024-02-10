@@ -28,7 +28,7 @@
             <a href="{{ route('faq') }}" class="nav-item nav-link">Faq</a>
             <a href="{{ route('career') }}" class="nav-item nav-link">Career</a>
             <a href="{{ route('review') }}" class="nav-item nav-link">Review</a>
-            <a href="{{ route('loginfromfrontend') }}" class="nav-item nav-link">Login</a>
+            <a href="#" class="nav-item nav-link">Login</a>
 
         </div>
     </div>

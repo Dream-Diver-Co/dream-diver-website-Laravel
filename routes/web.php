@@ -26,7 +26,7 @@ Use App\Http\Controllers\ContactformController;
 //     return view('welcome');
 // });
 
-Route::get('/', [FrontendController::class, 'index'])->name('frontend.index');
+Route::get('/', [FrontendController::class, 'index'])->name('index');
 Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 Route::get('/about', [FrontendController::class, 'about'])->name('about');
 Route::get('/service', [FrontendController::class, 'service'])->name('service');
@@ -35,21 +35,25 @@ Route::get('/ticket', [FrontendController::class, 'ticket'])->name('ticket');
 Route::get('/faq', [FrontendController::class, 'faq'])->name('faq');
 Route::get('/career', [FrontendController::class, 'career'])->name('career');
 Route::get('/review', [FrontendController::class, 'review'])->name('review');
+
+
 Route::get('/software_development', [FrontendController::class, 'softwareDevelopment'])->name('software_development');
 Route::get('/mobile_app', [FrontendController::class, 'mobileApp'])->name('mobile_app');
 Route::get('/software_service', [FrontendController::class, 'softwareService'])->name('software_service');
 Route::get('/web_design', [FrontendController::class, 'webDesign'])->name('web_design');
 Route::get('/seo', [FrontendController::class, 'seo'])->name('seo');
 Route::get('/marketing', [FrontendController::class, 'marketing'])->name('marketing');
-// Route::get('/review', [FrontendController::class, 'review'])->name('review');
-// Route::get('/review', [FrontendController::class, 'review'])->name('review');
-// Route::get('/review', [FrontendController::class, 'review'])->name('review');
-// Route::get('/review', [FrontendController::class, 'review'])->name('review');
-// Route::get('/review', [FrontendController::class, 'review'])->name('review');
-// Route::get('/review', [FrontendController::class, 'review'])->name('review');
-// Route::get('/review', [FrontendController::class, 'review'])->name('review');
-// Route::get('/review', [FrontendController::class, 'review'])->name('review');
-// Route::get('/review', [FrontendController::class, 'review'])->name('review');
+
+
+Route::get('/aeon', [FrontendController::class, 'aeon'])->name('aeon');
+Route::get('/pos', [FrontendController::class, 'pos'])->name('pos');
+Route::get('/misi', [FrontendController::class, 'misi'])->name('misi');
+Route::get('/shob_khobor', [FrontendController::class, 'shobKhobor'])->name('shob_khobor');
+Route::get('/fnf_stay', [FrontendController::class, 'fnfStay'])->name('fnf_stay');
+Route::get('/de_was', [FrontendController::class, 'deWas'])->name('de_was');
+Route::get('/de_shop', [FrontendController::class, 'deShop'])->name('de_shop');
+Route::get('/book_change', [FrontendController::class, 'bookChange'])->name('book_change');
+Route::get('/foody_moody', [FrontendController::class, 'foodyMoody'])->name('foody_moody');
 
 Route::get('/loginfromfrontend', [FrontendController::class, 'login'])->name('loginfromfrontend');
 
