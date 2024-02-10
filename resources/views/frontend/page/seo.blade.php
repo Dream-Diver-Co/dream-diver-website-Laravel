@@ -47,7 +47,7 @@
     <hr>
     <div class="tab-content slide-section" id="pills-tabContent">
         <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-            <h1>Search Engine Optimization</h1>
+            <p>Search Engine Optimization</p>
             <br><br>
             Search Engine Optimization (SEO) is a set of strategies and practices aimed at improving the visibility and ranking of a website in search engine results pages (SERPs). The primary goal of SEO is to increase the organic (non-paid) traffic a website receives from search engines like Google, Bing, and Yahoo. Here are some key aspects of SEO:
             <br><br>

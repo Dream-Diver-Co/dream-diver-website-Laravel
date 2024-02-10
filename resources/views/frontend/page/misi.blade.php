@@ -35,7 +35,7 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <h1>MISI Project</h1>
+                <p>MISI Project</p>
                 <br><br>
                 Digital marketing is a broad term that encompasses all marketing efforts that use an electronic device or the internet. It's a dynamic field that continues to evolve with new technologies and platforms. Digital marketing allows businesses to reach and connect with their target audience online and promote their products or services. Here are some key components of digital marketing:
                 <br><br>
@@ -106,13 +106,10 @@
                 </div>
                 <div class="tab-pane fade" id="pills-misi" role="tabpanel" aria-labelledby="pills-misi-tab" tabindex="0">
                     <div class="container-xxl py-5">
-                        <!-- <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-                            <h1 class="display-6" style="color: rgb(0, 140, 205);">Misi Project Review</h1>
-                        </div> -->
                         <div class="container">
                             <div class="row g-5">
                                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                                    <h1 class="about-h3">Text Review</h1>
+                                    <p class="about-h3">Text Review</p>
                                     <p class="about-us">Our core values are the fundamental base for our business culture and business philosophy.
                                         The values define us as a service provider and help us make our decisions and deploy them.</p>
                                     <br>
@@ -138,7 +135,7 @@
                                         open communication and transparent work culture.</p>
                                 </div>
                                 <div class="col-lg-6 wow fadeInUp  " data-wow-delay="0.5s">
-                                    <h1>video Review</h1>
+                                    <p>video Review</p>
                                     <div class="small-container align-items-center">
                                         <div class="custom-card">
                                               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">

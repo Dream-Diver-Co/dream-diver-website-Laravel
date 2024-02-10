@@ -38,7 +38,7 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <h1>Research</h1>
+                <p>Research</p>
                 <br><br>
                 At this stage, you will collect all the information that will be required for decision making in the next stages. Information collected during the research will become your raw material to strategize & create your digital marketing campaign. This stage can also be called as Digital Marketing Research. At this stage, you will research 4 sets of information:
 
@@ -49,7 +49,7 @@
                 Each set is unique & equally important. You will require multiple sources to collect the information.
             </div>
             <div class="tab-pane fade slide-section" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                <h1>Create</h1>
+                <p>Create</p>
                 <br>
                 Once you collect information at the research stage, you can now start creating:
                 1 – Digital Marketing Objectives / Goals: These are the ultimate goals that you want to achieve through your Digital Marketing Campaign. Every business is unique, therefore their goals will also be unique. Campaigns without clear goals will end up spending money without the assurance of achieving goals. What goals you should set, can be answered after looking at information collected at the Digital Marketing Research stage.  Learn more about Digital Marketing Objectives / Goals.

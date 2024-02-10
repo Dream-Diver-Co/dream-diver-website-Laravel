@@ -5,7 +5,7 @@
   <!-- Page Header Start -->
   <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
     <div class=" text-center py-5">
-        <h1 class="display-4 text-white animated slideInDown mb-4">Portfolio</h1>
+        <p class="display-4 text-white animated slideInDown mb-4">Portfolio</p>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -261,20 +261,6 @@
                         </a>
                     </div>
                 </div>
-
-                {{-- <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
-                     <a href="{{ route('frontend.our-service.digital-marketing')}}">
-                        <div class="service-item">
-                            <img class="img-fluid" src="{{ asset('frontend') }}/img/service-6-n.jpg" alt="service-6">
-                            <div class="d-flex align-items-center bg-light">
-                                <div class="service-icon flex-shrink-0 bg-primary">
-                                    <img class="img-fluid" src="{{ asset('frontend') }}/img/icon/icon-06-light.png" alt="icon-06-light">
-                                </div>
-                                <a class="h4 mx-4 mb-0" href="{{ route('frontend.our-service.digital-marketing')}}">Digital Marketing</a>
-                            </div>
-                        </div>
-                    </a>
-                </div> --}}
             </div>
         </div>
     </div>

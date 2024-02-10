@@ -5,7 +5,7 @@
    <!-- Page Header Start -->
    <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
     <div class="container text-center py-5">
-        <h4 class="display-4 text-white animated slideInDown mb-4">Contact Us</h4>
+        <p class="display-4 text-white animated slideInDown mb-4">Contact Us</p>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -36,7 +36,7 @@
                         <div class="col align-items-center flex-col sign-in">
                             <div class=" form-wrapper slide-form align-items-center">
                                 <div class="form sign-in ">
-                                    <h1>Please Contact Us</h1>
+                                    <p class="from-head">Please Contact Us</p>
                                     @if(session('success'))
                                         <div id="successMessage" class="alert alert-success">
                                             {{ session('success') }}

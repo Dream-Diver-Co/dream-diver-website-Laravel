@@ -242,59 +242,9 @@
                                     <div class="custom-blob-review"></div>
                                 </div>
                             </div>
-
-                            {{-- <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <a href="{{ route('frontend.our-service.digital-marketing')}}">
-                                    <div class="service-item">
-                                        <img class="img-fluid" src="{{ asset('frontend') }}/img/service-6-n.jpg" alt="service-6">
-                                        <div class="d-flex align-items-center bg-light">
-                                            <div class="service-icon flex-shrink-0 bg-primary">
-                                                <img class="img-fluid" src="{{ asset('frontend') }}/img/icon/icon-06-light.png" alt="icon-06-light">
-                                            </div>
-                                            <a class="h4 mx-4 mb-0" href="{{ route('frontend.our-service.digital-marketing')}}">Digital Marketing</a>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div> --}}
                         </div>
                     </div>
                 </div>
-
-
-
-                <!-- <p class="about-h1">Our History</p>
-
-                <p class="about-h11">Our Birth</p>
-                <p class="about-us">
-                    We started our journey in 2017 in Rotterdam, Netherlands. Initially, the founder, M A Hasan,
-                    started Dream Diver with the motive of offering IT services and solutions. But after three
-                    years, he has diversified his organization in the field of Digital Marketing, with Content
-                    Writing, Graphic Designing, and SEO optimization as the primary focus areas. The founder is
-                    a passionate entrepreneur and a philanthropist conducting free IT training to anyone showing
-                    interest. This is a great initiative as it has been helping a lot of people, especially the youth of
-                    the country to seek employment.
-                </p>
-                <br>
-                <p class="about-us">
-                    After three years of hard work, dedication, and passion, we have gained satisfied customers
-                    on the market along with a skilled team catering to the demands of every client. Our
-                    experience, knowledge, and skill also evolved along with the growth of Dream Diver. The
-                    end-to-end solutions offered by us along with our solid delivery and implementation
-                </p>
-                <br>
-                <p class="about-h11">Who We Are</p>
-                <p class="about-us">We are a team of young professionals with high skills and expertise in the field. In the span
-                of three years, we have helped several clients achieve their business goals through scalable,
-                and optimized IT and Digital Marketing services and solutions. The end-to-end solution
-                offered by us along with our solid delivery and implementation system assures optimized
-                client ROI. We have extensive knowledge and experience in mobile application development
-                for Android, iOS, and Windows along with digital marketing services. We are here to cater to
-                all your business needs seamlessly.
-                </p>
-
-                <p class="about-us">If you are looking for extra information, you can write to us and we will help you get
-                    enlightened about us.
-                </p> -->
             </div>
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
                 <p class="about-h2">Our Mission and Vision</p>
@@ -314,7 +264,7 @@
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
                 <div class="container-xxl py-5">
                     <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="display-6">Create Review</h1>
+                        <p class="display-6">Create Review</p>
                     </div>
                     <div class="container">
                         <div class="row g-5">
