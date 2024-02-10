@@ -40,7 +40,7 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <h1>Mobile App Development</h1>
+                <p>Mobile App Development</p>
                 <br><br>
                 Mobile app development is the process of creating software applications that are designed to run on mobile devices, such as smartphones and tablets. This field has experienced explosive growth in recent years, driven by the widespread adoption of mobile devices and the increasing demand for apps that provide various services and functionality to users.
                 <br><br>

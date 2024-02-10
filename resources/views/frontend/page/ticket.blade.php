@@ -5,7 +5,7 @@
   <!-- Page Header Start -->
   <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
     <div class="container text-center py-5">
-        <h4 class="display-4 text-white animated slideInDown mb-4">Support Ticket</h4>
+        <p class="display-4 text-white animated slideInDown mb-4">Support Ticket</p>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -34,7 +34,7 @@
                             <div class="col align-items-center flex-col sign-in">
                                 <div class=" form-wrapper slide-form align-items-center">
                                     <div class="form sign-in ">
-                                        <h1>Contact Us</h1>
+                                        <p class="from-head">Contact Us</p>
                                         @if(session('success'))
                                             <div id="successMessage" class="alert alert-success">
                                                 {{ session('success') }}
@@ -101,27 +101,10 @@
                                                 {!! NoCaptcha::display() !!}
                                             </div>
 
-
-
-
                                             <button type="submit">
                                                 Send Message
                                             </button>
                                         </form>
-
-                                        <p>
-                                            <!-- <b>
-                                                Forgot password?
-                                            </b> -->
-                                        </p>
-                                        <p>
-                                            <!-- <span>
-                                                Don't have an account?
-                                            </span> -->
-                                            <!-- <b onclick="toggle()" class="pointer">
-                                                Sign up here
-                                            </b> -->
-                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +120,7 @@
                         <div class="row">
                             <!-- SIGN IN -->
                             <div class="col align-items-center flex-col sign-in">
-                                <div class="form-wrapper slide-form align-items-center">
+                                <div class="form-wrapper slide-benar align-items-center">
                                     <div class="form sign-in">
                                         <h2>To create Ticket , Please login/Register.</h2>
 

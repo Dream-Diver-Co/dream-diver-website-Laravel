@@ -5,7 +5,7 @@
   <!-- Page Header Start -->
   <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
     <div class="container text-center py-5">
-        <h4 class="display-4 text-white animated slideInDown mb-4">Faq</h4>
+        <p class="display-4 text-white animated slideInDown mb-4">Faq</p>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -41,7 +41,6 @@
                                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     Our IT agency offers a comprehensive range of services, including software development, network infrastructure management, cybersecurity solutions, IT consulting, cloud computing, and technical support. We tailor our services to meet the unique needs of each client, ensuring optimal performance and efficiency.
-                                                    <!-- <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
                                                 </div>
                                             </div>
                                         </div>

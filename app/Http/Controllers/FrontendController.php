@@ -37,6 +37,10 @@ class FrontendController extends Controller
         return view('frontend.page.career');
     }
 
+    public function review() {
+        return view('frontend.page.review');
+    }
+
     public function softwareDevelopment() {
         return view('frontend.page.software_development');
     }

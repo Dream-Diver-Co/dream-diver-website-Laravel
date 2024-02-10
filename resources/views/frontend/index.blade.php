@@ -29,11 +29,6 @@
             <a href="software-development.html" class="uranus-link">
                 <div class="earth"></div>
             </a>
-
-
-
-
-
             </div>
 
             <!-- Arif Ends Solar  -->
@@ -45,12 +40,10 @@
     <section class="py-6">
         <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-                <p class="display-6">Few Reasons Why People Choosing Us!</p>
+                <h1 class="display-6">Few Reasons Why People Choosing Us!</h1>
             </div>
             <div class="row g-5">
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <!-- <h1 class="display-6 mb-5">Few Reasons Why People Choosing Us!</h1> -->
-                    <!-- <p class="mb-5">Our IT Service Center stands out for several compelling reasons, making it the preferred choice for individuals and businesses alike. Firstly, our unwavering commitment to customer satisfaction sets us apart. </p> -->
                     <div class="timeline">
                         <div class="timeline-item timeline-item-start d-flex pb-3">
                           <div class="timeline-line" >
@@ -63,19 +56,15 @@
                             <div class="timeline-box rounded-4 p-3" >
                               <div class="timeline-box-arrow" ></div>
                               <p class="h3 font-weight-700">
-                                <!-- <font > -->
-                                    <font >Trusted Service Center</font>
-                                <!-- </font> -->
+                                    <font>Trusted Service Center</font>
                               </p>
                               <p>
-                                <!-- <font > -->
                                     <font>
                                         "Welcome to our trusted service center, where reliability meets excellence. Clients choose us with confidence for several compelling reasons."
                                     </font>
                                     <button class="choos-btn">Read more..</button>
-                                <!-- </font> -->
+
                               </p>
-                              <!-- <button class="choos-btn">Read more..</button> -->
                             </div>
                           </div>
                         </div>
@@ -90,10 +79,10 @@
                             <div class="timeline-box rounded-4 p-3" >
                                 <div class="timeline-box-arrow" ></div>
                                 <p class="h3 font-weight-700">
-                                      <font >Reasonable Price</font>
+                                      <font>Reasonable Price</font>
                                 </p>
                                 <p>
-                                      <font >
+                                      <font>
                                         "At our service center, we take pride in offering top-notch solutions at a reasonable price."
                                       </font>
                                       <button class="choos-btn">Read more..</button>
@@ -112,12 +101,12 @@
                             <div class="timeline-box rounded-4 p-3" >
                               <div class="timeline-box-arrow" ></div>
                               <p class="h3 font-weight-700">
-                                    <font >
+                                    <font>
                                         24/7 Supports
                                     </font>
                               </p>
                               <p>
-                                    <font >
+                                    <font>
                                         "Our 24/7 support is designed with your convenience in mind, providing peace of mind and minimizing downtime."
                                     </font>
                                     <button class="choos-btn">Read more..</button>
@@ -131,16 +120,8 @@
 
                 <!-- Arif Starts -->
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <!-- <div class="position-relative rounded overflow-hidden h-100 Choosing-body" style="min-height: 400px;">
-                        <h1 class="Choosing-img">Dream Diver</h1>
-                         <img class="position-absolute w-100 h-100" src="{{ asset('frontend') }}/img/feature.jpg" alt="image" style="object-fit: cover;">
-                    </div> -->
-
                     <div class="small-container">
                         <div class="custom-card">
-                          <!-- <h1 class="custom-title">Dream Diver!</h1> -->
-
-
                               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active" style="text-align: center;">
@@ -165,13 +146,9 @@
                                   <span class="visually-hidden">Next</span>
                                 </button>
                               </div>
-
-                              <!-- <p class="custom-subtitle">We provide all kind of software solutions to your projects.
-                                Web Design & Development, Android Applications, Search Engine Optimization, contact us for details...</p> -->
                                 <a href="contact.html">
                                     <button class="custom-btn">Contact Us</button>
                                   </a>
-
                         </div>
                         <div class="custom-blob"></div>
                     </div>
@@ -187,7 +164,6 @@
 
     <!-- Our Client -->
     <div class="container">
-        <!-- <h1 class="display-3 text-center fw-bold"><span class="text-success">Our</span>Client </h1> -->
         <div class="row owl-carousel-row">
          <div class="owl-carousel owl-theme">
             <div >
@@ -232,13 +208,7 @@
                     </a>
                 </div>
             </div>
-            <!-- <div class="card">
-                <div class="card-body">
-                    <img src="img/testimonial-1.jpg" alt="" class="card-img-top" >
-                </div>
-                <hr />
-                <h1 class="text-center">Aeon</h1>
-            </div> -->
+
           </div>
         </div>
     </div>
@@ -286,7 +256,6 @@
                                               <div class="flip-box-back">
                                                 <img class="img-service" src="{{ asset('frontend/img/service/Mobile App Development1.jpg') }}" alt="Paris">
                                                 <div class="flip-text">
-                                                    <!-- <img class="img-service" src="img/portfolio/portfolio-2.jpg" alt="Paris"> -->
                                                     <h2>Dream Diver</h2>
                                                     <p>Mobile App Development</p>
                                                     <button class="flip-btn">Read more...</button>
