@@ -5,7 +5,7 @@
      <!-- Page Header Start -->
      <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-4 text-white animated slideInDown mb-4">Career</h1>
+            <p class="display-4 text-white animated slideInDown mb-4">Career</p>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -46,10 +46,6 @@
                                                 <i class='bx bxs-user'></i>
                                                 <input type="text" placeholder="Motivation">
                                             </div>
-                                            <!-- <div class="input-group">
-                                                <i class='bx bxs-user'></i>
-                                                <input type="file" placeholder="CV">
-                                            </div> -->
                                             <div class="input-group">
                                                 <label for="cvInput">
                                                     <i class='bx bxs-user'></i>
@@ -64,18 +60,6 @@
                                             <button>
                                                 Create Ticket
                                             </button>
-                                            <!-- <p>
-                                                <b>
-                                                    Forgot password?
-                                                </b>
-                                            </p>
-                                            <p>
-                                                <span>
-                                                    Don't have an account?
-                                                </span> -->
-                                                <!-- <b onclick="toggle()" class="pointer">
-                                                    Sign up here
-                                                </b> -->
                                             </p>
                                         </div>
                                     </div>
@@ -121,9 +105,6 @@
                                       <span class="visually-hidden">Next</span>
                                     </button>
                                   </div>
-                                    <!-- <a href="contact.html">
-                                        <button class="custom-btn">Career</button>
-                                      </a> -->
                             </div>
                             <div class="custom-blob"></div>
                         </div>
