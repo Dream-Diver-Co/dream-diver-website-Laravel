@@ -27,7 +27,22 @@
             <a href="{{ route('faq') }}" class="nav-item nav-link">Faq</a>
             <a href="{{ route('career') }}" class="nav-item nav-link">Career</a>
             <a href="{{ route('review') }}" class="nav-item nav-link">Review</a>
-            <a href="{{ route('login') }}" class="nav-item nav-link">Login</a>
+            {{-- <a href="{{ route('loginfromfrontend') }}" class="nav-item nav-link">Login</a> --}}
+
+            @if (auth()->check())
+            <!-- User is logged in, show logout link -->
+            <a class="nav-link" href="" role="button" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                Logout
+            </a>
+            <form id="logout-form" method="POST" action="{{ route('logout') }}" style="display: none;">
+                @csrf
+                <button type="submit">Logout</button>
+            </form>
+            @else
+                <!-- User is not logged in, show login link -->
+                <a href="{{ route('loginfromfrontend') }}" class="nav-item nav-link">Login</a>
+            @endif
+
 
         </div>
     </div>
