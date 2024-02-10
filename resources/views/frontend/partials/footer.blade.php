@@ -9,19 +9,19 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-highlight mb-4">Our Services</h5>
-                <a class="btn btn-link" href="software-development.html">Software Development</a>
-                <a class="btn btn-link" href="mobile-app.html">Mobile App Development</a>
-                <a class="btn btn-link" href="software-services.html">Softerware Services</a>
-                <a class="btn btn-link" href="web-design.html">Web Design & Development</a>
-                <a class="btn btn-link" href="seo.html">Search Engine Optimization</a>
-                <a class="btn btn-link" href="marketing.html">Digital Marketing</a>
+                <a class="btn btn-link" href="{{ route('software_development') }}">Software Development</a>
+                <a class="btn btn-link" href="{{ route('mobile_app') }}">Mobile App Development</a>
+                <a class="btn btn-link" href="{{ route('software_service') }}">Softerware Services</a>
+                <a class="btn btn-link" href="{{ route('web_design') }}">Web Design & Development</a>
+                <a class="btn btn-link" href="{{ route('seo') }}">Search Engine Optimization</a>
+                <a class="btn btn-link" href="{{ route('marketing') }}">Digital Marketing</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-highlight mb-4">Quick Links</h5>
-                <a class="btn btn-link" href="about-us.html">About Us</a>
-                <a class="btn btn-link" href="contact.html">Contact Us</a>
-                <a class="btn btn-link" href="service.html">Our Services</a>
-                <a class="btn btn-link" href="terms-conditions.html">Terms & Condition</a>
+                <a class="btn btn-link" href="{{ route('about') }}">About Us</a>
+                <a class="btn btn-link" href="{{ route('contact') }}">Contact Us</a>
+                <a class="btn btn-link" href="{{ route('service') }}">Our Services</a>
+                {{-- <a class="btn btn-link" href="terms-conditions.html">Terms & Condition</a> --}}
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-highlight mb-4">Follow Us</h5>
