@@ -262,7 +262,7 @@
               @endrole
 
               <li class="nav-item">
-                <a href="{{route('tickets.index')}}" class="nav-link ">
+                <a href="{{route('myticket')}}" class="nav-link ">
 
                   <i class="nav-icon fas fa-angle-right"></i>
                   <p>My Ticket</p>
