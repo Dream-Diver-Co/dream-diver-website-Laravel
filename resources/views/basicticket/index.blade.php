@@ -1,6 +1,5 @@
 @extends('layouts.master')
 
-
 @section('content')
 <div class="content-wrapper" style="min-height: 320.4px;">
     <!-- Content Header (Page header) -->
@@ -8,12 +7,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">My Ticket All</h1>
+            <h1 class="m-0">Basic tickets</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">My Ticket All</li>
+              <li class="breadcrumb-item active">Basic ticket</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -26,16 +25,17 @@
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
         <div class="row">
+
             <div class="col-lg-12">
                 <table class="table">
                     <thead>
                       <tr>
                         <th scope="col">sl</th>
-                        <th scope="col">Ticket user email</th>
-                        <th scope="col">Issue</th>
-                        <th scope="col">Status</th>
-                        <th scope="col">View</th>
-                        {{-- <th scope="col">Delete</th> --}}
+                        <th scope="col">name</th>
+                        <th scope="col">email</th>
+                        <th scope="col">phone</th>
+                        <th scope="col">message</th>
+                        <th scope="col">note</th>
                       </tr>
                     </thead>
 
@@ -43,28 +43,23 @@
                         @php
                             $sl = 1;
                         @endphp
-                        @foreach ($my_tickets as $ticket )
+                        @foreach ($contacts as $service )
                       <tr>
                         <th scope="row">{{ $sl++ }}</th>
-                        <td>{{ $ticket->email; }}</td>
-                        <td>{{ $ticket->issue; }}</td>
-                        <td>{{ $ticket->status; }}</td>
-                        {{-- <td><a href="{{ route('projects.edit', ['id' => $project->id]) }}">edit</a></td> --}}
-                        <td><a href="{{ route('tickets.edit', ['ticket' => $ticket->id]) }}">View</a></td>
+                        <td>{{ $service->name; }}</td>
+                        <td>{{ $service->email; }}</td>
+                        <td>{{ $service->phone; }}</td>
+                        <td>{{ $service->message; }}</td>
+                        <td>{{ $service->note; }}</td>
 
-                        {{-- <td><form action="{{ route('tickets.destroy', ['ticket' => $ticket->id]) }}" method="POST">
-                            @csrf
-                            @method('DELETE')
-                            <p>
-                                <button type="submit">Delete</button> <br>
-                            </p>
-                        </form></td> --}}
                       </tr>
                       @endforeach
 
                     </tbody>
                   </table>
             </div>
+
+
         </div>
         <!-- /.row -->
 
@@ -73,4 +68,9 @@
     <!-- /.content -->
   </div>
 
+
+
 @endsection
+
+
+

@@ -3,25 +3,24 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Contact;
+use App\Models\Basicticket;
 
-class ContactformController extends Controller
+class BasicticketController extends Controller
 {
     public function index(){
-        $contacts = Contact::all();
-        return view('contact.index', compact('contacts'));
+        $contacts = Basicticket::all();
+        return view('basicticket.index', compact('contacts'));
     }
 
 
     public function create()
     {
-        return view('contact.create');
+        return view('basicticket.create');
     }
 
 
     public function store(Request $request)
 {
-    //dd($request->all());
     // Validation rules
     $rules = [
         'name' => 'required|string|max:255',
@@ -29,16 +28,14 @@ class ContactformController extends Controller
         'phone' => 'required|string|max:20',
         'message' => 'required|string',
         'note' => 'string|nullable',
-        //'g-recaptcha-response' => 'required|captcha',
+        'g-recaptcha-response' => 'required|captcha',
     ];
 
     // Validate the request data
     $validatedData = $request->validate($rules);
 
-    //dd($validatedData);
-
     // If validation passes, create a new Contact instance
-    $contact_message = new Contact();
+    $contact_message = new Basicticket();
 
     // Assign validated data to the Contact instance
     $contact_message->name = $validatedData['name'];
@@ -50,12 +47,8 @@ class ContactformController extends Controller
     // Save the contact message to the database
     $contact_message->save();
 
-
-
     // Redirect back with a success message
-    // return redirect()->back()->with('success', 'Thanks for you message. We will contact with you soon!');
-    return redirect()->route('contact')->with('success', 'Thanks for you message. We will contact with you soon!');
-
+    return redirect()->back()->with('success', 'Thanks for you Ticket. We will contact with you soon!');
 
 }
 

@@ -77,11 +77,6 @@
                                 <input type="password" placeholder="Password" name="password">
                             </div>
 
-                            <div class=" block input-group mt-3 mb-3">
-                                {!! NoCaptcha::renderJs() !!}
-                                {!! NoCaptcha::display() !!}
-                            </div>
-
                             <button>
                                 Sign in
                             </button>

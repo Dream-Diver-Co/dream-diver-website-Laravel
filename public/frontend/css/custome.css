@@ -1,7 +1,7 @@
 /*** Contact page header css ***/
 .top-bottom{
     padding: 15px 0px;
-   
+
 }
 /*** Footer css ***/
 .text-highlight {
@@ -22,6 +22,13 @@
 }
 .bg-light-gram {
     background-color: #B20F66;
+}
+
+.ticket-page-login-btn {
+	color: rgb(220, 106, 57);
+	border: 2px solid #3c4ae6;
+	padding: 5px;
+	border-radius: 5px;
 }
 
 
