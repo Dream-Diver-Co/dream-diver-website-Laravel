@@ -839,7 +839,9 @@ body {
     color: var(--light);
 }
 
-.page-header .breadcrumb-item a:hover,
+.page-header .breadcrumb-item a:hover{
+    color: wheat !important;
+}
 .page-header .breadcrumb-item.active {
     color: var(--white);
 }
