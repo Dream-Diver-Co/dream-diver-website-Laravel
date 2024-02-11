@@ -169,7 +169,7 @@
 
           <li class="nav-item ">
             <a href="#" class="nav-link ">
-              <i class="nav-icon fas fa-ticket-alt"></i>
+              <i class="nav-icon fas fa-envelope"></i>
               <p>
                 Contact message
                 <i class="right fas fa-angle-left"></i>
@@ -197,6 +197,34 @@
             </ul>
 
           </li>
+
+
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link ">
+              <i class="nav-icon fas fa-ticket-alt"></i>
+              <p>
+                Basic Ticket
+                <i class="right fas fa-angle-left"></i>
+
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{route('basicticket_index')}}" class="nav-link ">
+
+                  <i class="nav-icon fas fa-angle-right"></i>
+                  <p>Basic Ticket All</p>
+                </a>
+              </li>
+
+
+
+
+            </ul>
+
+          </li>
+
 
 
 

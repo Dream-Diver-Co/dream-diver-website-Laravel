@@ -10,6 +10,7 @@ use App\Http\Controllers\TicketController;
 use App\Http\Controllers\TickethistoryController;
 Use App\Http\Controllers\FrontendController;
 Use App\Http\Controllers\ContactformController;
+Use App\Http\Controllers\BasicticketController;
 
 /*
 |--------------------------------------------------------------------------
@@ -99,6 +100,15 @@ Route::group(['middleware' => ['auth', 'verified', 'role:admin']], function () {
     Route::get('/contact_form_edit/{id}', [ContactformController::class, 'edit'])->name('contact_form_edit');
     Route::put('/contact_form_update/{id}', [ContactformController::class, 'update'])->name('contact_form_update');
     Route::put('/contact_form_destroy/{id}', [ContactformController::class, 'destroy'])->name('contact_form_destroy');
+
+
+    Route::get('/basicticket_index', [BasicticketController::class, 'index'])->name('basicticket_index');
+    Route::get('/basicticket_create', [BasicticketController::class, 'create'])->name('basicticket_create');
+    Route::post('/basicticket_store', [BasicticketController::class, 'store'])->name('basicticket_store');
+    Route::get('/basicticket_edit/{id}', [BasicticketController::class, 'edit'])->name('basicticket_edit');
+    Route::put('/basicticket_update/{id}', [BasicticketController::class, 'update'])->name('basicticket_update');
+    Route::put('/basicticket_destroy/{id}', [BasicticketController::class, 'destroy'])->name('basicticket_destroy');
+
 
 
 });

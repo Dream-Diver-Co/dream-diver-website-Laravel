@@ -30,13 +30,12 @@
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="container">
-                    <!-- FORM SECTION -->
                     <div class="row">
-                        <!-- SIGN IN -->
-                        <div class="col align-items-center flex-col sign-in">
+                        <div class="col align-items-center flex-col ">
                             <div class=" form-wrapper slide-form align-items-center">
-                                <div class="form sign-in ">
+                                <div class="form ">
                                     <p class="from-head">Please Contact Us</p>
+
                                     @if(session('success'))
                                         <div id="successMessage" class="alert alert-success">
                                             {{ session('success') }}
@@ -84,7 +83,7 @@
 
                                         <div class="input-group">
                                             <i class='bx bxs-lock-alt'></i>
-                                            <input type="text" placeholder="Message" name="message">
+                                            <textarea  cols="40" rows="3" type="text" placeholder="Message" name="message"></textarea>
                                         </div>
                                         @error('message')
                                             <div class="alert alert-danger">{{ $message }}</div>
@@ -92,7 +91,7 @@
 
                                         <div class="input-group">
                                             <i class='bx bxs-lock-alt'></i>
-                                            <textarea name="note" id="" cols="55" rows="3" placeholder="Note"></textarea>
+                                            <textarea name="note" id="" cols="40" rows="3" placeholder="Note"></textarea>
                                         </div>
                                         @error('note')
                                             <div class="alert alert-danger">{{ $message }}</div>
@@ -103,6 +102,10 @@
                                             {!! NoCaptcha::display() !!}
                                         </div>
 
+                                        @error('g-recaptcha-response')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+
                                         <button type="submit">
                                             Send Message
                                         </button>
@@ -110,9 +113,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- END SIGN IN -->
                     </div>
-                    <!-- END FORM SECTION -->
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp align-items-center " data-wow-delay="0.5s">
