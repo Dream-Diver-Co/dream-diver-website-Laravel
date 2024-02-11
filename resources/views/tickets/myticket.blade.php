@@ -8,7 +8,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">FAQ All</h1>
+            <h1 class="m-0">My Ticket All</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -33,8 +33,8 @@
                         <th scope="col">sl</th>
                         <th scope="col">Ticket user email</th>
                         <th scope="col">Issue</th>
-                        <th scope="col">status</th>
-                        <th scope="col">Edit</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">View</th>
                         <th scope="col">Delete</th>
                       </tr>
                     </thead>
@@ -50,7 +50,7 @@
                         <td>{{ $ticket->issue; }}</td>
                         <td>{{ $ticket->status; }}</td>
                         {{-- <td><a href="{{ route('projects.edit', ['id' => $project->id]) }}">edit</a></td> --}}
-                        <td><a href="{{ route('tickets.edit', ['ticket' => $ticket->id]) }}">edit</a></td>
+                        <td><a href="{{ route('tickets.edit', ['ticket' => $ticket->id]) }}">View</a></td>
 
                         <td><form action="{{ route('tickets.destroy', ['ticket' => $ticket->id]) }}" method="POST">
                             @csrf
