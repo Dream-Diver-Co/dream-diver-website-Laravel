@@ -24,10 +24,10 @@
             <x-input-error :messages="$errors->get('password')" class="mt-2" />
         </div>
 
-        <div class=" block input-group mt-3 mb-3">
+        {{-- <div class=" block input-group mt-3 mb-3">
             {!! NoCaptcha::renderJs() !!}
             {!! NoCaptcha::display() !!}
-        </div>
+        </div> --}}
 
         <!-- Remember Me -->
         <div class="block mt-4">

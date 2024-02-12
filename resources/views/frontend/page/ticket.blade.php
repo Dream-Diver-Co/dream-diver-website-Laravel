@@ -34,7 +34,7 @@
                             <div class="col align-items-center flex-col sign-in">
                                 <div class=" form-wrapper slide-form align-items-center">
                                     <div class="form sign-in ">
-                                        <p class="from-head">Contact Us</p>
+                                        <p class="from-head">Create Basic Ticket</p>
                                         @if(session('success'))
                                             <div id="successMessage" class="alert alert-success">
                                                 {{ session('success') }}
@@ -53,7 +53,7 @@
                                         <div class="alert alert-danger">{{ $errors->first('g-recaptcha-response') }}</div>
                                         @endif
 
-                                        <form class="row g-3" action="{{ route('contact_form_store') }}" method="POST" enctype="multipart/form-data">
+                                        <form class="row g-3" action="{{ route('basicticket_store') }}" method="POST" enctype="multipart/form-data">
                                             @csrf
 
                                             <div class="input-group">
@@ -82,7 +82,7 @@
 
                                             <div class="input-group">
                                                 <i class='bx bxs-lock-alt'></i>
-                                                <input type="text" placeholder="Message" name="message">
+                                                <textarea type="text" cols="40" rows="3" placeholder="Message" name="message"></textarea>
                                             </div>
                                             @error('message')
                                                 <div class="alert alert-danger">{{ $message }}</div>
@@ -90,7 +90,7 @@
 
                                             <div class="input-group">
                                                 <i class='bx bxs-lock-alt'></i>
-                                                <textarea name="note" id="" cols="55" rows="3" placeholder="Note"></textarea>
+                                                <textarea name="note" id="" cols="40" rows="3" placeholder="Note"></textarea>
                                             </div>
                                             @error('note')
                                                 <div class="alert alert-danger">{{ $message }}</div>
@@ -100,6 +100,9 @@
                                                 {!! NoCaptcha::renderJs() !!}
                                                 {!! NoCaptcha::display() !!}
                                             </div>
+                                            @error('g-recaptcha-response')
+                                                <div class="alert alert-danger">{{ $message }}</div>
+                                            @enderror
 
                                             <button type="submit">
                                                 Send Message
@@ -122,10 +125,10 @@
                             <div class="col align-items-center flex-col sign-in">
                                 <div class="form-wrapper slide-benar align-items-center">
                                     <div class="form sign-in">
-                                        <h2>To create Ticket , Please login/Register.</h2>
+                                        <h2>Create Ticket with conversation, Please login/Register.</h2>
 
-                                        <h3>
-                                            <a href="{{ route('loginfromfrontend') }}" class="nav-item nav-link btn">Login</a>
+                                        <h3 class="mt-3">
+                                            <a href="{{ route('loginfromfrontend') }}" class="nav-item ticket-page-login-btn">LOGIN</a>
                                         </h3>
                                     </div>
                                 </div>
