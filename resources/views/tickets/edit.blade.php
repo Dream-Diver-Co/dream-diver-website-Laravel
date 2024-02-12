@@ -70,8 +70,11 @@
                                             <img src="{{ asset('storage/' .$attachment->attachment_name) }}" alt="image"  class="ticket-img col-5">
                                         @endforeach
                                     </div>
+
                                 </div>
                             </div>
+
+
                             <div class="form-row justify-content-between" style="display: none">
                                 <div class="col-lg-12">
                                     <div class="form-group form-row">
