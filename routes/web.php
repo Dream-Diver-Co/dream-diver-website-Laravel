@@ -56,6 +56,10 @@ Route::get('/de_shop', [FrontendController::class, 'deShop'])->name('de_shop');
 Route::get('/book_change', [FrontendController::class, 'bookChange'])->name('book_change');
 Route::get('/foody_moody', [FrontendController::class, 'foodyMoody'])->name('foody_moody');
 
+Route::get('/trusted', [FrontendController::class, 'trusted'])->name('trusted');
+Route::get('/reasonable', [FrontendController::class, 'reasonable'])->name('reasonable');
+Route::get('/twonty_four', [FrontendController::class, 'twonty_four'])->name('twonty_four');
+
 Route::get('/loginfromfrontend', [FrontendController::class, 'login'])->name('loginfromfrontend');
 
 

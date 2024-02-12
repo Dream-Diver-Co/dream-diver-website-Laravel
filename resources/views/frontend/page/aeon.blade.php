@@ -9,7 +9,7 @@
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
-                    <li class="breadcrumb-item"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="breadcrumb-item"><a href="{{ route('portfolio') }}">Portfolio</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Aeon</li>
                 </ol>
             </nav>
@@ -19,22 +19,25 @@
     <div class="container top-bottom mb-5 wow fadeIn" data-wow-delay="0.1s">
         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">AEON</button>
+                <button class="nav-link active" id="pills-Summary-tab" data-bs-toggle="pill" data-bs-target="#pills-Summary" type="button" role="tab" aria-controls="pills-Summary" aria-selected="true">Summary</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">AEON 1</button>
+                <button class="nav-link" id="pills-details-tab" data-bs-toggle="pill" data-bs-target="#pills-details" type="button" role="tab" aria-controls="pills-details" aria-selected="false">Details</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">AEON 2</button>
+                <button class="nav-link" id="pills-video-tab" data-bs-toggle="pill" data-bs-target="#pills-video" type="button" role="tab" aria-controls="pills-video" aria-selected="false">Video</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-aeon-tab" data-bs-toggle="pill" data-bs-target="#pills-aeon" type="button" role="tab" aria-controls="pills-aeon" aria-selected="false">AEON REVIEW</button>
+                <button class="nav-link" id="pills-link-tab" data-bs-toggle="pill" data-bs-target="#pills-link" type="button" role="tab" aria-controls="pills-link" aria-selected="false">Link</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-aeon-tab" data-bs-toggle="pill" data-bs-target="#pills-aeon" type="button" role="tab" aria-controls="pills-aeon" aria-selected="false">Review</button>
             </li>
 
         </ul>
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
-            <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="tab-pane fade slide-section show active" id="pills-Summary" role="tabpanel" aria-labelledby="pills-Summary-tab" tabindex="0">
                 <p>AEON</p>
                 <br><br>
                 Digital marketing is a broad term that encompasses all marketing efforts that use an electronic device or the internet. It's a dynamic field that continues to evolve with new technologies and platforms. Digital marketing allows businesses to reach and connect with their target audience online and promote their products or services. Here are some key components of digital marketing:
@@ -63,7 +66,7 @@
                 <br><br>
                 Digital marketing is highly versatile, allowing businesses to tailor their strategies to reach specific goals and audiences. It's essential to stay updated with the latest digital marketing trends and technologies to remain competitive in the online marketplace. Additionally, ethical considerations, such as data privacy and online security, play a significant role in digital marketing practices.
             </div>
-            <div class="tab-pane fade slide-section" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+            <div class="tab-pane fade slide-section" id="pills-details" role="tabpanel" aria-labelledby="pills-details-tab" tabindex="0">
                 <p class="about-h2">Our Mission and Vision</p>
                 <br>
                 <p class="about-h22">Mission</p>
@@ -78,7 +81,22 @@
                     customers.</p>
 
             </div>
-            <div class="tab-pane fade slide-section" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0"> <p class="about-h3">Our Core Values</p>
+            <div class="tab-pane fade slide-section" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab" tabindex="0">
+                <p class="about-h2">Our Mission and Vision</p>
+                <br>
+                <p class="about-h22">Mission</p>
+                <br>
+                <p class="about-us">Our primary mission is to help the customers/clients attain their business goals by offering
+                    the highest quality services via designing, development, and implementation of innovative
+                    software products and digital marketing services.</p><br>
+                <p class="about-h22">Vision</p>
+                <p class="about-us">Dream Diver visions to evolve as a top-notch quality-driven and customer-centric
+                    organization in the domains of IT and Digital Marketing via advanced and innovative
+                    technologies and maintaining the ethical standards towards the employees, stakeholders, and
+                    customers.</p>
+
+            </div>
+            <div class="tab-pane fade slide-section" id="pills-link" role="tabpanel" aria-labelledby="pills-link-tab" tabindex="0"> <p class="about-h3">Our Core Values</p>
                 <p class="about-us">Our core values are the fundamental base for our business culture and business philosophy.
                     The values define us as a service provider and help us make our decisions and deploy them.</p>
                 <br>

@@ -105,5 +105,16 @@ class FrontendController extends Controller
         return view('frontend.page.foody_moody');
     }
 
+    public function trusted() {
+        return view('frontend.page.trusted');
+    }
+
+    public function reasonable() {
+        return view('frontend.page.reasonable');
+    }
+
+    public function twonty_four(){
+        return view('frontend.page.twonty_four');
+    }
 
 }

@@ -200,7 +200,8 @@ body {
   margin-bottom: 5px!important;
 }
 .display-6 {
-  padding-bottom: 15px;
+  /* padding-bottom: 15px; */
+  font-size: 30px;
   /* text-shadow: 0px 5px 5px #3f6ce9; */
 }
 /* Hero Section  */
@@ -1669,7 +1670,8 @@ body {
 
 
   .display-4 {
-    text-shadow: 5px 5px 10px #7e92ca;
+    /* text-shadow: 5px 5px 10px #7e92ca; */
+    font-size: 2.5rem;
   }
 
   .choos-btn {
@@ -1914,7 +1916,7 @@ p {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 250px;
+  min-width: 281px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   /* text-align: center; */
@@ -1923,11 +1925,11 @@ p {
 
 .dropdown-content a {
   color: black;
-  padding: 5px 5px;
+  padding: 5px 20px;
   text-decoration: none;
   display: block;
-  font-style: italic;
-  font-weight: bold;
+  /* font-style: italic; */
+  font-weight: 900;
 }
 
 .dropdown-content a:hover {
