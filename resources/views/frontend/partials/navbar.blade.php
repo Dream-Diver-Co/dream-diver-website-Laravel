@@ -20,8 +20,21 @@
                   <a href="{{ route('seo') }}">SEO</a>
                   <a href="{{ route('marketing') }}">Digital Marketing</a>
                 </div>
-              </div>
-            <a href="{{ route('portfolio') }}" class="nav-item nav-link ">Portfolio</a>
+            </div>
+            <div class="dropdown">
+                <a href="{{ route('portfolio') }}" class="dropbtn nav-item nav-link">Portfolio <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <div class="dropdown-content">
+                  <a href="{{ route('aeon') }}">Aeon</a>
+                  <a href="{{ route('pos') }}">Pos</a>
+                  <a href="{{ route('misi') }}">Misi</a>
+                  <a href="{{ route('shob_khobor') }}">Shob Khobor</a>
+                  <a href="{{ route('fnf_stay') }}">Fnf-Stay</a>
+                  <a href="{{ route('de_was') }}">De-Was</a>
+                  <a href="{{ route('de_shop') }}">De-Shopper</a>
+                  <a href="{{ route('book_change') }}">Book-Exchanger</a>
+                  <a href="{{ route('foody_moody') }}">Foody-Moody</a>
+                </div>
+            </div>
             <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
             <a href="{{ route('ticket') }}" class="nav-item nav-link">Support Ticket</a>
             <a href="{{ route('faq') }}" class="nav-item nav-link">Faq</a>

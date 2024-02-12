@@ -62,8 +62,7 @@
                                     <font>
                                         "Welcome to our trusted service center, where reliability meets excellence. Clients choose us with confidence for several compelling reasons."
                                     </font>
-                                    <button class="choos-btn">Read more..</button>
-
+                                    <a class="" href="{{ route('trusted') }}">Read more..</a>
                               </p>
                             </div>
                           </div>
@@ -85,7 +84,7 @@
                                       <font>
                                         "At our service center, we take pride in offering top-notch solutions at a reasonable price."
                                       </font>
-                                      <button class="choos-btn">Read more..</button>
+                                      <a class="" href="{{ route('reasonable') }}">Read more..</a>
                                 </p>
                               </div>
                           </div>
@@ -109,7 +108,7 @@
                                     <font>
                                         "Our 24/7 support is designed with your convenience in mind, providing peace of mind and minimizing downtime."
                                     </font>
-                                    <button class="choos-btn">Read more..</button>
+                                    <a class="" href="{{ route('twonty_four') }}">Read more..</a>
                               </p>
                             </div>
                           </div>
