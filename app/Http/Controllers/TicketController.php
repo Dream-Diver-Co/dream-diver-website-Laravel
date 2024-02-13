@@ -75,6 +75,9 @@ class TicketController extends Controller
 
 
 
+
+
+
         return redirect()->back()->with('success', 'Ticket created successfully!');
     }
 
