@@ -20,44 +20,61 @@ class ContactformController extends Controller
 
 
     public function store(Request $request)
-{
-    //dd($request->all());
-    // Validation rules
-    $rules = [
-        'name' => 'required|string|max:255',
-        'email' => 'required|email|max:255',
-        'phone' => 'required|string|max:20',
-        'message' => 'required|string',
-        'note' => 'string|nullable',
-        //'g-recaptcha-response' => 'required|captcha',
-    ];
+    {
+        $rules = [
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'phone' => 'required|string|max:20',
+            'message' => 'required|string',
+            'note' => 'string|nullable',
+            //'g-recaptcha-response' => 'required|captcha',
+        ];
 
-    // Validate the request data
-    $validatedData = $request->validate($rules);
+        // Validate the request data
+        $validatedData = $request->validate($rules);
 
-    //dd($validatedData);
+        //dd($validatedData);
 
-    // If validation passes, create a new Contact instance
-    $contact_message = new Contact();
+        // If validation passes, create a new Contact instance
+        $contact_message = new Contact();
 
-    // Assign validated data to the Contact instance
-    $contact_message->name = $validatedData['name'];
-    $contact_message->email = $validatedData['email'];
-    $contact_message->phone = $validatedData['phone'];
-    $contact_message->message = $validatedData['message'];
-    $contact_message->note = $validatedData['note'];
+        // Assign validated data to the Contact instance
+        $contact_message->name = $validatedData['name'];
+        $contact_message->email = $validatedData['email'];
+        $contact_message->phone = $validatedData['phone'];
+        $contact_message->message = $validatedData['message'];
+        $contact_message->note = $validatedData['note'];
 
-    // Save the contact message to the database
-    $contact_message->save();
+        // Save the contact message to the database
+        $contact_message->save();
 
 
 
-    // Redirect back with a success message
-    // return redirect()->back()->with('success', 'Thanks for you message. We will contact with you soon!');
-    return redirect()->route('contact')->with('success', 'Thanks for you message. We will contact with you soon!');
+        // Redirect back with a success message
+        return redirect()->back()->with('success', 'Thanks for you message. We will contact with you soon!');
+        //return redirect()->route('contact')->with('success', 'Thanks for you message. We will contact with you soon!');
 
 
-}
+    }
+
+
+//     public function store(Request $request)
+// {
+//     // Create a new Contact instance
+//     $contact_message = new Contact();
+
+//     // Assign data directly from the request to the Contact instance
+//     $contact_message->name = $request->input('name');
+//     $contact_message->email = $request->input('email');
+//     $contact_message->phone = $request->input('phone');
+//     $contact_message->message = $request->input('message');
+//     $contact_message->note = $request->input('note');
+
+//     // Save the Contact instance to the database
+//     $contact_message->save();
+
+//     return redirect()->back()->with('success', 'Thanks for your message. We will contact you soon!');
+// }
 
 
 

@@ -100,7 +100,7 @@ Route::group(['middleware' => ['auth', 'verified', 'role:admin']], function () {
 
     Route::get('/contact_form_index', [ContactformController::class, 'index'])->name('contact_form_index');
     Route::get('/contact_form_create', [ContactformController::class, 'create'])->name('contact_form_create');
-    Route::post('/contact_form_store', [ContactformController::class, 'store'])->name('contact_form_store');
+    // Route::post('/contact_form_store', [ContactformController::class, 'store'])->name('contact_form_store');
     Route::get('/contact_form_edit/{id}', [ContactformController::class, 'edit'])->name('contact_form_edit');
     Route::put('/contact_form_update/{id}', [ContactformController::class, 'update'])->name('contact_form_update');
     Route::put('/contact_form_destroy/{id}', [ContactformController::class, 'destroy'])->name('contact_form_destroy');
@@ -108,7 +108,7 @@ Route::group(['middleware' => ['auth', 'verified', 'role:admin']], function () {
 
     Route::get('/basicticket_index', [BasicticketController::class, 'index'])->name('basicticket_index');
     Route::get('/basicticket_create', [BasicticketController::class, 'create'])->name('basicticket_create');
-    Route::post('/basicticket_store', [BasicticketController::class, 'store'])->name('basicticket_store');
+    // Route::post('/basicticket_store', [BasicticketController::class, 'store'])->name('basicticket_store');
     Route::get('/basicticket_edit/{id}', [BasicticketController::class, 'edit'])->name('basicticket_edit');
     Route::put('/basicticket_update/{id}', [BasicticketController::class, 'update'])->name('basicticket_update');
     Route::put('/basicticket_destroy/{id}', [BasicticketController::class, 'destroy'])->name('basicticket_destroy');
@@ -116,23 +116,13 @@ Route::group(['middleware' => ['auth', 'verified', 'role:admin']], function () {
 
 });
 
+Route::post('/basicticket_store', [BasicticketController::class, 'store'])->name('basicticket_store');
+Route::post('/contact_form_store', [ContactformController::class, 'store'])->name('contact_form_store');
+
 Route::resource('tickets', TicketController::class);
 Route::post('/tickethistory_store', [TickethistoryController::class, 'store'])->name('tickethistory_store');
 
 Route::get('/myticket', [TicketController::class, 'myticket'])->name('myticket');
-
-
-
-
-
-// Route::resource('projects', ProjectController::class);
-// Route::resource('projectsingle', ProjectsinglepageController::class);
-// Route::get('/projectsingle_edit/{id}', [ProjectsinglepageController::class, 'edit'])->name('projectsingle_edit');
-// Route::get('/projectsingle_update/{id}', [ProjectsinglepageController::class, 'update'])->name('projectsingle_update');
-// Route::put('/projectsingle_destroy/{id}', [ProjectsinglepageController::class, 'destroy'])->name('projectsingle_destroy');
-
-// Route::resource('faqs', FaqController::class);
-
 
 
 Route::middleware('auth')->group(function () {
