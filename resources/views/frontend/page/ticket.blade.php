@@ -80,13 +80,22 @@
                                                 <div class="alert alert-danger">{{ $message }}</div>
                                             @enderror
 
-                                            <div class="input-group">
+                                            {{-- <div class="input-group">
                                                 <i class='bx bxs-lock-alt'></i>
                                                 <textarea type="text" cols="40" rows="3" placeholder="Message" name="message"></textarea>
                                             </div>
                                             @error('message')
                                                 <div class="alert alert-danger">{{ $message }}</div>
+                                            @enderror --}}
+
+                                            <div class="input-group">
+                                                <i class='bx bxs-lock-alt'></i>
+                                                <input type="file" placeholder="attschment" name="files[]">
+                                            </div>
+                                            @error('attschment')
+                                                <div class="alert alert-danger">{{ $message }}</div>
                                             @enderror
+
 
                                             <div class="input-group">
                                                 <i class='bx bxs-lock-alt'></i>
@@ -124,7 +133,7 @@
                             <!-- SIGN IN -->
                             <div class="col align-items-center flex-col sign-in">
                                 <div class="form-wrapper slide-benar align-items-center">
-                                    <div class="form sign-in">
+                                    <div class="form ticket-form sign-in">
                                         <h2>Create Ticket with conversation, Please login/Register.</h2>
 
                                         <h3 class="mt-3">

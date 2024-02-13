@@ -4,14 +4,13 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use App\Models\Basicattachment;
+use App\Models\Basicticket;
 
-class Basicticket extends Model
+class Basicattachment extends Model
 {
     use HasFactory;
-
-    public function basicattachments()
+    public function basicticket()
     {
-        return $this->hasMany(Basicattachment::class);
+        return $this->belongsTo(Basicticket::class);
     }
 }

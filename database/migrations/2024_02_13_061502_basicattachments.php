@@ -11,13 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('basictickets', function (Blueprint $table) {
+        Schema::create('basicattachments', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->nullable();
-            $table->string('email')->nullable();
-            $table->string('phone')->nullable();
-            // $table->text('message')->nullable();
-            $table->text('note')->nullable();
+            $table->unsignedBigInteger('basicticket_id');
+            $table->string('attachment_name');
+
             $table->timestamps();
         });
     }

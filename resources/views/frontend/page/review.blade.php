@@ -62,7 +62,7 @@
                                               <span class="visually-hidden">Next</span>
                                             </button>
                                           </div>
-                                            <a href="aeon.html">
+                                            <a href="{{ route('aeon') }}">
                                                 <button class="custom-btn-review">AEON</button>
                                               </a>
                                     </div>
@@ -96,7 +96,7 @@
                                               <span class="visually-hidden">Next</span>
                                             </button>
                                           </div>
-                                            <a href="pos.html">
+                                            <a href="{{ route('pos') }}">
                                                 <button class="custom-btn-review">Pos</button>
                                               </a>
                                     </div>
@@ -130,7 +130,7 @@
                                               <span class="visually-hidden">Next</span>
                                             </button>
                                           </div>
-                                            <a href="misi.html">
+                                            <a href="{{ route('misi') }}">
                                                 <button class="custom-btn-review">Misi </button>
                                               </a>
                                     </div>
@@ -165,7 +165,7 @@
                                               <span class="visually-hidden">Next</span>
                                             </button>
                                           </div>
-                                            <a href="de-shop.html">
+                                            <a href="{{ route('de_shop') }}">
                                                 <button class="custom-btn-review">De-Shopper</button>
                                               </a>
                                     </div>
@@ -200,7 +200,7 @@
                                               <span class="visually-hidden">Next</span>
                                             </button>
                                           </div>
-                                            <a href="book-change.html">
+                                            <a href="{{ route('book_change') }}">
                                                 <button class="custom-btn-review">Book Exchanger</button>
                                               </a>
                                     </div>
@@ -235,7 +235,7 @@
                                               <span class="visually-hidden">Next</span>
                                             </button>
                                           </div>
-                                            <a href="foody-moody.html">
+                                            <a href="{{ route('foody_moody') }}">
                                                 <button class="custom-btn-review">Foody-Moody</button>
                                               </a>
                                     </div>
