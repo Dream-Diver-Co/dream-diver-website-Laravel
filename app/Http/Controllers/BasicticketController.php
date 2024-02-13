@@ -81,6 +81,13 @@ class BasicticketController extends Controller
         $home_service = Homeservice::where('id', $id)->first();
 
         return view('home_services.edit', compact('home_service'));
+
+
+        // $ticket_history = Tickethistory::where('ticket_id', $ticket->id)->get();
+        // $attachments = Attachment::where('ticket_id', $ticket->id)->get();
+        // return view('tickets.edit', compact('ticket', 'ticket_history','attachments'));
+
+
     }
 
     public function update(Request $request, $id)

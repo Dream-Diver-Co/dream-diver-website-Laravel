@@ -29,14 +29,14 @@
             <div class="col-lg-12">
                 <table class="table">
                     <thead>
-                      <tr>
-                        <th scope="col">sl</th>
-                        <th scope="col">name</th>
-                        <th scope="col">email</th>
-                        <th scope="col">phone</th>
-                        {{-- <th scope="col">message</th> --}}
-                        <th scope="col">note</th>
-                      </tr>
+                        <tr>
+                            <th scope="col">sl</th>
+                            <th scope="col">name</th>
+                            <th scope="col">email</th>
+                            <th scope="col">phone</th>
+                            <th scope="col">Attachment</th>
+                            <th scope="col">Note</th>
+                        </tr>
                     </thead>
 
                     <tbody>
@@ -44,20 +44,34 @@
                             $sl = 1;
                         @endphp
                         @foreach ($contacts as $service )
-                      <tr>
-                        <th scope="row">{{ $sl++ }}</th>
-                        <td>{{ $service->name; }}</td>
-                        <td>{{ $service->email; }}</td>
-                        <td>{{ $service->phone; }}</td>
-                        {{-- <td>{{ $service->message; }}</td> --}}
-                        <td>{{ $service->note; }}</td>
+                            <tr>
+                                <th scope="row">{{ $sl++ }}</th>
+                                <td>{{ $service->name }}</td>
+                                <td>{{ $service->email }}</td>
+                                <td>{{ $service->phone }}</td>
+                                @php
+                                    $basicattachment = App\Models\Basicattachment::where('basicticket_id', $service->id)->first();
+                                @endphp
 
-                      </tr>
-                      @endforeach
+                                <td>
+                                    @if($basicattachment && $basicattachment->attachment_name)
+                                        <a href="{{ asset('storage/' . $basicattachment->attachment_name) }}" target="_blank">
+                                            <img src="{{ asset('storage/' . $basicattachment->attachment_name) }}" alt="Attachment Image" width="150" height="150">
+                                        </a>
+                                    @else
+                                        N/A
+                                    @endif
+                                </td>
 
+
+
+                                <td>{{ $service->note }}</td>
+                            </tr>
+                        @endforeach
                     </tbody>
-                  </table>
+                </table>
             </div>
+
 
 
         </div>
