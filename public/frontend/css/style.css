@@ -1332,6 +1332,9 @@ body {
     transition: .5s ease-in-out;
     transition-delay: 1s;
   }
+  .ticket-form{
+    height: 725px !important;
+  }
 
   .input-group {
     position: relative;

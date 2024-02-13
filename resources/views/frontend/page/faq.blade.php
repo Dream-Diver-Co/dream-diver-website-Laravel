@@ -146,7 +146,7 @@
                               <span class="visually-hidden">Next</span>
                             </button>
                           </div>
-                            <a href="contact.html">
+                            <a href="{{ route('contact') }}">
                                 <button class="custom-btn">Contact</button>
                               </a>
                     </div>

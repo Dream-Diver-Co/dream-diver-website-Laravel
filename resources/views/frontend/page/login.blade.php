@@ -108,7 +108,8 @@
             </div>
             <!-- END FORM SECTION -->
             <!-- CONTENT SECTION -->
-            <div class="row content-row">
+
+            {{-- <div class="row content-row">
                 <!-- SIGN IN CONTENT -->
                 <div class="col align-items-center flex-col">
                     <div class="text sign-in">
@@ -136,7 +137,8 @@
                     </div>
                 </div>
                 <!-- END SIGN UP CONTENT -->
-            </div>
+            </div> --}}
+            
             <!-- END CONTENT SECTION -->
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>

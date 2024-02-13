@@ -29,7 +29,7 @@
                     <a class="btn btn-square rounded-circle me-1" href="https://twitter.com/home?logout=1701946567424"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-square rounded-circle me-1" href="https://www.facebook.com/dreamdivernl"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square rounded-circle me-1" href="https://www.instagram.com/dream_diver1/?hl=en"><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square rounded-circle me-1" href="https://www.linkedin.com/company/dream-diver-nl/"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <br>
                 <button class="Subscribe">Subscribe</button>

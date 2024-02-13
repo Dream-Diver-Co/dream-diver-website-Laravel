@@ -143,7 +143,7 @@
                               <span class="visually-hidden">Next</span>
                             </button>
                           </div>
-                            <a href="faq.html">
+                            <a href="{{ route('faq') }}">
                                 <button class="custom-btn">FAQ</button>
                               </a>
                     </div>

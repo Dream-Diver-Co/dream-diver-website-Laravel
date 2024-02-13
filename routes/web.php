@@ -114,7 +114,6 @@ Route::group(['middleware' => ['auth', 'verified', 'role:admin']], function () {
     Route::put('/basicticket_destroy/{id}', [BasicticketController::class, 'destroy'])->name('basicticket_destroy');
 
 
-
 });
 
 Route::resource('tickets', TicketController::class);

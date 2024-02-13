@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Basicticket;
+use App\Models\Basicattachment;
+
 
 class BasicticketController extends Controller
 {
@@ -26,26 +28,45 @@ class BasicticketController extends Controller
         'name' => 'required|string|max:255',
         'email' => 'required|email|max:255',
         'phone' => 'required|string|max:20',
-        'message' => 'required|string',
+        // 'message' => 'required|string',
         'note' => 'string|nullable',
-        'g-recaptcha-response' => 'required|captcha',
+        // 'g-recaptcha-response' => 'required|captcha',
     ];
 
     // Validate the request data
     $validatedData = $request->validate($rules);
 
     // If validation passes, create a new Contact instance
-    $contact_message = new Basicticket();
+    $basicticket = new Basicticket();
 
     // Assign validated data to the Contact instance
-    $contact_message->name = $validatedData['name'];
-    $contact_message->email = $validatedData['email'];
-    $contact_message->phone = $validatedData['phone'];
-    $contact_message->message = $validatedData['message'];
-    $contact_message->note = $validatedData['note'];
+    $basicticket->name = $validatedData['name'];
+    $basicticket->email = $validatedData['email'];
+    $basicticket->phone = $validatedData['phone'];
+    // $contact_message->message = $validatedData['message'];
+    $basicticket->note = $validatedData['note'];
 
     // Save the contact message to the database
-    $contact_message->save();
+    $basicticket->save();
+
+    $files = $request->file('files');
+
+    if ($files) {
+        foreach ($files as $file) {
+
+            //$image = $request->file('image');
+            $name = $file->getClientOriginalName();
+            $extension = $file->getClientOriginalExtension();
+
+            $filename = pathinfo($name, PATHINFO_FILENAME) . time() . '.' . $extension;
+
+            $basic_attachment = new Basicattachment();
+            $basic_attachment->basicticket_id = $basicticket->id;
+            $basic_attachment->attachment_name = $file->storeAs('basic_attachments_folder', $filename);
+            $basic_attachment->save();
+        }
+    }
+
 
     // Redirect back with a success message
     return redirect()->back()->with('success', 'Thanks for you Ticket. We will contact with you soon!');
