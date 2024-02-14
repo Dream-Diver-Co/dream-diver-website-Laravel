@@ -20,15 +20,18 @@ class ContactformController extends Controller
 
 
     public function store(Request $request)
-    {
-        $rules = [
-            'name' => 'required|string|max:255',
-            'email' => 'required|email|max:255',
-            'phone' => 'required|string|max:20',
-            'message' => 'required|string',
-            'note' => 'string|nullable',
-            //'g-recaptcha-response' => 'required|captcha',
-        ];
+
+{
+    //dd($request->all());
+    // Validation rules
+    $rules = [
+        'name' => 'required|string|max:255',
+        'email' => 'required|email|max:255',
+        'phone' => 'required|string|max:20',
+        // 'message' => 'required|string',
+        'note' => 'string|nullable',
+        //'g-recaptcha-response' => 'required|captcha',
+    ];
 
         // Validate the request data
         $validatedData = $request->validate($rules);
@@ -38,12 +41,14 @@ class ContactformController extends Controller
         // If validation passes, create a new Contact instance
         $contact_message = new Contact();
 
-        // Assign validated data to the Contact instance
-        $contact_message->name = $validatedData['name'];
-        $contact_message->email = $validatedData['email'];
-        $contact_message->phone = $validatedData['phone'];
-        $contact_message->message = $validatedData['message'];
-        $contact_message->note = $validatedData['note'];
+
+    // Assign validated data to the Contact instance
+    $contact_message->name = $validatedData['name'];
+    $contact_message->email = $validatedData['email'];
+    $contact_message->phone = $validatedData['phone'];
+    // $contact_message->message = $validatedData['message'];
+    $contact_message->note = $validatedData['note'];
+
 
         // Save the contact message to the database
         $contact_message->save();

@@ -61,6 +61,7 @@ Route::get('/reasonable', [FrontendController::class, 'reasonable'])->name('reas
 Route::get('/twonty_four', [FrontendController::class, 'twonty_four'])->name('twonty_four');
 
 Route::get('/loginfromfrontend', [FrontendController::class, 'login'])->name('loginfromfrontend');
+Route::get('/registrar', [FrontendController::class, 'registrar'])->name('registrar');
 
 
 

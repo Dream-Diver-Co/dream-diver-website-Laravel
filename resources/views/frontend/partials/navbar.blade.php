@@ -1,11 +1,12 @@
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
     <a href="{{ route('index') }}" class="navbar-brand d-flex align-items-center">
-        <h1 class="m-0"><img class="img-fluid " src="{{ asset('frontend/img/logo.png') }}" alt="logo" alt=""></h1>
+        <h1 class="m-0"><img class="img-fluid " src="{{ asset('frontend/img/logo.png') }}" alt="logo" ></h1>
     </a>
-    <button type="button" class="navbar-toggler" datphpa-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav mx-auto pe-4 py-3 py-lg-0">
             <a href="{{ route('index') }}" class="nav-item nav-link active">Home</a>

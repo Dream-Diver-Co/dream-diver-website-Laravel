@@ -57,13 +57,13 @@
         @enderror
     </div>
 
-    <div class="col-12">
+    {{-- <div class="col-12">
         <label for="inputAddress2" class="form-label">Message</label>
         <input type="text" name="message" class="form-control" id="inputAddress2" placeholder="">
         @error('message')
             <div class="alert alert-danger">{{ $message }}</div>
         @enderror
-    </div>
+    </div> --}}
 
     <div class="col-12">
         <label for="inputAddress2" class="form-label">Note</label>

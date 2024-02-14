@@ -69,6 +69,10 @@ class FrontendController extends Controller
         return view('frontend.page.login');
     }
 
+    public function registrar(){
+        return view('frontend.page.registrar');
+    }
+
     public function aeon() {
         return view('frontend.page.aeon');
     }
@@ -116,5 +120,7 @@ class FrontendController extends Controller
     public function twonty_four(){
         return view('frontend.page.twonty_four');
     }
+
+
 
 }

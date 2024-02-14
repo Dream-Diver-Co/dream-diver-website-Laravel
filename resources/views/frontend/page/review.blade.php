@@ -247,18 +247,7 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                <p class="about-h2">Our Mission and Vision</p>
-                <br>
-                <p class="about-h22">Mission</p>
-                <br>
-                <p class="about-us">Our primary mission is to help the customers/clients attain their business goals by offering
-                    the highest quality services via designing, development, and implementation of innovative
-                    software products and digital marketing services.</p><br>
-                <p class="about-h22">Vision</p>
-                <p class="about-us">Dream Diver visions to evolve as a top-notch quality-driven and customer-centric
-                    organization in the domains of IT and Digital Marketing via advanced and innovative
-                    technologies and maintaining the ethical standards towards the employees, stakeholders, and
-                    customers.</p>
+               <p class="text-head">Video</p>
 
             </div>
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
@@ -291,14 +280,13 @@
                                                     <div class="input-group">
                                                       <label for="cvInput">
                                                           <i class='bx bxs-user'></i>
-                                                          Video Review to Upload:
                                                       </label>
                                                       <input type="file" id="cvInput" accept=".pdf, .doc, .docx" placeholder="Upload CV" />
                                                   </div>
-                                                    <div class="input-group">
-                                                        <i class='bx bxs-lock-alt'></i>
-                                                        <input type="text" placeholder="Note">
-                                                    </div>
+                                                  <div class="input-group">
+                                                    <i class='bx bxs-lock-alt'></i>
+                                                    <textarea name="note" id="" cols="100%" rows="3" placeholder="Note"></textarea>
+                                                  </div>
                                                     <button>
                                                         Create Review
                                                     </button>
@@ -337,7 +325,7 @@
                                               <span class="visually-hidden">Next</span>
                                             </button>
                                           </div>
-                                            <a href="contact.html">
+                                            <a href="{{ route('contact') }}">
                                                 <button class="custom-btn">Contact Us</button>
                                               </a>
                                     </div>
