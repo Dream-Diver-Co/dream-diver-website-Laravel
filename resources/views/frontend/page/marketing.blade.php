@@ -38,8 +38,8 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <p>Research</p>
-                <br><br>
+                <p class="text-head">Research</p>
+
                 At this stage, you will collect all the information that will be required for decision making in the next stages. Information collected during the research will become your raw material to strategize & create your digital marketing campaign. This stage can also be called as Digital Marketing Research. At this stage, you will research 4 sets of information:
 
                 About Business

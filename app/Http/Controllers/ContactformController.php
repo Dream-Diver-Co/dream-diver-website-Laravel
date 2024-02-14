@@ -27,7 +27,7 @@ class ContactformController extends Controller
         'name' => 'required|string|max:255',
         'email' => 'required|email|max:255',
         'phone' => 'required|string|max:20',
-        'message' => 'required|string',
+        // 'message' => 'required|string',
         'note' => 'string|nullable',
         //'g-recaptcha-response' => 'required|captcha',
     ];
@@ -44,7 +44,7 @@ class ContactformController extends Controller
     $contact_message->name = $validatedData['name'];
     $contact_message->email = $validatedData['email'];
     $contact_message->phone = $validatedData['phone'];
-    $contact_message->message = $validatedData['message'];
+    // $contact_message->message = $validatedData['message'];
     $contact_message->note = $validatedData['note'];
 
     // Save the contact message to the database

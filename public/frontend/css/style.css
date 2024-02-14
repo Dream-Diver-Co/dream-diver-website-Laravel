@@ -127,17 +127,21 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-left: 25px;
-    padding: 10px 0;
+    margin-left: 10px;
+    /* padding: 10px 0; */
     color: #000000;
     font-weight: 900;
     outline: none;
 
 }
 
-.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:hover{
+    color: white !important;
+    background-color: #010A35;
+    border-radius: 5%;
+}
 .navbar .navbar-nav .nav-link.active {
-    color: #3633d6 !important;
+    color: #ffffff !important;
 }
 
 .navbar .dropdown-toggle::after {
@@ -1333,7 +1337,7 @@ body {
     transition-delay: 1s;
   }
   .ticket-form{
-    height: 725px !important;
+    height: 658px !important;
   }
 
   .input-group {
@@ -2042,5 +2046,12 @@ p {
 }
 .from-head{
     font-size: xx-large !important;
+    font-weight: 900;
+}
+
+
+.text-head
+{
+    font-size: xx-large;
     font-weight: 900;
 }

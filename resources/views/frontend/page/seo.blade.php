@@ -20,35 +20,35 @@
    <div class="container top-bottom mb-5 wow fadeIn" data-wow-delay="0.1s">
     <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Research</button>
+            <button class="nav-link active" id="pills-Research-tab" data-bs-toggle="pill" data-bs-target="#pills-Research" type="button" role="tab" aria-controls="pills-Research" aria-selected="true">Research</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Reporting & Goal Setting
+            <button class="nav-link" id="pills-Reporting-tab" data-bs-toggle="pill" data-bs-target="#pills-Reporting" type="button" role="tab" aria-controls="pills-Reporting" aria-selected="false">Reporting & Goal Setting
             </button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Content Building
+            <button class="nav-link" id="pills-Content-tab" data-bs-toggle="pill" data-bs-target="#pills-Content" type="button" role="tab" aria-controls="pills-Content" aria-selected="false">Content Building
             </button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Page Optimization
+            <button class="nav-link " id="pills-Page-tab" data-bs-toggle="pill" data-bs-target="#pills-Page" type="button" role="tab" aria-controls="pills-Page" aria-selected="true">Page Optimization
             </button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Social & Link Building
+            <button class="nav-link" id="pills-Social-tab" data-bs-toggle="pill" data-bs-target="#pills-Social" type="button" role="tab" aria-controls="pills-Social" aria-selected="false">Social & Link Building
             </button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Follow Up Reporting & Analysis
+            <button class="nav-link" id="pills-Follow-tab" data-bs-toggle="pill" data-bs-target="#pills-Follow" type="button" role="tab" aria-controls="pills-Follow" aria-selected="false">Follow Up Reporting & Analysis
             </button>
         </li>
 
     </ul>
     <hr>
     <div class="tab-content slide-section" id="pills-tabContent">
-        <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-            <p>Search Engine Optimization</p>
-            <br><br>
+        <div class="tab-pane fade slide-section show active" id="pills-Research" role="tabpanel" aria-labelledby="pills-Research-tab" tabindex="0">
+            <p class="text-head">Search Engine Optimization</p>
+
             Search Engine Optimization (SEO) is a set of strategies and practices aimed at improving the visibility and ranking of a website in search engine results pages (SERPs). The primary goal of SEO is to increase the organic (non-paid) traffic a website receives from search engines like Google, Bing, and Yahoo. Here are some key aspects of SEO:
             <br><br>
             1. Keyword Research: Identifying the relevant keywords and phrases that potential visitors are likely to use when searching for information related to your website. Keyword research helps you understand what topics and terms to focus on.
@@ -73,46 +73,31 @@
             <br><br>
             SEO is an ongoing process, and results may take time to materialize. It requires a combination of technical expertise, content creation, and ongoing monitoring and adjustments. SEO is crucial for businesses and website owners looking to increase their online visibility and attract organic traffic from search engines.
         </div>
-        <div class="tab-pane fade slide-section" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-            <p class="about-h2">Our Mission and Vision</p>
-            <br>
-            <p class="about-h22">Mission</p>
-            <br>
-            <p class="about-us">Our primary mission is to help the customers/clients attain their business goals by offering
-                the highest quality services via designing, development, and implementation of innovative
-                software products and digital marketing services.</p><br>
-            <p class="about-h22">Vision</p>
-            <p class="about-us">Dream Diver visions to evolve as a top-notch quality-driven and customer-centric
-                organization in the domains of IT and Digital Marketing via advanced and innovative
-                technologies and maintaining the ethical standards towards the employees, stakeholders, and
-                customers.</p>
-
+        <div class="tab-pane fade slide-section" id="pills-Reporting" role="tabpanel" aria-labelledby="pills-Reporting-tab" tabindex="0">
+            <p class="text-head">
+                Reporting & Goal Setting
+            </p>
         </div>
-        <div class="tab-pane fade slide-section" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0"> <p class="about-h3">Our Core Values</p>
-            <p class="about-us">Our core values are the fundamental base for our business culture and business philosophy.
-                The values define us as a service provider and help us make our decisions and deploy them.</p>
-            <br>
-            <p class="about-h33">Quality</p>
-            <p class="about-us">Dream Diver considers Quality as an implicit business practice. We take huge pride in adding
-                value to the services and solutions and the best industry practices to our clients and
-                customers. As an organisation we always stand supportive for the evolving future of our
-                employees, customer satisfaction, and our growth and profitability. We don’t believe in
-                shortcuts and we optimize quality through efficient teamwork and a continuous learning
-                process.</p>
-            <br>
-            <p class="about-h33">Growth and learning</p>
-            <p class="about-us">Dream Diver embraces its journey with the success of its clients and the continuous growth
-                of the team. We encompass a constant learning process, that helps us to grow as a team, and
-                as an organization as a whole, and thereby giving us scopes for improvement. We support
-                and encourage chances for skilled and talented resources to recognise their full potential and
-                create an ambience where the continuous flow of creative ideas strongly drives us to provide
-                better services.</p>
-            <p class="about-h33">Integrity and honesty</p>
-            <p class="about-us">We ensure to showcase integrity, honesty, fairness, and openness in our practices and
-                communications within the organization, and with the stakeholders. Dream Diver respects the
-                differences in each other providing a safe ambience for every individual and acknowledge in
-                open communication and transparent work culture.</p>
-            </div>
+        <div class="tab-pane fade slide-section" id="pills-Content" role="tabpanel" aria-labelledby="pills-Content-tab" tabindex="0">
+            <p class="text-head">
+                Content Building
+            </p>
+        </div>
+        <div class="tab-pane fade slide-section" id="pills-Page" role="tabpanel" aria-labelledby="pills-Page-tab" tabindex="0">
+            <p class="text-head">
+                Page Optimization
+            </p>
+        </div>
+        <div class="tab-pane fade slide-section" id="pills-Social" role="tabpanel" aria-labelledby="pills-Social-tab" tabindex="0">
+            <p class="text-head">
+                Social & Link Building
+            </p>
+        </div>
+        <div class="tab-pane fade slide-section" id="pills-Follow" role="tabpanel" aria-labelledby="pills-Follow-tab" tabindex="0">
+            <p class="text-head">
+                Follow Up Reporting & Analysis
+            </p>
+        </div>
     </div>
 
    </div>

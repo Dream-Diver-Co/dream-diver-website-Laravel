@@ -99,7 +99,7 @@
 
                                             <div class="input-group">
                                                 <i class='bx bxs-lock-alt'></i>
-                                                <textarea name="note" id="" cols="40" rows="3" placeholder="Note"></textarea>
+                                                <textarea name="note" id="" cols="100%" rows="3" placeholder="Note"></textarea>
                                             </div>
                                             @error('note')
                                                 <div class="alert alert-danger">{{ $message }}</div>

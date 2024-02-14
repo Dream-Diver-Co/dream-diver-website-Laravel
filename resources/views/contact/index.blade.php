@@ -34,7 +34,7 @@
                         <th scope="col">name</th>
                         <th scope="col">email</th>
                         <th scope="col">phone</th>
-                        <th scope="col">message</th>
+                        {{-- <th scope="col">message</th> --}}
                         <th scope="col">note</th>
                       </tr>
                     </thead>
@@ -49,7 +49,7 @@
                         <td>{{ $service->name; }}</td>
                         <td>{{ $service->email; }}</td>
                         <td>{{ $service->phone; }}</td>
-                        <td>{{ $service->message; }}</td>
+                        {{-- <td>{{ $service->message; }}</td> --}}
                         <td>{{ $service->note; }}</td>
 
                       </tr>
