@@ -134,7 +134,7 @@
                             <div class="col align-items-center flex-col sign-in">
                                 <div class="form-wrapper slide-benar align-items-center">
                                     <div class="form ticket-form sign-in">
-                                        <h2>Create Ticket with conversation, Please login/Register.</h2>
+                                        <h2 class="mt-4">Create Ticket with conversation, Please login/Register.</h2>
 
                                         <h3 class="mt-3">
                                             <a href="{{ route('loginfromfrontend') }}" class="nav-item ticket-page-login-btn">LOGIN</a>
