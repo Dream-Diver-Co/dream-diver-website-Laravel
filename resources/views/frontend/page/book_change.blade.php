@@ -38,8 +38,8 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-Summary" role="tabpanel" aria-labelledby="pills-Summary-tab" tabindex="0">
-                <p>AEON</p>
-                <br><br>
+                <p class="text-head">Book Exchanger</p>
+                
                 Digital marketing is a broad term that encompasses all marketing efforts that use an electronic device or the internet. It's a dynamic field that continues to evolve with new technologies and platforms. Digital marketing allows businesses to reach and connect with their target audience online and promote their products or services. Here are some key components of digital marketing:
                 <br><br>
                 1. Search Engine Optimization (SEO): As discussed earlier, SEO focuses on improving a website's visibility in search engine results. It involves optimizing content, improving website structure, and building high-quality backlinks to increase organic traffic.
@@ -67,67 +67,29 @@
                 Digital marketing is highly versatile, allowing businesses to tailor their strategies to reach specific goals and audiences. It's essential to stay updated with the latest digital marketing trends and technologies to remain competitive in the online marketplace. Additionally, ethical considerations, such as data privacy and online security, play a significant role in digital marketing practices.
             </div>
             <div class="tab-pane fade slide-section" id="pills-details" role="tabpanel" aria-labelledby="pills-details-tab" tabindex="0">
-                <p class="about-h2">Our Mission and Vision</p>
-                <br>
-                <p class="about-h22">Mission</p>
-                <br>
-                <p class="about-us">Our primary mission is to help the customers/clients attain their business goals by offering
-                    the highest quality services via designing, development, and implementation of innovative
-                    software products and digital marketing services.</p><br>
-                <p class="about-h22">Vision</p>
-                <p class="about-us">Dream Diver visions to evolve as a top-notch quality-driven and customer-centric
-                    organization in the domains of IT and Digital Marketing via advanced and innovative
-                    technologies and maintaining the ethical standards towards the employees, stakeholders, and
-                    customers.</p>
+                <p class="text-head">
+                    Details
+                </p>
 
             </div>
             <div class="tab-pane fade slide-section" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab" tabindex="0">
-                <p class="about-h2">Our Mission and Vision</p>
-                <br>
-                <p class="about-h22">Mission</p>
-                <br>
-                <p class="about-us">Our primary mission is to help the customers/clients attain their business goals by offering
-                    the highest quality services via designing, development, and implementation of innovative
-                    software products and digital marketing services.</p><br>
-                <p class="about-h22">Vision</p>
-                <p class="about-us">Dream Diver visions to evolve as a top-notch quality-driven and customer-centric
-                    organization in the domains of IT and Digital Marketing via advanced and innovative
-                    technologies and maintaining the ethical standards towards the employees, stakeholders, and
-                    customers.</p>
+               <p class="text-head">
+                    Video
+               </p>
 
             </div>
-            <div class="tab-pane fade slide-section" id="pills-link" role="tabpanel" aria-labelledby="pills-link-tab" tabindex="0"> <p class="about-h3">Our Core Values</p>
-                <p class="about-us">Our core values are the fundamental base for our business culture and business philosophy.
-                    The values define us as a service provider and help us make our decisions and deploy them.</p>
-                <br>
-                <p class="about-h33">Quality</p>
-                <p class="about-us">Dream Diver considers Quality as an implicit business practice. We take huge pride in adding
-                    value to the services and solutions and the best industry practices to our clients and
-                    customers. As an organisation we always stand supportive for the evolving future of our
-                    employees, customer satisfaction, and our growth and profitability. We don’t believe in
-                    shortcuts and we optimize quality through efficient teamwork and a continuous learning
-                    process.</p>
-                <br>
-                <p class="about-h33">Growth and learning</p>
-                <p class="about-us">Dream Diver embraces its journey with the success of its clients and the continuous growth
-                    of the team. We encompass a constant learning process, that helps us to grow as a team, and
-                    as an organization as a whole, and thereby giving us scopes for improvement. We support
-                    and encourage chances for skilled and talented resources to recognise their full potential and
-                    create an ambience where the continuous flow of creative ideas strongly drives us to provide
-                    better services.</p>
-                <p class="about-h33">Integrity and honesty</p>
-                <p class="about-us">We ensure to showcase integrity, honesty, fairness, and openness in our practices and
-                    communications within the organization, and with the stakeholders. Dream Diver respects the
-                    differences in each other providing a safe ambience for every individual and acknowledge in
-                    open communication and transparent work culture.</p>
-                </div>
-                <div class="tab-pane fade" id="pills-aeon" role="tabpanel" aria-labelledby="pills-aeon-tab" tabindex="0">
+            <div class="tab-pane fade slide-section" id="pills-link" role="tabpanel" aria-labelledby="pills-link-tab" tabindex="0">
+                <p class="text-head">
+                    Link
+                </p>
+            </div>
+            <div class="tab-pane fade" id="pills-aeon" role="tabpanel" aria-labelledby="pills-aeon-tab" tabindex="0">
                     <div class="container-xxl py-5">
                         <div class="container">
                             <div class="row g-5">
                                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                                     <div class="slide-form">
-                                        <p class="about-h3 text-center">Text Review</p>
+                                        <p class="text-head text-center">Text Review</p>
                                     <p class="about-us">Our core values are the fundamental base for our business culture and business philosophy.
                                         The values define us as a service provider and help us make our decisions and deploy them.</p>
                                     <br>
@@ -155,7 +117,7 @@
                                 </div>
                                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                                     <div class=" slide-benar">
-                                        <p class="text-center">Video Review</p>
+                                        <p class="text-head text-center">Video Review</p>
                                     <div class="small-container align-items-center ">
                                         <div class="custom-card">
                                               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -193,7 +155,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+            </div>
         </div>
 
     </div>

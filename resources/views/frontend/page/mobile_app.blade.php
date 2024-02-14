@@ -22,16 +22,16 @@
                 <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Mobile App Requirement</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Design</button>
+                <button class="nav-link" id="pills-Design-tab" data-bs-toggle="pill" data-bs-target="#pills-Design" type="button" role="tab" aria-controls="pills-Design" aria-selected="false">Design</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Implementation</button>
+                <button class="nav-link" id="pills-Implementation-tab" data-bs-toggle="pill" data-bs-target="#pills-Implementation" type="button" role="tab" aria-controls="pills-Implementation" aria-selected="false">Implementation</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Verification</button>
+                <button class="nav-link" id="pills-Verification-tab" data-bs-toggle="pill" data-bs-target="#pills-Verification" type="button" role="tab" aria-controls="pills-Verification" aria-selected="false">Verification</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Maintenance</button>
+                <button class="nav-link" id="pills-Maintenance-tab" data-bs-toggle="pill" data-bs-target="#pills-Maintenance" type="button" role="tab" aria-controls="pills-Maintenance" aria-selected="false">Maintenance</button>
             </li>
 
 
@@ -40,7 +40,7 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <p>Mobile App Development</p>
+                <p class="text-head">Mobile App Development</p>
                 <br><br>
                 Mobile app development is the process of creating software applications that are designed to run on mobile devices, such as smartphones and tablets. This field has experienced explosive growth in recent years, driven by the widespread adoption of mobile devices and the increasing demand for apps that provide various services and functionality to users.
                 <br><br>
@@ -58,47 +58,22 @@
                 <br><br>
                 6. Maintenance and Updates: Mobile apps require ongoing maintenance to ensure they continue to function correctly. This involves addressing user feedback, fixing bugs, and updating the app to support new operating system versions or adding new features. Regular updates help keep the app relevant and secure.
             </div>
-            <div class="tab-pane fade slide-section" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                <p class="about-h2">Our Mission and Vision</p>
-                <br>
-                <p class="about-h22">Mission</p>
-                <br>
-                <p class="about-us">Our primary mission is to help the customers/clients attain their business goals by offering
-                    the highest quality services via designing, development, and implementation of innovative
-                    software products and digital marketing services.</p><br>
-                <p class="about-h22">Vision</p>
-                <p class="about-us">Dream Diver visions to evolve as a top-notch quality-driven and customer-centric
-                    organization in the domains of IT and Digital Marketing via advanced and innovative
-                    technologies and maintaining the ethical standards towards the employees, stakeholders, and
-                    customers.</p>
+            <div class="tab-pane fade slide-section" id="pills-Design" role="tabpanel" aria-labelledby="pills-Design-tab" tabindex="0">
+                <p class="text-head">Design</p>
 
             </div>
-            <div class="tab-pane fade slide-section" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
-                <p class="about-h3">Our Core Values</p>
-                <p class="about-us">Our core values are the fundamental base for our business culture and business philosophy.
-                    The values define us as a service provider and help us make our decisions and deploy them.</p>
-                <br>
-                <p class="about-h33">Quality</p>
-                <p class="about-us">Dream Diver considers Quality as an implicit business practice. We take huge pride in adding
-                    value to the services and solutions and the best industry practices to our clients and
-                    customers. As an organisation we always stand supportive for the evolving future of our
-                    employees, customer satisfaction, and our growth and profitability. We don’t believe in
-                    shortcuts and we optimize quality through efficient teamwork and a continuous learning
-                    process.</p>
-                <br>
-                <p class="about-h33">Growth and learning</p>
-                <p class="about-us">Dream Diver embraces its journey with the success of its clients and the continuous growth
-                    of the team. We encompass a constant learning process, that helps us to grow as a team, and
-                    as an organization as a whole, and thereby giving us scopes for improvement. We support
-                    and encourage chances for skilled and talented resources to recognise their full potential and
-                    create an ambience where the continuous flow of creative ideas strongly drives us to provide
-                    better services.</p>
-                <p class="about-h33">Integrity and honesty</p>
-                <p class="about-us">We ensure to showcase integrity, honesty, fairness, and openness in our practices and
-                    communications within the organization, and with the stakeholders. Dream Diver respects the
-                    differences in each other providing a safe ambience for every individual and acknowledge in
-                    open communication and transparent work culture.</p>
-                </div>
+            <div class="tab-pane fade slide-section" id="pills-Implementation" role="tabpanel" aria-labelledby="pills-Implementation-tab" tabindex="0">
+                <p class="text-head">Implementation</p>
+            </div>
+            <div class="tab-pane fade slide-section" id="pills-Verification" role="tabpanel" aria-labelledby="pills-Verification-tab" tabindex="0">
+                <p class="text-head">Verification</p>
+
+            </div>
+
+            <div class="tab-pane fade slide-section" id="pills-Maintenance" role="tabpanel" aria-labelledby="pills-Maintenance-tab" tabindex="0">
+                <p class="text-head">Maintenance</p>
+
+            </div>
 
         </div>
 

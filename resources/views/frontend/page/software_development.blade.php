@@ -22,22 +22,23 @@
                 <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Software Requirement</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Design</button>
+                <button class="nav-link" id="pills-Design-tab" data-bs-toggle="pill" data-bs-target="#pills-Design" type="button" role="tab" aria-controls="pills-Design" aria-selected="false">Design</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Implementation</button>
+                <button class="nav-link" id="pills-Implementation-tab" data-bs-toggle="pill" data-bs-target="#pills-Implementation" type="button" role="tab" aria-controls="pills-Implementation" aria-selected="false">Implementation</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Verification</button>
+                <button class="nav-link" id="pills-Verification-tab" data-bs-toggle="pill" data-bs-target="#pills-Verification" type="button" role="tab" aria-controls="pills-Verification" aria-selected="false">Verification</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Maintenance</button>
+                <button class="nav-link" id="pills-Maintenance-tab" data-bs-toggle="pill" data-bs-target="#pills-Maintenance" type="button" role="tab" aria-controls="pills-Maintenance" aria-selected="false">Maintenance</button>
             </li>
 
         </ul>
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <p class="text-head">Software development</p>
                 Software development is the intricate process of designing, coding, testing, and maintaining computer programs and applications. It's a fundamental pillar of the modern digital age, enabling the creation of software that powers everything from mobile apps and web applications to operating systems and beyond. The software development process begins with understanding user requirements. Developers collaborate with clients and stakeholders to gather and document specifications, ensuring that the software will meet its intended purpose. This phase involves defining the project scope, objectives, and functionality, as well as considering budget and timeline constraints.
                 <br><br>
                 Once the requirements are established, developers move on to the design phase. Here, they create a blueprint of the software's architecture, determining how it will be structured and how different components will interact. The design phase includes creating data models, user interface designs, and technical specifications. It lays the foundation for the actual coding work. Coding, also known as programming, is where developers write the actual lines of code that instruct the computer to perform specific tasks. Programming languages like Python, Java, C++, and JavaScript are used to create the software's functionality. Developers follow coding standards and best practices to ensure that the code is readable, maintainable, and efficient.
@@ -46,46 +47,40 @@
                <br><br>
                 Software development is a broad field, encompassing various specializations. Web development focuses on creating websites and web applications, while mobile app development is geared towards designing and building applications for smartphones and tablets. Game development involves creating interactive and entertaining games for various platforms. Backend and database development deals with server-side operations and data management, ensuring the application's data is stored and retrieved correctly. Effective software development requires more than just technical skills. Collaboration, communication, problem-solving, and creativity are equally important. Developers often work in teams, and effective communication is crucial for understanding and meeting the needs of clients and end-users.
             </div>
-            <div class="tab-pane fade slide-section" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                <p class="about-h2">Our Mission and Vision</p>
-                <br>
-                <p class="about-h22">Mission</p>
-                <br>
-                <p class="about-us">Our primary mission is to help the customers/clients attain their business goals by offering
-                    the highest quality services via designing, development, and implementation of innovative
-                    software products and digital marketing services.</p><br>
-                <p class="about-h22">Vision</p>
-                <p class="about-us">Dream Diver visions to evolve as a top-notch quality-driven and customer-centric
-                    organization in the domains of IT and Digital Marketing via advanced and innovative
-                    technologies and maintaining the ethical standards towards the employees, stakeholders, and
-                    customers.</p>
+            <div class="tab-pane fade slide-section" id="pills-Design" role="tabpanel" aria-labelledby="pills-Design-tab" tabindex="0">
+                After that, create detailed plans on how the custom software will work and look. This stage requires a collaborative approach from both software engineering and design teams.
+
+                System Design
+                This is a detailed blueprint for your software. It describes the system’s components and how they will interact with each other.
+
+                During system design, take these factors into account:
+
+                Functional Requirements: What tasks the software needs to accomplish.
+                Non-Functional Requirements: How efficiently it should operate and the level of security it demands.
+                Restrictions: Any limitations, such as technical or budgetary constraints.
+                Software Architecture Design
+                This phase revolves around determining how each component of the software will be constructed.
+
+                Carefully consider which programming languages, tools, and software development methodologies to employ.
+
+                Your focus should lie in:
+
+                Modularity and Testability: Craft high-level software that’s user-friendly and easy to test.
+                Scalability: Prepare the software to handle increased workloads if required in the future.
 
             </div>
-            <div class="tab-pane fade slide-section" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0"> <p class="about-h3">Our Core Values</p>
-                <p class="about-us">Our core values are the fundamental base for our business culture and business philosophy.
-                    The values define us as a service provider and help us make our decisions and deploy them.</p>
-                <br>
-                <p class="about-h33">Quality</p>
-                <p class="about-us">Dream Diver considers Quality as an implicit business practice. We take huge pride in adding
-                    value to the services and solutions and the best industry practices to our clients and
-                    customers. As an organisation we always stand supportive for the evolving future of our
-                    employees, customer satisfaction, and our growth and profitability. We don’t believe in
-                    shortcuts and we optimize quality through efficient teamwork and a continuous learning
-                    process.</p>
-                <br>
-                <p class="about-h33">Growth and learning</p>
-                <p class="about-us">Dream Diver embraces its journey with the success of its clients and the continuous growth
-                    of the team. We encompass a constant learning process, that helps us to grow as a team, and
-                    as an organization as a whole, and thereby giving us scopes for improvement. We support
-                    and encourage chances for skilled and talented resources to recognise their full potential and
-                    create an ambience where the continuous flow of creative ideas strongly drives us to provide
-                    better services.</p>
-                <p class="about-h33">Integrity and honesty</p>
-                <p class="about-us">We ensure to showcase integrity, honesty, fairness, and openness in our practices and
-                    communications within the organization, and with the stakeholders. Dream Diver respects the
-                    differences in each other providing a safe ambience for every individual and acknowledge in
-                    open communication and transparent work culture.</p>
-                </div>
+            <div class="tab-pane fade slide-section" id="pills-Implementation" role="tabpanel" aria-labelledby="pills-Implementation-tab" tabindex="0">
+                <p class="text-head">Implementation</p>
+            </div>
+            <div class="tab-pane fade slide-section" id="pills-Verification" role="tabpanel" aria-labelledby="pills-Verification-tab" tabindex="0">
+                <p class="text-head">Verification</p>
+
+            </div>
+
+            <div class="tab-pane fade slide-section" id="pills-Maintenance" role="tabpanel" aria-labelledby="pills-Maintenance-tab" tabindex="0">
+                <p class="text-head">Maintenance</p>
+
+            </div>
         </div>
 
     </div>
