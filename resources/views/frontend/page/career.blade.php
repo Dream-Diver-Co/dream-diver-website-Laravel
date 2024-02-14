@@ -58,7 +58,7 @@
                                                 <textarea name="" id="" cols="55" rows="3" placeholder="Note"></textarea>
                                             </div>
                                             <button>
-                                                Create Ticket
+                                                Submit
                                             </button>
                                             </p>
                                         </div>
@@ -77,21 +77,21 @@
                                       <div class="carousel-item active" style="text-align: center;">
                                         <h5 class="custom-title">frequently asked questions !</h5>
                                         <p>A frequently asked questions page—or an FAQ page for short—is a key part of a knowledge base because it addresses your customers' most common questions and is useful at all stages of the customer journey. FAQs start with a question and then provide a concise answer.</p>
-                                        <a href="faq.html">
+                                        <a href="{{ route('faq') }}">
                                             <button class="custom-btn">FAQ</button>
                                           </a>
                                       </div>
                                       <div class="carousel-item" style="text-align: center;">
                                         <h5 class="custom-title">Contact Us!</h5>
                                         <p>We’re starting off this list with our very own page. Help Scout's contact page shows how contact us forms can help you provide an effortless support experience</p>
-                                        <a href="contact.html">
+                                        <a href="{{ route('contact') }}">
                                             <button class="custom-btn">Contact</button>
                                           </a>
                                       </div>
                                       <div class="carousel-item" style="text-align: center;">
                                         <h5 class="custom-title">Career</h5>
                                         <p>Search Engine Optimization, contact us for details</p>
-                                        <a href="career.html">
+                                        <a href="{{ route('career') }}">
                                             <button class="custom-btn">Career</button>
                                           </a>
                                       </div>
