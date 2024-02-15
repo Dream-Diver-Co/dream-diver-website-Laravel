@@ -30,7 +30,7 @@
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="card-body ticket-card">
-                            <div class="form-row justify-content-between" style="display: none">
+                            <div class="form-row justify-content-between display-none" >
                                 <div class="col-lg-12">
                                     <div class="form-group form-row">
                                             <label for="inputAddress2" class="col-3 text-right">Ticket creator Id (hide):</label>
@@ -38,7 +38,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-row justify-content-between" style="display: none">
+                            <div class="form-row justify-content-between display-none" >
                                 <div class="col-lg-12">
                                     <div class="form-group form-row">
                                         <label for="inputAddress2" class="col-3 text-right">User Email (hide)</label>
@@ -49,8 +49,9 @@
                             <div class="form-row justify-content-between">
                                 <div class="col-lg-12">
                                     <div class="form-group form-row">
-                                        <label for="inputAddress2" class="col-3 text-right">Issue: </label>
-                                        <input type="text"  name="issue"  class="form-control col-5" id="inputAddress2" placeholder="">
+                                        <label for="inputAddress2" class="col-3 text-right">Your Question: </label>
+                                        <textarea name="issue" class="form-control col-5" id="inputAddress2" placeholder=""></textarea>
+
                                     </div>
                                 </div>
                             </div>

@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('ticket_id');
             $table->string('comment_user_id');
-            $table->string('comment');
+            $table->text('comment');
 
             $table->timestamps();
         });

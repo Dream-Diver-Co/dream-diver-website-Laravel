@@ -30,46 +30,51 @@
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="card-body ticket-card">
-                            <div class="form-row justify-content-between" style="display: none">
+                            <div class="form-row justify-content-between display-none" >
                                 <div class="col-lg-12">
                                     <div class="form-group form-row">
                                         <label for="inputAddress2" class="col-3 text-right">Ticket id (hidden)</label>
-                                        <input type="text"  name="ticket_id"  class="form-control col-5" id="inputAddress2" value="{{ $ticket->id}}" readonly>
+                                        <input type="text"  name="ticket_id"  class="form-control col-9" id="inputAddress2" value="{{ $ticket->id}}" readonly>
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-row justify-content-between" style="display: none">
+                            <div class="form-row justify-content-between display-none" >
                                 <div class="col-lg-12">
                                     <div class="form-group form-row">
                                         <label for="inputAddress2" class="col-3 text-right">User id (hidden)</label>
-                                        <input type="text" name="user_id" class="form-control col-5" id="inputAddress2" value="{{ auth()->user()->id }}" readonly>
+                                        <input type="text" name="user_id" class="form-control col-9" id="inputAddress2" value="{{ auth()->user()->id }}" readonly>
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-row justify-content-between">
+                            <div class="form-row justify-content-between display-none">
                                 <div class="col-lg-12">
                                     <div class="form-group form-row">
                                         <label for="inputAddress2" class="col-3 text-right">User Email</label>
-                                        <input type="text"  name="email"  class="form-control col-5" id="inputAddress2" value="{{ $ticket->email}}" readonly>
+                                        <input type="text"  name="email"  class="form-control col-9" id="inputAddress2" value="{{ $ticket->email}}" readonly>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-row justify-content-between">
                                 <div class="col-lg-12">
                                     <div class="form-group form-row">
-                                        <label for="inputAddress2" class="col-3 text-right">Issue</label>
-                                        <input type="text"  name="issue"  class="form-control col-5" id="inputAddress2" value="{{ $ticket->issue}}"  placeholder="" readonly>
+                                        <label for="inputAddress2" class="col-3 text-right">Your Question:</label>
+                                        <textarea name="issue" class="form-control col-9" id="inputAddress2" placeholder="" readonly>{{ $ticket->issue }}</textarea>
                                     </div>
+
                                 </div>
                             </div>
                             <div class="form-row justify-content-between">
                                 <div class="col-lg-12">
+
                                     <div class="form-group form-row">
-                                        <label for="inputAddress2" class="col-3 text-right">Atached files</label><br>
+                                        <label for="inputAddress2" class="col-3 text-right">Attached files</label><br>
                                         @foreach($attachments as $attachment)
-                                            <img src="{{ asset('storage/' .$attachment->attachment_name) }}" alt="image"  class="ticket-img col-5">
+                                            <a href="{{ asset('storage/' . $attachment->attachment_name) }}" target="_blank">
+                                                <img src="{{ asset('storage/' . $attachment->attachment_name) }}" alt="image" class="ticket-img mr-1">
+                                            </a>
                                         @endforeach
                                     </div>
+
 
                                 </div>
                             </div>
@@ -94,7 +99,7 @@
                                 <div class="col-lg-12">
                                     <div class="form-group form-row">
                                     <label for="inputAddress2" class="col-3 text-right">Ticket comment history</label>
-                                    <table class="table table-bordered table-striped col-5">
+                                    <table class="table table-bordered table-striped col-9">
                                         <thead>
                                             <tr>
                                                 <th>Ticket Creator</th>
@@ -105,11 +110,18 @@
                                             @foreach ($ticket_history as $history)
                                                 <tr>
                                                     @if($history->comment_user_id != 1)
-                                                        <td class="table-success">{{$history->comment}}</td>
-                                                        <td></td>
+                                                    <td class="table-success">
+                                                        {{$history->comment}}<br>
+                                                        <span class="time-style">{{ \Carbon\Carbon::parse($history->created_at)->format('h:i A, j F Y') }}</span>
+                                                    </td>
+
+                                                        <td ></td>
                                                     @else
                                                         <td></td>
-                                                        <td class="table-info">{{$history->comment}}</td>
+                                                        <td class="table-info">
+                                                            {{$history->comment}}<br>
+                                                        <span class="time-style">{{ \Carbon\Carbon::parse($history->created_at)->format('h:i A, j F Y') }}</span>
+                                                        </td>
                                                     @endif
                                                 </tr>
                                             @endforeach
@@ -122,7 +134,7 @@
                                 <div class="col-lg-12">
                                     <div class="form-group form-row">
                                         <label for="inputAddress2" class="col-3 text-right">Comment for ticket</label>
-                                        <input type="text"  name="comment"  class="form-control col-5" id="inputAddress2" value=""  placeholder="">
+                                        <textarea type="text"  name="comment"  class="form-control col-9" id="inputAddress2" value=""  placeholder=""></textarea>
                                     </div>
                                 </div>
                             </div>
