@@ -1,3 +1,4 @@
+
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
     <a href="{{ route('index') }}" class="navbar-brand d-flex align-items-center">
@@ -43,7 +44,7 @@
             <a href="{{ route('review') }}" class="nav-item nav-link">Review</a>
             {{-- <a href="{{ route('loginfromfrontend') }}" class="nav-item nav-link">Login</a> --}}
 
-            @if (auth()->check())
+            {{-- @if (auth()->check())
             <!-- User is logged in, show logout link -->
             <a class="nav-link" href="" role="button" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                 Logout
@@ -55,10 +56,117 @@
             @else
                 <!-- User is not logged in, show login link -->
                 <a href="{{ route('loginfromfrontend') }}" class="nav-item nav-link">Login</a>
-            @endif
+            @endif --}}
 
+            <div class="dropdown">
+                <a class="dropbtn nav-item nav-link" onclick="showLoginModal()">Login<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <div class="dropdown-content">
+                    <a onclick="showLoginModal()" style="width:auto;">Login</a>
+                    <a onclick="showRegisterModal()" style="width:auto;">Registrar</a>
+                </div>
+            </div>
 
         </div>
     </div>
 </nav>
 <!-- Navbar End -->
+
+    <!-- modal -->
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="{{ route('login') }}" method="post">
+            @csrf
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="{{ asset('frontend/img/logo.png') }}" alt="logo" class="avatar">
+          </div>
+
+          <div class="container">
+            <div class="input-group">
+                <i class='bx bxs-user'></i>
+                <input type="text" placeholder="Username" name="email">
+            </div>
+            <div class="input-group">
+                <i class='bx bxs-lock-alt'></i>
+                <input type="password" placeholder="Password" name="password">
+            </div>
+
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+    </div>
+
+    <div id="id02" class="modal">
+
+        <form class="modal-content animate" action="{{ route('register') }}" method="post">
+            @csrf
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="{{ asset('frontend/img/logo.png') }}" alt="logo" class="avatar">
+          </div>
+
+          <div class="container">
+            <div class="input-group">
+                <i class='bx bxs-user'></i>
+                <input type="text" placeholder="Username" name="name">
+            </div>
+            <div class="input-group">
+                <i class='bx bx-mail-send'></i>
+                <input type="email" placeholder="Email"  name="email">
+            </div>
+            <div class="input-group">
+                <i class='bx bxs-lock-alt'></i>
+                <input type="password" placeholder="Password"  name="password">
+            </div>
+            <div class="input-group">
+                <i class='bx bxs-lock-alt'></i>
+                <input type="password" placeholder="Confirm password" name="password_confirmation">
+            </div>
+
+            <button type="submit">Registrar</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+    </div>
+      <!-- modal -->
+      <script>
+        // Get the login modal
+        var loginModal = document.getElementById('id01');
+        // Get the register modal
+        var registerModal = document.getElementById('id02');
+
+        // When the user clicks anywhere outside of the login modal, close it
+        window.onclick = function(event) {
+            if (event.target == loginModal) {
+                loginModal.style.display = "none";
+            }
+        }
+
+        // Function to show login modal and hide register modal
+        function showLoginModal() {
+            loginModal.style.display = "block";
+            registerModal.style.display = "none"; // hide register modal
+        }
+
+        // Function to show register modal and hide login modal
+        function showRegisterModal() {
+            loginModal.style.display = "none"; // hide login modal
+            registerModal.style.display = "block";
+        }
+    </script>
+

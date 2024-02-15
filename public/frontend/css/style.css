@@ -138,10 +138,10 @@ body {
 .navbar .navbar-nav .nav-link:hover{
     color: white !important;
     background-color: #010A35;
-    border-radius: 5%;
+    border-radius: 20%;
 }
 .navbar .navbar-nav .nav-link.active {
-    color: #ffffff !important;
+    /* color: #ffffff !important; */
 }
 
 .navbar .dropdown-toggle::after {
@@ -204,7 +204,7 @@ body {
   margin-bottom: 5px!important;
 }
 .display-6 {
-  /* padding-bottom: 15px; */
+  padding-bottom: 15px;
   font-size: 30px;
   /* text-shadow: 0px 5px 5px #3f6ce9; */
 }
@@ -406,7 +406,7 @@ body {
   background: #1f1f47;
   width: 100%;
   max-width: 97%;
-  height: 96%;
+  height: 93%;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -701,14 +701,14 @@ body {
     filter: blur(5px);
     z-index: -1;
   }
-  .flip-text{
+  .flip-text {
     /* text-align: center !important;
     font-weight: 900 !important;
     margin-top: -203px;
     z-index: -1; */
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.4);
-    color: white;
+    color: white !important;
     font-weight: bold;
     border: 3px solid #f0eaea;
     position: absolute;
@@ -720,12 +720,15 @@ body {
     padding: 20px;
     text-align: center;
   }
+  .flip-text h2{
+    color: white !important;
+  }
   .flip-btn{
     padding-left: 5px;
     border-radius: 5px;
-    background-color: #EFEFEF;
-    box-shadow: rgba(0, 0, 0, 0.35) 3px 3px 5px 2px;
-    border: teal;
+    background-color: #1F1F47;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 3px 3px 5px 2px; */
+    /* border: teal; */
     font-weight: 900;
   }
  .img-service{
@@ -1337,7 +1340,10 @@ body {
     transition-delay: 1s;
   }
   .ticket-form{
-    height: 658px !important;
+    height: 696px !important;
+  }
+  .ticket-form h2{
+    margin-top: 200px !important;
   }
 
   .input-group {
@@ -2036,13 +2042,14 @@ p {
     font-weight:bolder;
     font-size: x-large;
   }
-  .Subscribe {
-    width: 130px;
-    height: 40px;
+  .Subscribe{
+    width: 130px !important;
+    height: 40px !important;
     border-radius: 20px;
     background-color: black;
     color: white;
     font-size: larger;
+    padding: 5px;
 }
 .from-head{
     font-size: xx-large !important;
@@ -2054,4 +2061,8 @@ p {
 {
     font-size: xx-large;
     font-weight: 900;
+}
+.text-two{
+    font-size: large;
+    font-weight: 700;
 }

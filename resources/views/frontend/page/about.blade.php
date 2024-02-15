@@ -31,10 +31,10 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <p class="about-h1">Our History</p>
+                <p class="text-head">Our History</p>
 
-                <p class="about-h11">Our Birth</p>
-                <p class="about-us">
+                <p class="text-two">Our Birth</p>
+                <p>
                     We started our journey in 2017 in Rotterdam, Netherlands. Initially, the founder, M A Hasan,
                     started Dream Diver with the motive of offering IT services and solutions. But after three
                     years, he has diversified his organization in the field of Digital Marketing, with Content
@@ -44,15 +44,15 @@
                     the country to seek employment.
                 </p>
                 <br>
-                <p class="about-us">
+                <p>
                     After three years of hard work, dedication, and passion, we have gained satisfied customers
                     on the market along with a skilled team catering to the demands of every client. Our
                     experience, knowledge, and skill also evolved along with the growth of Dream Diver. The
                     end-to-end solutions offered by us along with our solid delivery and implementation
                 </p>
                 <br>
-                <p class="about-h11">Who We Are</p>
-                <p class="about-us">We are a team of young professionals with high skills and expertise in the field. In the span
+                <p class="text-two">Who We Are</p>
+                <p>We are a team of young professionals with high skills and expertise in the field. In the span
                 of three years, we have helped several clients achieve their business goals through scalable,
                 and optimized IT and Digital Marketing services and solutions. The end-to-end solution
                 offered by us along with our solid delivery and implementation system assures optimized
@@ -61,30 +61,31 @@
                 all your business needs seamlessly.
                 </p>
 
-                <p class="about-us">If you are looking for extra information, you can write to us and we will help you get
+                <p>If you are looking for extra information, you can write to us and we will help you get
                     enlightened about us.
                 </p>
             </div>
             <div class="tab-pane fade slide-section" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                <p class="about-h2">Our Mission and Vision</p>
+                <p class="text-head">Our Mission and Vision</p>
                 <br>
-                <p class="about-h22">Mission</p>
+                <p class="text-two">Mission</p>
                 <br>
                 <p class="about-us">Our primary mission is to help the customers/clients attain their business goals by offering
                     the highest quality services via designing, development, and implementation of innovative
                     software products and digital marketing services.</p><br>
-                <p class="about-h22">Vision</p>
+                <p class="text-two">Vision</p>
                 <p class="about-us">Dream Diver visions to evolve as a top-notch quality-driven and customer-centric
                     organization in the domains of IT and Digital Marketing via advanced and innovative
                     technologies and maintaining the ethical standards towards the employees, stakeholders, and
                     customers.</p>
 
             </div>
-            <div class="tab-pane fade slide-section" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0"> <p class="about-h3">Our Core Values</p>
+            <div class="tab-pane fade slide-section" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                <p class="text-head">Our Core Values</p>
                 <p class="about-us">Our core values are the fundamental base for our business culture and business philosophy.
                     The values define us as a service provider and help us make our decisions and deploy them.</p>
                 <br>
-                <p class="about-h33">Quality</p>
+                <p class="text-two">Quality</p>
                 <p class="about-us">Dream Diver considers Quality as an implicit business practice. We take huge pride in adding
                     value to the services and solutions and the best industry practices to our clients and
                     customers. As an organisation we always stand supportive for the evolving future of our
@@ -92,14 +93,14 @@
                     shortcuts and we optimize quality through efficient teamwork and a continuous learning
                     process.</p>
                 <br>
-                <p class="about-h33">Growth and learning</p>
+                <p class="text-two">Growth and learning</p>
                 <p class="about-us">Dream Diver embraces its journey with the success of its clients and the continuous growth
                     of the team. We encompass a constant learning process, that helps us to grow as a team, and
                     as an organization as a whole, and thereby giving us scopes for improvement. We support
                     and encourage chances for skilled and talented resources to recognise their full potential and
                     create an ambience where the continuous flow of creative ideas strongly drives us to provide
                     better services.</p>
-                <p class="about-h33">Integrity and honesty</p>
+                <p class="text-two">Integrity and honesty</p>
                 <p class="about-us">We ensure to showcase integrity, honesty, fairness, and openness in our practices and
                     communications within the organization, and with the stakeholders. Dream Diver respects the
                     differences in each other providing a safe ambience for every individual and acknowledge in
