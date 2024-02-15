@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('ticket_creator_id')->nullable();
             $table->string('email')->nullable();
-            $table->string('issue')->nullable();
+            $table->text('issue')->nullable();
             $table->string('status')->nullable();
             $table->timestamps();
         });
