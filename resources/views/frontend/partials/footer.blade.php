@@ -32,7 +32,9 @@
                     <a class="btn btn-square rounded-circle me-1" href="https://www.linkedin.com/company/dream-diver-nl/"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <br>
-                <button class="Subscribe">Subscribe</button>
+                <a href="https://www.youtube.com/@DreamDiverIT">
+                    <button class="Subscribe">Subscribe</button>
+                </a>
             </div>
         </div>
     </div>

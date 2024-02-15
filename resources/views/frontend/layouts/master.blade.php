@@ -41,6 +41,8 @@
     {{-- <link href="{{ asset('frontend') }}/css/style.css" rel="stylesheet"> --}}
         <!-- custome Stylesheet -->
     <link href="{{ asset('frontend/css/custome.css') }}" rel="stylesheet">
+    {{-- modal --}}
+    <link href="{{ asset('frontend/css/modal.css') }}" rel="stylesheet">
 
 
 </head>

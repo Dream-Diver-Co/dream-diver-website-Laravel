@@ -145,7 +145,7 @@
                                   <span class="visually-hidden">Next</span>
                                 </button>
                               </div>
-                                <a href="contact.html">
+                                <a href="{{ route('contact') }}">
                                     <button class="custom-btn">Contact Us</button>
                                   </a>
                         </div>
@@ -167,42 +167,42 @@
          <div class="owl-carousel owl-theme">
             <div >
                 <div >
-                    <a href="aeon.html">
+                    <a href="{{ route('aeon') }}">
                         <img src="{{ asset('frontend/img/aeon.png') }}" alt="aeon" class="card-img-top img-fluid">
                     </a>
                 </div>
             </div>
             <div >
                 <div >
-                   <a href="misi.html">
+                   <a href="{{ route('misi') }}">
                     <img src="{{ asset('frontend/img/misilogo.png') }}" alt="misi" class="card-img-top">
                    </a>
                 </div>
             </div>
             <div >
                 <div >
-                    <a href="pos.html">
+                    <a href="{{ route('pos') }}">
                         <img src="{{ asset('frontend/img/pos.png') }}" alt="pos" class="card-img-top img-fluid">
                     </a>
                 </div>
             </div>
             <div >
                 <div >
-                    <a href="aeon.html">
+                    <a href="{{ route('aeon') }}">
                         <img src="{{ asset('frontend/img/aeon.png') }}" alt="aeon" class="card-img-top img-fluid">
                     </a>
                 </div>
             </div>
             <div >
                 <div >
-                    <a href="misi.html">
+                    <a href="{{ route('misi') }}">
                         <img src="{{ asset('frontend/img/misilogo.png') }}" alt="misi" class="card-img-top img-fluid">
                     </a>
                 </div>
             </div>
             <div >
                 <div >
-                    <a href="pos.html">
+                    <a href="{{ route('pos') }}">
                         <img src="{{ asset('frontend/img/pos.png') }}" alt="pos" class="card-img-top img-fluid">
                     </a>
                 </div>

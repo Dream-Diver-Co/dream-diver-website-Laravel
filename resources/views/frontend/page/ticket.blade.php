@@ -137,7 +137,9 @@
                                         <h2>Create Ticket with conversation, Please login/Register.</h2>
 
                                         <h3 class="mt-3">
-                                            <a href="{{ route('loginfromfrontend') }}" class="nav-item ticket-page-login-btn">LOGIN</a>
+                                            <a class="nav-item ticket-page-login-btn" onclick="showLoginModal()" style="width:auto;">Login</a>
+                                            <br><br>
+                                            <a class="nav-item ticket-page-login-btn" onclick="showRegisterModal()" style="width:auto;">Registrar</a>
                                         </h3>
                                     </div>
                                 </div>
