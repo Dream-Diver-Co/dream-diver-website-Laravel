@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\HomeService;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class HomeServiceController extends Controller
 {
@@ -42,11 +43,10 @@ class HomeServiceController extends Controller
         $home_service->status = $data['status'];
         $home_service->save();
 
+        Alert::success('Success', 'Home page service created successfully!');
 
-
-        return redirect()->back()->with('success', 'Home service created successfully!');
+        return redirect()->route('home_service_index')->with('success', 'Home service created successfully!');
     }
-
 
 
     public function edit($id)

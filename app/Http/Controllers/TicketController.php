@@ -8,6 +8,7 @@ use App\Models\Tickethistory;
 use Illuminate\Http\Request;
 use App\Http\Requests\StoreTicketRequest;
 use App\Http\Requests\UpdateTicketRequest;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class TicketController extends Controller
 {
@@ -73,12 +74,9 @@ class TicketController extends Controller
             }
         }
 
+        Alert::success('Success', 'Ticket created successfully!');
 
-
-
-
-
-        return redirect()->back()->with('success', 'Ticket created successfully!');
+        return redirect()->route('myticket')->with('success', 'Ticket created successfully!');
     }
 
     /**
@@ -86,7 +84,7 @@ class TicketController extends Controller
      */
     public function show(Ticket $ticket)
     {
-        //
+
     }
 
 
@@ -114,6 +112,7 @@ class TicketController extends Controller
         $ticket->status = $data['status'];
         $ticket->save();
 
+        Alert::success('Ticket Updated', 'Ticket created successfully!');
 
 
         return redirect()->back()->with('success', 'Ticket Updated successfully!');
@@ -124,6 +123,9 @@ class TicketController extends Controller
      */
     public function destroy(Ticket $ticket)
     {
-        //
+        $ticket->delete();
+
+        // You can add a redirect or any other logic after the deletion.
+        return redirect()->route('tickets.index')->with('success', 'Ticket deleted successfully');
     }
 }

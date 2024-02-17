@@ -33,7 +33,7 @@
                         <th scope="col">sl</th>
                         <th scope="col">Ticket user email</th>
                         <th scope="col">Issue</th>
-                        <th scope="col">Status</th>
+                        {{-- <th scope="col">Status</th> --}}
                         <th scope="col">View</th>
                         {{-- <th scope="col">Delete</th> --}}
                       </tr>
@@ -48,7 +48,7 @@
                         <th scope="row">{{ $sl++ }}</th>
                         <td>{{ $ticket->email; }}</td>
                         <td>{{ $ticket->issue; }}</td>
-                        <td>{{ $ticket->status; }}</td>
+                        {{-- <td>{{ $ticket->status; }}</td> --}}
                         {{-- <td><a href="{{ route('projects.edit', ['id' => $project->id]) }}">edit</a></td> --}}
                         <td><a href="{{ route('tickets.edit', ['ticket' => $ticket->id]) }}">View</a></td>
 
