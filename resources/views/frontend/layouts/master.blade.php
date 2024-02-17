@@ -87,7 +87,9 @@
         $('.owl-carousel').owlCarousel({
             loop:true,
             margin:10,
-            nav:true,
+            nav:false,
+            dots:false,
+            autoplay:true,
             responsive:{
                 0:{
                     items:1 // Display 1 item on small screens
@@ -100,6 +102,8 @@
                 }
             }
         });
+
+        $('.owl-carousel').css('display', 'block');
     </script>
 
     <script type="application/ld+json">
