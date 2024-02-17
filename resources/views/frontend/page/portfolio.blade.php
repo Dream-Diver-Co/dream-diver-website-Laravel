@@ -25,10 +25,6 @@
                 <h1 class="display-6">OUR WORKS</h1>
             </div>
             <div class="row g-4 justify-content-center">
-                @php
-                    $projects = App\Models\Project::where('status', 'on')->get();
-                @endphp
-
                 @foreach ( $projects as $project )
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">

@@ -3,12 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\HomeService;
+use App\Models\Project;
+use App\Models\Faq;
 
 class FrontendController extends Controller
 {
     public function index() {
-        return view('frontend.index');
+        $services = HomeService::where('status', 'on')->get();
+        return view('frontend.index', compact('services'));
     }
+
     public function contact() {
         return view('frontend.page.contact');
     }
@@ -22,7 +27,8 @@ class FrontendController extends Controller
     }
 
     public function portfolio() {
-        return view('frontend.page.portfolio');
+        $projects = Project::where('status', 'on')->get();
+        return view('frontend.page.portfolio', compact('projects'));
     }
 
     public function ticket() {
@@ -30,7 +36,8 @@ class FrontendController extends Controller
     }
 
     public function faq() {
-        return view('frontend.page.faq');
+        $faqs = Faq::where('status', 'on')->get();
+        return view('frontend.page.faq', compact('faqs'));
     }
 
     public function career() {
