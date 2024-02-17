@@ -126,28 +126,18 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="container">
-                        <!-- FORM SECTION -->
-                        <div class="row">
-                            <!-- SIGN IN -->
-                            <div class="col align-items-center flex-col sign-in">
-                                <div class="form-wrapper slide-benar align-items-center">
-                                    <div class="form ticket-form sign-in">
-                                        <h2 class="mt-4">Create Ticket with conversation, Please login/Register.</h2>
+                <div class="col-lg-6 wow fadeInUp align-items-center " data-wow-delay="0.5s">
+                    <div class="small-container slide-benar">
+                        <div class="custom-card">
+                            <p class="ticket-head">Create Ticket with conversation, Please login/Register.</p>
 
-                                        <h3 class="mt-3">
-                                            <a class="nav-item ticket-page-login-btn" onclick="showLoginModal()" style="width:auto;">Login</a>
-                                            <br><br>
-                                            <a class="nav-item ticket-page-login-btn" onclick="showRegisterModal()" style="width:auto;">Registrar</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- END SIGN IN -->
+                            <p class="mt-3">
+                                <button class="nav-item ticket-page-login-btn" onclick="showLoginModal()" style="width:auto;">Login</button>
+                                <br>
+                                <button class="nav-item ticket-page-login-btn" onclick="showRegisterModal()" style="width:auto;">Registrar</button>
+                            </p>
                         </div>
-                        <!-- END FORM SECTION -->
+                        <div class="custom-blob"></div>
                     </div>
                 </div>
             </div>

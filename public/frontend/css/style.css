@@ -406,7 +406,7 @@ body {
   background: #1f1f47;
   width: 100%;
   max-width: 97%;
-  height: 93%;
+  height: 95%;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -1298,6 +1298,7 @@ body {
     position: relative;
     /* min-height: 100vh; */
     overflow: hidden;
+    z-index: 0;
   }
   .container-co{
     max-width:100%;
@@ -1338,6 +1339,7 @@ body {
     /* transform: scale(0); */
     transition: .5s ease-in-out;
     transition-delay: 1s;
+    height: 99%;
   }
   .ticket-form{
     height: 696px !important;
@@ -2026,11 +2028,11 @@ p {
     }
 
     .whatsapp_float {
-      width: 40px;
-      height: 40px;
-      bottom: 20px;
-      right: 10px;
-      font-size: 22px;
+    width: 45px;
+    height: 45px;
+    bottom: 89px;
+    right: 34px;
+    font-size: 22px;
     }
   }
 
@@ -2053,6 +2055,10 @@ p {
 }
 .from-head{
     font-size: xx-large !important;
+    font-weight: 900;
+}
+.ticket-head{
+    font-size:larger !important;
     font-weight: 900;
 }
 
