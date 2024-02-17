@@ -165,48 +165,46 @@
     <div class="container">
         <div class="row owl-carousel-row">
          <div class="owl-carousel owl-theme">
-            <div >
-                <div >
+
+                <div class="item">
                     <a href="{{ route('aeon') }}">
                         <img src="{{ asset('frontend/img/aeon.png') }}" alt="aeon" class="card-img-top img-fluid">
                     </a>
                 </div>
-            </div>
-            <div >
-                <div >
-                   <a href="{{ route('misi') }}">
-                    <img src="{{ asset('frontend/img/misilogo.png') }}" alt="misi" class="card-img-top">
-                   </a>
-                </div>
-            </div>
-            <div >
-                <div >
-                    <a href="{{ route('pos') }}">
-                        <img src="{{ asset('frontend/img/pos.png') }}" alt="pos" class="card-img-top img-fluid">
-                    </a>
-                </div>
-            </div>
-            <div >
-                <div >
-                    <a href="{{ route('aeon') }}">
-                        <img src="{{ asset('frontend/img/aeon.png') }}" alt="aeon" class="card-img-top img-fluid">
-                    </a>
-                </div>
-            </div>
-            <div >
-                <div >
+                <div class="item">
                     <a href="{{ route('misi') }}">
-                        <img src="{{ asset('frontend/img/misilogo.png') }}" alt="misi" class="card-img-top img-fluid">
+                        <img src="{{ asset('frontend/img/misilogo.png') }}" alt="misi" class="card-img-top">
                     </a>
                 </div>
-            </div>
-            <div >
-                <div >
+                <div class="item">
                     <a href="{{ route('pos') }}">
                         <img src="{{ asset('frontend/img/pos.png') }}" alt="pos" class="card-img-top img-fluid">
                     </a>
                 </div>
-            </div>
+                <div >
+                    <div >
+                        <a href="{{ route('aeon') }}">
+                            <img src="{{ asset('frontend/img/aeon.png') }}" alt="aeon" class="card-img-top img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div >
+                    <div >
+                        <a href="{{ route('misi') }}">
+                            <img src="{{ asset('frontend/img/misilogo.png') }}" alt="misi" class="card-img-top img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div >
+                    <div >
+                        <a href="{{ route('pos') }}">
+                            <img src="{{ asset('frontend/img/pos.png') }}" alt="pos" class="card-img-top img-fluid">
+                        </a>
+                    </div>
+                </div>
+            
+
+
 
           </div>
         </div>
