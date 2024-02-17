@@ -60,6 +60,8 @@
 </div>
 <!-- ./wrapper -->
 
+@include('sweetalert::alert')
+
 <!-- jQuery -->
 {{-- <script src="plugins/jquery/jquery.min.js"></script> --}}
 <script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>

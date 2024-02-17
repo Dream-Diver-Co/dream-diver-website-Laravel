@@ -239,7 +239,7 @@
                                 </div>
                             </div>
 
-                            @endforeach ()
+                            @endforeach
 
 
                         </div>
