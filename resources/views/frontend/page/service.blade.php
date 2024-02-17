@@ -22,7 +22,7 @@
     <div class="container-xxl py-5">
         <div>
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-                <p class="display-6">We Provide professional IT Software Development & Services</p>
+                <h1>We Provide professional IT Software Development & Services</h1>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">

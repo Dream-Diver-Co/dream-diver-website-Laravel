@@ -22,7 +22,7 @@
     <div class="container-xxl py-5">
         <div>
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="display-6">OUR WORKS</h1>
+                <h1>OUR WORKS</h1>
             </div>
             <div class="row g-4 justify-content-center">
                 @foreach ( $projects as $project )
