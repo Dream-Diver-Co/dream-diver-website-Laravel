@@ -85,23 +85,27 @@
      <!-- owl carousel -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
      <script>
-         $('.owl-carousel').owlCarousel({
-             loop:true,
-             margin:10,
-             nav:true,
-             responsive:{
-                 0:{
-                     items:1
-                 },
-                 600:{
-                     items:2
-                 },
-                 1000:{
-                     items:4
-                 }
-             }
-         })
-     </script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            dots:false,
+            autoplay:true,
+            responsive:{
+                0:{
+                    items:1 // Display 1 item on small screens
+                },
+                600:{
+                    items:2 // Display 1 item on medium screens
+                },
+                1000:{
+                    items:4 // Display 1 item on large screens
+                }
+            }
+        });
+
+        $('.owl-carousel').css('display', 'block');
+    </script>
 
     <script type="application/ld+json">
         {

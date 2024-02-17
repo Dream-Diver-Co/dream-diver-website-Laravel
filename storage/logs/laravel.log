@@ -279,7 +279,7 @@
 #52 C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #53 C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\projects\\\\dre...')
 #54 {main}
-"} 
+"}
 [2024-02-15 08:56:34] local.ERROR: Class "HomeService" not found {"view":{"view":"C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\resources\\views\\frontend\\index.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-2085185999 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#298</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
@@ -395,7 +395,7 @@
 #50 C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #51 C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\projects\\\\dre...')
 #52 {main}
-"} 
+"}
 [2024-02-15 09:00:24] local.ERROR: Undefined variable $attachment {"view":{"view":"C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\resources\\views\\frontend\\index.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1518213373 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#298</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
@@ -515,7 +515,7 @@
 #52 C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #53 C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\projects\\\\dre...')
 #54 {main}
-"} 
+"}
 [2024-02-15 09:03:01] local.ERROR: syntax error, unexpected single-quoted string " . $service->service_image", expecting ")" {"view":{"view":"C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\resources\\views\\frontend\\index.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-8056927 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#298</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
@@ -629,7 +629,7 @@
 #49 C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #50 C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\projects\\\\dre...')
 #51 {main}
-"} 
+"}
 [2024-02-15 09:03:18] local.ERROR: syntax error, unexpected single-quoted string ")); ?>" alt="Paris">", expecting ")" {"view":{"view":"C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\resources\\views\\frontend\\index.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-2125784204 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#298</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
@@ -743,6 +743,7 @@
 #49 C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #50 C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\projects\\\\dre...')
 #51 {main}
+<<<<<<< HEAD
 "} 
 [2024-02-17 05:28:01] local.ERROR: Route [home_services.index] not defined. {"userId":1,"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [home_services.index] not defined. at C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:479)
 [stacktrace]
@@ -801,3 +802,7 @@
 #52 C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\projects\\\\dre...')
 #53 {main}
 "} 
+=======
+>>>>>>> 9b9a96854e7c11cf44b1bf473127524b5117f0ca
+"}
+>>>>>>> d3d7e3a22bfe55bc330fc1f80f3f3667e833d77b
