@@ -208,10 +208,6 @@
                             <p class="display-6">We Provide professional IT Software Development & Services</p>
                         </div>
                         <div class="row g-4 justify-content-center">
-                            @php
-                                $services = App\Models\HomeService::where('status', 'on')->get();
-                            @endphp
-
                             @foreach ( $services as $service )
 
                             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
