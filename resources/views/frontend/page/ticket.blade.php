@@ -21,7 +21,7 @@
 <section class="py-7">
     <div class="container-xxl py-5">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-            <h1 class="display-6">Ticket for great support track</h1>
+            <h1>Ticket for great support track</h1>
         </div>
         <div class="container">
             <div class="row g-5">
