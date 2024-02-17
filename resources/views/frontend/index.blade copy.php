@@ -165,46 +165,48 @@
     <div class="container">
         <div class="row owl-carousel-row">
          <div class="owl-carousel owl-theme">
-
-                <div class="item">
+            <div >
+                <div >
                     <a href="{{ route('aeon') }}">
                         <img src="{{ asset('frontend/img/aeon.png') }}" alt="aeon" class="card-img-top img-fluid">
                     </a>
                 </div>
-                <div class="item">
-                    <a href="{{ route('misi') }}">
-                        <img src="{{ asset('frontend/img/misilogo.png') }}" alt="misi" class="card-img-top">
-                    </a>
+            </div>
+            <div >
+                <div >
+                   <a href="{{ route('misi') }}">
+                    <img src="{{ asset('frontend/img/misilogo.png') }}" alt="misi" class="card-img-top">
+                   </a>
                 </div>
-                <div class="item">
+            </div>
+            <div >
+                <div >
                     <a href="{{ route('pos') }}">
                         <img src="{{ asset('frontend/img/pos.png') }}" alt="pos" class="card-img-top img-fluid">
                     </a>
                 </div>
+            </div>
+            <div >
                 <div >
-                    <div >
-                        <a href="{{ route('aeon') }}">
-                            <img src="{{ asset('frontend/img/aeon.png') }}" alt="aeon" class="card-img-top img-fluid">
-                        </a>
-                    </div>
+                    <a href="{{ route('aeon') }}">
+                        <img src="{{ asset('frontend/img/aeon.png') }}" alt="aeon" class="card-img-top img-fluid">
+                    </a>
                 </div>
+            </div>
+            <div >
                 <div >
-                    <div >
-                        <a href="{{ route('misi') }}">
-                            <img src="{{ asset('frontend/img/misilogo.png') }}" alt="misi" class="card-img-top img-fluid">
-                        </a>
-                    </div>
+                    <a href="{{ route('misi') }}">
+                        <img src="{{ asset('frontend/img/misilogo.png') }}" alt="misi" class="card-img-top img-fluid">
+                    </a>
                 </div>
+            </div>
+            <div >
                 <div >
-                    <div >
-                        <a href="{{ route('pos') }}">
-                            <img src="{{ asset('frontend/img/pos.png') }}" alt="pos" class="card-img-top img-fluid">
-                        </a>
-                    </div>
+                    <a href="{{ route('pos') }}">
+                        <img src="{{ asset('frontend/img/pos.png') }}" alt="pos" class="card-img-top img-fluid">
+                    </a>
                 </div>
-            
-
-
+            </div>
 
           </div>
         </div>
@@ -218,40 +220,163 @@
                             <p class="display-6">We Provide professional IT Software Development & Services</p>
                         </div>
                         <div class="row g-4 justify-content-center">
-                            @php
-                                $services = App\Models\HomeService::where('status', 'on')->get();
-                            @endphp
-
-                            @foreach ( $services as $service )
-
                             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="service-item">
                                     <a href="{{ route('software_development') }} ">
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
                                               <div class="flip-box-front">
-                                                <img class="img-service" src="{{ asset('storage/' . $service->service_image) }}" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Software Development1.jpg') }}" alt="Paris">
                                               </div>
                                               <div class="flip-box-back">
-                                                <img class="img-service" src=" {{ asset('storage/' . $service->service_image) }} " alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Software Development.jpg') }}" alt="Paris">
                                                 <div class="flip-text">
                                                     <h2>Dream Diver</h2>
-                                                    <p>{{ $service->service_title }}</p>
+                                                    <p>Software Development</p>
                                                     <button class="flip-btn">Read more...</button>
                                                 </div>
                                               </div>
                                             </div>
                                             <div>
-                                                <p class="service-item-text">{{ $service->service_title }}</p>
+                                                <p class="service-item-text">Software Development</p>
                                             </div>
                                         </div>
                                     </a>
                                 </div>
                             </div>
+                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item">
+                                    <a href="{{ route('mobile_app') }} ">
+                                        <div class="flip-box">
+                                            <div class="flip-box-inner">
+                                              <div class="flip-box-front">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Mobile App Development.jpg') }}" alt="Paris">
+                                              </div>
+                                              <div class="flip-box-back">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Mobile App Development1.jpg') }}" alt="Paris">
+                                                <div class="flip-text">
+                                                    <h2>Dream Diver</h2>
+                                                    <p>Mobile App Development</p>
+                                                    <button class="flip-btn">Read more...</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div>
+                                                <p class="service-item-text">Mobile App Development</p>
+                                            </div>
 
-                            @endforeach ()
+                                        </div>
 
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item">
+                                    <a href="{{ route('software_service') }} ">
+                                        <div class="flip-box">
+                                            <div class="flip-box-inner">
+                                              <div class="flip-box-front">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Software Services.jpg') }}" alt="Paris">
+                                              </div>
+                                              <div class="flip-box-back">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Software Services1.jpg') }}" alt="Paris">
+                                                <div class="flip-text">
+                                                    <h2>Dream Diver</h2>
+                                                    <p>Software Services</p>
+                                                    <button class="flip-btn">Read more...</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div>
+                                                <p class="service-item-text">Software Services</p>
+                                            </div>
 
+                                        </div>
+
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item">
+                                    <a href="{{ route('web_design') }} ">
+                                        <div class="flip-box">
+                                            <div class="flip-box-inner">
+                                              <div class="flip-box-front">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Web_Design.jpg') }}" alt="Paris">
+                                              </div>
+                                              <div class="flip-box-back">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Web_Design1.jpg') }}" alt="Paris">
+                                                <div class="flip-text">
+                                                    <h2>Dream Diver</h2>
+                                                    <p>Web Design & Development</p>
+                                                    <button class="flip-btn">Read more...</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div>
+                                                <p class="service-item-text">Web Design & Development</p>
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item">
+                                    <a href="{{ route('seo') }} ">
+                                        <div class="flip-box">
+                                            <div class="flip-box-inner">
+                                              <div class="flip-box-front">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/seo.jpg') }}" alt="Paris">
+                                              </div>
+                                              <div class="flip-box-back">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/seo1.jpg') }}" alt="Paris">
+                                                <div class="flip-text">
+                                                    <h2>Dream Diver</h2>
+                                                    <p>Search Engine Optimization(SEO)</p>
+                                                    <button class="flip-btn">Read more...</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div>
+                                                <p class="service-item-text">Search Engine Optimization(SEO)</p>
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item">
+                                    <a href="{{ route('marketing') }} ">
+                                        <div class="flip-box">
+                                            <div class="flip-box-inner">
+                                              <div class="flip-box-front">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Digital_Marketing.jpg') }}" alt="Paris">
+                                              </div>
+                                              <div class="flip-box-back">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Digital_Marketing1.jpg') }}" alt="Paris">
+                                                <div class="flip-text">
+                                                    <h2>Dream Diver</h2>
+                                                    <p>Digital Marketing</p>
+                                                    <button class="flip-btn">Read more...</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div>
+                                                <p class="service-item-text">Digital Marketing</p>
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
