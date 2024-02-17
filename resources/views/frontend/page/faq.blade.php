@@ -32,19 +32,26 @@
                         <div class="col align-items-center flex-col sign-in">
                             <div class="form-wrapper slide-form align-items-center">
                                     <div class="accordion form sign-in" id="accordionExample">
+
+                                        @foreach ($faqs as $faq )
+
+
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingOne">
                                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    What services does your IT agency provide?
+                                                    {{ $faq->faq_question }}
                                                 </button>
                                             </h2>
                                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    Our IT agency offers a comprehensive range of services, including software development, network infrastructure management, cybersecurity solutions, IT consulting, cloud computing, and technical support. We tailor our services to meet the unique needs of each client, ensuring optimal performance and efficiency.
+                                                    {{ $faq->faq_answer }}
                                                 </div>
                                             </div>
                                         </div>
                                         <br>
+                                        @endforeach
+
+
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingTwo">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
