@@ -280,3 +280,29 @@
 #53 C:\\projects\\dream-diver-website-laravel-official\\dream-diver-website-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\projects\\\\dre...')
 #54 {main}
 "} 
+[2024-02-15 10:21:00] local.ERROR: Out of memory (allocated 20971520) (tried to allocate 20480 bytes) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Out of memory (allocated 20971520) (tried to allocate 20480 bytes) at G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\PolicyMakeCommand.php:1)
+[stacktrace]
+#0 G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(244): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct(message: ''Out of memory ...', code: '0', error: '['type' => 1, '...', traceOffset: '0', traceArgs: '???', trace: '???')
+#1 G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(231): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalErrorFromPhpError(error: '['type' => 1, '...', traceOffset: '0')
+#2 G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure:G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php:254-256}()
+#4 G:\\office\\dream diver new git\\ddyounus\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure:G:\\office\\dream diver new git\\ddyounus\\vendor\\composer\\ClassLoader.php:575-577}(file: ''G:\\\\\\\\office\\\\\\\\dr...')
+#5 G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(239): Composer\\Autoload\\ClassLoader->loadClass(class: ''Illuminate\\\\\\\\Fo...')
+#6 G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(239): is_subclass_of(object_or_class: ''Illuminate\\\\\\\\Fo...', class: ''Symfony\\\\\\\\Compo...')
+#7 G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(263): Illuminate\\Console\\Application->resolve(command: ''Illuminate\\\\\\\\Fo...')
+#8 G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(404): Illuminate\\Console\\Application->resolveCommands(commands: '[0 => 'Illumina...')
+#9 G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(130): Illuminate\\Foundation\\Providers\\ArtisanServiceProvider->Illuminate\\Support\\{closure:G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:403-405}(artisan: '...')
+#10 G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(77): Illuminate\\Console\\Application->bootstrap()
+#11 G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(481): Illuminate\\Console\\Application->__construct(laravel: 'class Illuminat...', events: 'class Illuminat...', version: ''10.43.0'')
+#12 G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): App\\Console\\Kernel->getArtisan()
+#13 Command line code(1): App\\Console\\Kernel->handle(input: 'class Symfony\\\\C...', output: 'class Symfony\\\\C...')
+#14 Command line code(0): {main}()
+#15 {main}
+"} 
+us\\vendor\\symfony\\console\\Application.php(324): Illuminate\\Console\\Application->doRunCommand(command: '...', input: 'class Symfony\\\\C...', output: 'class Symfony\\\\C...')
+#15 G:\\office\\dream diver new git\\ddyounus\\vendor\\symfony\\console\\Application.php(175): Illuminate\\Console\\Application->doRun(input: 'class Symfony\\\\C...', output: 'class Symfony\\\\C...')
+#16 G:\\office\\dream diver new git\\ddyounus\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Illuminate\\Console\\Application->run(input: 'class Symfony\\\\C...', output: 'class Symfony\\\\C...')
+#17 Command line code(1): App\\Console\\Kernel->handle(input: 'class Symfony\\\\C...', output: 'class Symfony\\\\C...')
+#18 Command line code(0): {main}()
+#19 {main}
+"} 
