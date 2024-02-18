@@ -12,7 +12,8 @@ class FrontendController extends Controller
 {
     public function index() {
         $services = HomeService::where('status', 'on')->get();
-        return view('frontend.index', compact('services'));
+        $projects = Project::where('status', 'on')->get();
+        return view('frontend.index', compact('services','projects'));
     }
 
     public function contact() {
@@ -79,6 +80,22 @@ class FrontendController extends Controller
 
     public function registrar(){
         return view('frontend.page.registrar');
+    }
+
+    public function projectsingletest_view($project_id) {
+        $project = Project::find($project_id);
+
+    if (!$project) {
+        abort(404);
+    }
+
+    return view('frontend.page.aeon3', compact('project'));
+
+        // $project = Project::where([
+        //     'id' => $project->id
+        // ])->first();
+        // return view('frontend.page.aeon3', compact('project'));
+
     }
 
     public function aeon() {

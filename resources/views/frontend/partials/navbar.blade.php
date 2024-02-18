@@ -26,7 +26,13 @@
             <div class="dropdown">
                 <a href="{{ route('portfolio') }}" class="dropbtn nav-item nav-link">Portfolio <i class="fa fa-caret-down" aria-hidden="true"></i></a>
                 <div class="dropdown-content">
-                  <a href="{{ route('aeon') }}">Aeon</a>
+                    @php
+                        $projects = App\Models\Project::where('status', 'on')->get();
+                    @endphp
+                   @foreach ( $projects as $project)
+                        <a href="{{ route('projectsingletest', ['project' => $project->id]) }}">{{ $project->project_title }}</a>
+                   @endforeach
+                  <a href="{{ route('aeon') }}">Aeon2</a>
                   <a href="{{ route('pos') }}">Pos</a>
                   <a href="{{ route('misi') }}">Misi</a>
                   <a href="{{ route('shob_khobor') }}">Shob Khobor</a>

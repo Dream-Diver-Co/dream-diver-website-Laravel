@@ -47,6 +47,10 @@ Route::get('/marketing', [FrontendController::class, 'marketing'])->name('market
 
 
 Route::get('/aeon', [FrontendController::class, 'aeon'])->name('aeon');
+//Route::get('/projectsingletest', [FrontendController::class, 'projectsingletest_view'])->name('projectsingletest');
+Route::get('/projectsingletest/{project}', [FrontendController::class, 'projectsingletest_view'])->name('projectsingletest');
+
+
 Route::get('/pos', [FrontendController::class, 'pos'])->name('pos');
 Route::get('/misi', [FrontendController::class, 'misi'])->name('misi');
 Route::get('/shob_khobor', [FrontendController::class, 'shobKhobor'])->name('shob_khobor');

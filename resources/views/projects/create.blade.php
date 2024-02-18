@@ -47,6 +47,46 @@
                     <input type="text"  name="project_link"  class="form-control" id="inputAddress2" placeholder="">
                 </div>
 
+
+
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Project Cover Photo upload</label>
+                    <input type="file" id="img" name="project_cover_photo" accept="image/*" class="form-control" placeholder="">
+                </div>
+                {{-- <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Project title</label>
+                    <input type="text" name="project_title" class="form-control" id="inputAddress2" placeholder="">
+                </div> --}}
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Project Description </label>
+                    <input type="text" name="project_description" class="form-control" id="inputAddress2" placeholder="">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Project Short Description</label>
+                    <input type="text" name="project_short_description" class="form-control" id="inputAddress2" placeholder="">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Project video link</label>
+                    <input type="text" name="project_video_link" class="form-control" id="inputAddress2" placeholder="">
+                </div>
+                {{-- <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Project Link</label>
+                    <input type="text" name="project_link" class="form-control" id="inputAddress2" placeholder="">
+                </div> --}}
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Client Review</label>
+                    <input type="text" name="project_client_review" class="form-control" id="inputAddress2" placeholder="">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Client Video Review</label>
+                    <input type="text" name="project_client_video_review" class="form-control" id="inputAddress2" placeholder="">
+                </div>
+
+
+
+
+
+
                 <div class="col-12">
                     <label for="inputAddress2" class="form-label">Status</label>
                     <div class="form-check">
@@ -58,6 +98,8 @@
                         <label for="statusNo" class="form-check-label">Off</label>
                     </div>
                 </div>
+
+
 
 
                 <div class="col-12">
