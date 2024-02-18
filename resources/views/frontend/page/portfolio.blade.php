@@ -28,7 +28,7 @@
                 @foreach ( $projects as $project )
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <a href="{{ route('software_development') }} ">
+                        <a href="{{ route('aeon') }}">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                   <div class="flip-box-front">
