@@ -59,10 +59,10 @@
             @endif --}}
 
             <div class="dropdown">
-                <a class="dropbtn nav-item nav-link" onclick="showLoginModal()">Login<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <a href="" class="dropbtn nav-item nav-link">Login<i class="fa fa-caret-down" aria-hidden="true"></i></a>
                 <div class="dropdown-content">
-                    <a onclick="showLoginModal()" style="width:auto;">Login</a>
-                    <a onclick="showRegisterModal()" style="width:auto;">Registrar</a>
+                    <button onclick="showLoginModal()">Login</button>
+                    <button onclick="showRegisterModal()">Registrar</button>
                 </div>
             </div>
 
@@ -79,6 +79,7 @@
           <div class="imgcontainer">
             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
             <img src="{{ asset('frontend/img/logo.png') }}" alt="logo" class="avatar">
+            <p class="text-head">Dream Diver</p>
           </div>
 
           <div class="container">
@@ -111,6 +112,7 @@
           <div class="imgcontainer">
             <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
             <img src="{{ asset('frontend/img/logo.png') }}" alt="logo" class="avatar">
+            <p class="text-head">Dream Diver</p>
           </div>
 
           <div class="container">
