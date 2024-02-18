@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use App\Models\HomeService;
 use App\Models\Project;
 use App\Models\Faq;
-use App\Models\Projectsinglepage;
 
 class FrontendController extends Controller
 {
@@ -83,16 +82,7 @@ class FrontendController extends Controller
 
     public function aeon() {
 
-        //return view('frontend.page.aeon');
-
-
-        $project = Projectsinglepage::where([
-            'status' => 'on',
-            'id' => 1
-        ])->first();
-        //$project = Projectsinglepage::where('status', 'on')->get();
-        return view('frontend.page.aeon', compact('project'));
-
+        return view('frontend.page.aeon');
 
     }
 
