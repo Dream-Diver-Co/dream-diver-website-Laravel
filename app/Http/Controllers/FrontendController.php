@@ -28,10 +28,10 @@ class FrontendController extends Controller
         return view('frontend.page.service');
     }
 
-    public function portfolio() {
-        $projects = Project::where('status', 'on')->get();
-        return view('frontend.page.portfolio', compact('projects'));
-    }
+    // public function portfolio() {
+    //     $projects = Project::where('status', 'on')->get();
+    //     return view('frontend.page.portfolio', compact('projects'));
+    // }
 
     public function ticket() {
         return view('frontend.page.ticket');
@@ -82,14 +82,19 @@ class FrontendController extends Controller
         return view('frontend.page.registrar');
     }
 
-    public function projectsingletest_view($project_id) {
-        $project = Project::find($project_id);
-
-    if (!$project) {
-        abort(404);
+    public function portfolio() {
+        $projects = Project::where('status', 'on')->get();
+        return view('frontend.page.portfolio', compact('projects'));
     }
 
-    return view('frontend.page.aeon3', compact('project'));
+    public function project_single_view($project_id) {
+        $project = Project::find($project_id);
+
+        if (!$project) {
+            abort(404);
+        }
+
+    return view('frontend.page.single_project', compact('project'));
 
         // $project = Project::where([
         //     'id' => $project->id

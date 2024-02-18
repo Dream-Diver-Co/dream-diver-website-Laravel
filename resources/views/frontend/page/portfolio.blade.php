@@ -28,7 +28,7 @@
                 @foreach ( $projects as $project )
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <a href="{{ route('aeon') }}">
+                        <a href="{{ route('project_single_view', ['project' => $project->id]) }}">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                   <div class="flip-box-front">
@@ -44,7 +44,7 @@
                                   </div>
                                 </div>
                                 <div>
-                                    <p class="service-item-text"><a href="{{ $project->project_link }}" target="_blank" >{{ $project->project_title }} </a></p>
+                                    <p class="service-item-text"><a href="{{ route('project_single_view', ['project' => $project->id]) }}" target="_blank" >{{ $project->project_title }} </a></p>
                                 </div>
                             </div>
                         </a>

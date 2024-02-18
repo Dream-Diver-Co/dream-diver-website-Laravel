@@ -50,6 +50,11 @@
 
 
                 <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Project video link</label>
+                    <input type="text" name="project_video_link" class="form-control" id="inputAddress2" placeholder="">
+                </div>
+
+                <div class="col-12">
                     <label for="inputAddress2" class="form-label">Project Cover Photo upload</label>
                     <input type="file" id="img" name="project_cover_photo" accept="image/*" class="form-control" placeholder="">
                 </div>
@@ -59,26 +64,23 @@
                 </div> --}}
                 <div class="col-12">
                     <label for="inputAddress2" class="form-label">Project Description </label>
-                    <input type="text" name="project_description" class="form-control" id="inputAddress2" placeholder="">
+                    <textarea type="text" name="project_description" class="form-control" id="inputAddress2" placeholder=""></textarea>
                 </div>
                 <div class="col-12">
                     <label for="inputAddress2" class="form-label">Project Short Description</label>
-                    <input type="text" name="project_short_description" class="form-control" id="inputAddress2" placeholder="">
+                    <textarea type="text" name="project_short_description" class="form-control" id="inputAddress2" placeholder=""></textarea>
                 </div>
-                <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Project video link</label>
-                    <input type="text" name="project_video_link" class="form-control" id="inputAddress2" placeholder="">
-                </div>
+
                 {{-- <div class="col-12">
                     <label for="inputAddress2" class="form-label">Project Link</label>
                     <input type="text" name="project_link" class="form-control" id="inputAddress2" placeholder="">
                 </div> --}}
                 <div class="col-12">
                     <label for="inputAddress2" class="form-label">Client Review</label>
-                    <input type="text" name="project_client_review" class="form-control" id="inputAddress2" placeholder="">
+                    <textarea type="text" name="project_client_review" class="form-control" id="inputAddress2" placeholder=""></textarea>
                 </div>
                 <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Client Video Review</label>
+                    <label for="inputAddress2" class="form-label">Client Video Review Link</label>
                     <input type="text" name="project_client_video_review" class="form-control" id="inputAddress2" placeholder="">
                 </div>
 
@@ -102,7 +104,7 @@
 
 
 
-                <div class="col-12">
+                <div class="col-12 mb-3 mt-3">
                   <button type="submit" class="btn btn-primary">Create</button>
                 </div>
 

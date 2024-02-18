@@ -30,17 +30,8 @@
                         $projects = App\Models\Project::where('status', 'on')->get();
                     @endphp
                    @foreach ( $projects as $project)
-                        <a href="{{ route('projectsingletest', ['project' => $project->id]) }}">{{ $project->project_title }}</a>
+                        <a href="{{ route('project_single_view', ['project' => $project->id]) }}">{{ $project->project_title }}</a>
                    @endforeach
-                  <a href="{{ route('aeon') }}">Aeon2</a>
-                  <a href="{{ route('pos') }}">Pos</a>
-                  <a href="{{ route('misi') }}">Misi</a>
-                  <a href="{{ route('shob_khobor') }}">Shob Khobor</a>
-                  <a href="{{ route('fnf_stay') }}">Fnf-Stay</a>
-                  <a href="{{ route('de_was') }}">De-Was</a>
-                  <a href="{{ route('de_shop') }}">De-Shopper</a>
-                  <a href="{{ route('book_change') }}">Book-Exchanger</a>
-                  <a href="{{ route('foody_moody') }}">Foody-Moody</a>
                 </div>
             </div>
             <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
