@@ -22,13 +22,13 @@
     <div class="container-xxl py-5">
         <div>
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="display-6">OUR WORKS</h1>
+                <h1>OUR WORKS</h1>
             </div>
             <div class="row g-4 justify-content-center">
                 @foreach ( $projects as $project )
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <a href="{{ route('software_development') }} ">
+                        <a href="{{ route('aeon') }}">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                   <div class="flip-box-front">
