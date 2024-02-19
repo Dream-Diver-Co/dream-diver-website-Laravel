@@ -12,27 +12,27 @@
                         <img class="sun-img" src="{{ asset('frontend/img/logo.png') }}" alt="sun">
                     </div>
 
-                    <a href="{{ route('mobile_app') }}" class="uranus-link">
+                    <a href="{{ route('service') }}" class="uranus-link">
                         <div class="jupiter"></div>
                     </a>
 
-                    <a href="{{ route('software_service') }}" class="uranus-link">
+                    <a href="{{ route('service') }}" class="uranus-link">
                         <div class="saturn"></div>
                     </a>
 
-                    <a href="{{ route('web_design') }}" class="uranus-link">
+                    <a href="{{ route('service') }}" class="uranus-link">
                         <div class="uranus"></div>
                     </a>
 
-                    <a href="{{ route('seo') }}" class="uranus-link">
+                    <a href="{{ route('service') }}" class="uranus-link">
                         <div class="neptune"></div>
                     </a>
 
-                    <a href="{{ route('marketing') }}" class="uranus-link">
+                    <a href="{{ route('service') }}" class="uranus-link">
                         <div class="pluto"></div>
                     </a>
 
-                    <a href="{{ route('software_development') }}" class="uranus-link">
+                    <a href="{{ route('service') }}" class="uranus-link">
                         <div class="earth"></div>
                     </a>
             </div>

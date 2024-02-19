@@ -76,6 +76,18 @@
                <p class="text-head">
                     Video
                </p>
+
+               <center>
+                <video class="video" controls>
+                    <source src="mov_bbb.mp4" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg">
+                    Your browser does not support HTML video.
+                </video>
+                <p>
+                    Video courtesy of
+                    <a href="https://www.dreamdiver.nl/" target="_blank">Dream Diver</a>.
+                    </p>
+               </center>
             </div>
             <div class="tab-pane fade slide-section" id="pills-link" role="tabpanel" aria-labelledby="pills-link-tab" tabindex="0">
                 <p class="text-head">

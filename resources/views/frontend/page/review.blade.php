@@ -262,9 +262,6 @@
             </div>
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
                 <div class="container-xxl py-5">
-                    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-                        <p class="display-6">Create Review</p>
-                    </div>
                     <div class="container">
                         <div class="row g-5">
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -275,6 +272,7 @@
                                         <div class="col align-items-center flex-col sign-in">
                                             <div class=" form-wrapper align-items-center">
                                                 <div class="form sign-in">
+                                                    <p class="from-head">Create Review</p>
                                                     <div class="input-group">
                                                         <i class='bx bxs-user'></i>
                                                         <input type="text" placeholder="Your Name">
@@ -298,7 +296,7 @@
                                                     <textarea name="note" id="" cols="100%" rows="3" placeholder="Note"></textarea>
                                                   </div>
                                                     <button>
-                                                        Create Review
+                                                        Submit
                                                     </button>
                                                 </div>
                                             </div>
