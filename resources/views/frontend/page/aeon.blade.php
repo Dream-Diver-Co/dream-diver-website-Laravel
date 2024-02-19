@@ -76,6 +76,7 @@
                <p class="text-head">
                     Video
                </p>
+
                <center>
                 <video class="video" controls>
                     <source src="mov_bbb.mp4" type="video/mp4">
@@ -168,6 +169,6 @@
             </div>
         </div>
 
-    </div>
+    </div>
 
 @endsection
