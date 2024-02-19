@@ -44,6 +44,15 @@ class ProjectController extends Controller
             $filename_path = request()->file('project_image')->storeAs('projects_image', $filename);
         }
 
+        if (isset($data['project_cover_photo']) && $data['project_cover_photo']) {
+            $file = $data['project_cover_photo'];
+
+            $name = $file->getClientOriginalName();
+            $extension = $file->getClientOriginalExtension();
+            $filename = pathinfo($name, PATHINFO_FILENAME) . time() . '.' . $extension;
+            $filename_path2 = request()->file('project_cover_photo')->storeAs('projects_cover_photo', $filename);
+        }
+
         $project = new Project();
 
         $project->project_title = $data['project_title'];
@@ -51,6 +60,16 @@ class ProjectController extends Controller
         $project->project_link = $data['project_link'];
         $project->project_image = $filename_path;
         $project->status = $data['status'];
+
+        $project->project_cover_photo = $filename_path2;
+        $project->project_title = $data['project_title'];
+        $project->project_description = $data['project_description'];
+        $project->project_short_description = $data['project_short_description'];
+        $project->project_video_link = $data['project_video_link'];
+        $project->project_link = $data['project_link'];
+        $project->project_client_review = $data['project_client_review'];
+        $project->project_client_video_review = $data['project_client_video_review'];
+
         $project->save();
 
 
@@ -63,7 +82,7 @@ class ProjectController extends Controller
      */
     public function show(Project $project)
     {
-        //
+        return view('projects.show', compact('project'));
     }
 
     /**

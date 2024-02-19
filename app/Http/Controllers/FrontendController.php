@@ -6,12 +6,14 @@ use Illuminate\Http\Request;
 use App\Models\HomeService;
 use App\Models\Project;
 use App\Models\Faq;
+use App\Models\Projectsinglepage;
 
 class FrontendController extends Controller
 {
     public function index() {
         $services = HomeService::where('status', 'on')->get();
-        return view('frontend.index', compact('services'));
+        $projects = Project::where('status', 'on')->get();
+        return view('frontend.index', compact('services','projects'));
     }
 
     public function contact() {
@@ -26,10 +28,10 @@ class FrontendController extends Controller
         return view('frontend.page.service');
     }
 
-    public function portfolio() {
-        $projects = Project::where('status', 'on')->get();
-        return view('frontend.page.portfolio', compact('projects'));
-    }
+    // public function portfolio() {
+    //     $projects = Project::where('status', 'on')->get();
+    //     return view('frontend.page.portfolio', compact('projects'));
+    // }
 
     public function ticket() {
         return view('frontend.page.ticket');
@@ -80,8 +82,40 @@ class FrontendController extends Controller
         return view('frontend.page.registrar');
     }
 
+    public function portfolio() {
+        $projects = Project::where('status', 'on')->get();
+        return view('frontend.page.portfolio', compact('projects'));
+    }
+
+    public function project_single_view($project_id) {
+        $project = Project::find($project_id);
+
+        if (!$project) {
+            abort(404);
+        }
+
+    return view('frontend.page.single_project', compact('project'));
+
+        // $project = Project::where([
+        //     'id' => $project->id
+        // ])->first();
+        // return view('frontend.page.aeon3', compact('project'));
+
+    }
+
     public function aeon() {
-        return view('frontend.page.aeon');
+
+        //return view('frontend.page.aeon');
+
+
+        $project = Projectsinglepage::where([
+            'status' => 'on',
+            'id' => 1
+        ])->first();
+        //$project = Projectsinglepage::where('status', 'on')->get();
+        return view('frontend.page.aeon', compact('project'));
+
+
     }
 
     public function pos() {

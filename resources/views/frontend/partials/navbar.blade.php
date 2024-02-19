@@ -26,15 +26,12 @@
             <div class="dropdown">
                 <a href="{{ route('portfolio') }}" class="dropbtn nav-item nav-link">Portfolio <i class="fa fa-caret-down" aria-hidden="true"></i></a>
                 <div class="dropdown-content">
-                  <a href="{{ route('aeon') }}">Aeon</a>
-                  <a href="{{ route('pos') }}">Pos</a>
-                  <a href="{{ route('misi') }}">Misi</a>
-                  <a href="{{ route('shob_khobor') }}">Shob Khobor</a>
-                  <a href="{{ route('fnf_stay') }}">Fnf-Stay</a>
-                  <a href="{{ route('de_was') }}">De-Was</a>
-                  <a href="{{ route('de_shop') }}">De-Shopper</a>
-                  <a href="{{ route('book_change') }}">Book-Exchanger</a>
-                  <a href="{{ route('foody_moody') }}">Foody-Moody</a>
+                    @php
+                        $projects = App\Models\Project::where('status', 'on')->get();
+                    @endphp
+                   @foreach ( $projects as $project)
+                        <a href="{{ route('project_single_view', ['project' => $project->id]) }}">{{ $project->project_title }}</a>
+                   @endforeach
                 </div>
             </div>
             <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
@@ -42,29 +39,66 @@
             <a href="{{ route('faq') }}" class="nav-item nav-link">Faq</a>
             <a href="{{ route('career') }}" class="nav-item nav-link">Career</a>
             <a href="{{ route('review') }}" class="nav-item nav-link">Review</a>
-            {{-- <a href="{{ route('loginfromfrontend') }}" class="nav-item nav-link">Login</a> --}}
 
-            {{-- @if (auth()->check())
-            <!-- User is logged in, show logout link -->
-            <a class="nav-link" href="" role="button" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                Logout
-            </a>
-            <form id="logout-form" method="POST" action="{{ route('logout') }}" style="display: none;">
-                @csrf
-                <button type="submit">Logout</button>
-            </form>
-            @else
-                <!-- User is not logged in, show login link -->
-                <a href="{{ route('loginfromfrontend') }}" class="nav-item nav-link">Login</a>
-            @endif --}}
+
+            @if (auth()->check())
 
             <div class="dropdown">
+
+                <a href="" class="dropbtn nav-item nav-link">
+                     <i class="fas fa-user"></i>
+                      Hello! {{ Auth::user()->name }}
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </a>
+
+                <div class="dropdown-content user-access-buttons">
+                    <a class="nav-link " href="{{ route('dashboard') }}" role="button">
+                        Dashboard
+                    </a>
+
+                    <a class="nav-link " href="" role="button" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                        Logout
+                    </a>
+
+                    <form id="logout-form" method="POST" action="{{ route('logout') }}" style="display: none;">
+                        @csrf
+                        <button type="submit">Logout </button>
+                    </form>
+                </div>
+            </div>
+
+
+            @else
+                <!-- User is not logged in, show login link -->
+                {{-- <a href="{{ route('login') }}" class="nav-item nav-link">Login 2</a> --}}
+
+                <div class="dropdown">
+                    <a href="" class="dropbtn nav-item nav-link">Login<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-content">
+                        <button onclick="showLoginModal()">Login</button>
+                        <button onclick="showRegisterModal()">Registrar</button>
+                    </div>
+                </div>
+
+            @endif
+
+
+
+
+
+
+
+
+
+
+
+            {{-- <div class="dropdown">
                 <a href="" class="dropbtn nav-item nav-link">Login<i class="fa fa-caret-down" aria-hidden="true"></i></a>
                 <div class="dropdown-content">
                     <button onclick="showLoginModal()">Login</button>
                     <button onclick="showRegisterModal()">Registrar</button>
                 </div>
-            </div>
+            </div> --}}
 
         </div>
     </div>
