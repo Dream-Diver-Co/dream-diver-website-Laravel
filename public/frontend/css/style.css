@@ -1954,7 +1954,7 @@ p {
 }
 .dropdown-content button:hover {
     color: white !important;
-    background-color: #1F1F47;
+    background-color: #1f1f47;
     border-radius: 10px;
   }
 
@@ -2096,4 +2096,10 @@ p {
 .video{
     height: 400px;
     width: 800px;
+}
+@media screen and (max-width: 1000px){
+    .video{
+        height: 200px;
+        width: 400px;
+    }
 }

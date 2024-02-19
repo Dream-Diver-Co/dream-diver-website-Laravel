@@ -5,7 +5,7 @@
           <!-- Page Header Start -->
           <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
             <div class="container text-center py-5">
-                <h1 class="display-4 text-white animated slideInDown mb-4">Search Engine Optimization(SEO)</h1>
+                <p class="display-4 text-white animated slideInDown mb-4">Search Engine Optimization(SEO)</p>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb justify-content-center mb-0">
                         <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
@@ -47,7 +47,7 @@
     <hr>
     <div class="tab-content slide-section" id="pills-tabContent">
         <div class="tab-pane fade slide-section show active" id="pills-Research" role="tabpanel" aria-labelledby="pills-Research-tab" tabindex="0">
-            <p class="text-head">Search Engine Optimization</p>
+            <h1>Search Engine Optimization</h1>
 
             Search Engine Optimization (SEO) is a set of strategies and practices aimed at improving the visibility and ranking of a website in search engine results pages (SERPs). The primary goal of SEO is to increase the organic (non-paid) traffic a website receives from search engines like Google, Bing, and Yahoo. Here are some key aspects of SEO:
             <br><br>

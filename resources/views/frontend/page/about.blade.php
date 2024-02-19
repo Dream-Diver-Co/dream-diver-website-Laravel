@@ -5,7 +5,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header " data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-4 text-white animated slideInDown mb-4">About Us</h1>
+            <p class="display-4 text-white animated slideInDown mb-4">About Us</p>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
@@ -31,7 +31,7 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <p class="text-head">Our History</p>
+                <h1>Our History</h1>
 
                 <p class="text-two">Our Birth</p>
                 <p>
