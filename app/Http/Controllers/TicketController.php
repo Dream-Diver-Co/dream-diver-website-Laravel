@@ -50,6 +50,7 @@ class TicketController extends Controller
 
         $ticket->ticket_creator_id = $data['ticket_creator_id'];
         $ticket->email = $data['email'];
+        $ticket->phone = $data['phone'];
         $ticket->issue = $data['issue'];
         $ticket->status = $data['status'];
         $ticket->save();
@@ -108,6 +109,7 @@ class TicketController extends Controller
         $data = $request->all();
 
         $ticket->email = $data['email'];
+        $ticket->phone = $data['phone'];
         $ticket->issue = $data['issue'];
         $ticket->status = $data['status'];
         $ticket->save();
@@ -123,6 +125,7 @@ class TicketController extends Controller
      */
     public function destroy(Ticket $ticket)
     {
+
         $ticket->delete();
 
         // You can add a redirect or any other logic after the deletion.

@@ -26,15 +26,12 @@
             <div class="dropdown">
                 <a href="{{ route('portfolio') }}" class="dropbtn nav-item nav-link">Portfolio <i class="fa fa-caret-down" aria-hidden="true"></i></a>
                 <div class="dropdown-content">
-                  <a href="{{ route('aeon') }}">Aeon</a>
-                  <a href="{{ route('pos') }}">Pos</a>
-                  <a href="{{ route('misi') }}">Misi</a>
-                  <a href="{{ route('shob_khobor') }}">Shob Khobor</a>
-                  <a href="{{ route('fnf_stay') }}">Fnf-Stay</a>
-                  <a href="{{ route('de_was') }}">De-Was</a>
-                  <a href="{{ route('de_shop') }}">De-Shopper</a>
-                  <a href="{{ route('book_change') }}">Book-Exchanger</a>
-                  <a href="{{ route('foody_moody') }}">Foody-Moody</a>
+                    @php
+                        $projects = App\Models\Project::where('status', 'on')->get();
+                    @endphp
+                   @foreach ( $projects as $project)
+                        <a href="{{ route('project_single_view', ['project' => $project->id]) }}">{{ $project->project_title }}</a>
+                   @endforeach
                 </div>
             </div>
             <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>

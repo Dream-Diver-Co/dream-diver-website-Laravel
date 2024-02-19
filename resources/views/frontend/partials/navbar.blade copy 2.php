@@ -42,70 +42,29 @@
             <a href="{{ route('faq') }}" class="nav-item nav-link">Faq</a>
             <a href="{{ route('career') }}" class="nav-item nav-link">Career</a>
             <a href="{{ route('review') }}" class="nav-item nav-link">Review</a>
+            {{-- <a href="{{ route('loginfromfrontend') }}" class="nav-item nav-link">Login</a> --}}
 
-
-            @if (auth()->check())
-
-            <div class="dropdown">
-
-                <a href="" class="dropbtn nav-item nav-link">
-                     <i class="fas fa-user"></i>
-                      Hello! {{ Auth::user()->name }}
-                      <i class="fa fa-caret-down" aria-hidden="true"></i>
-                </a>
-
-                <div class="dropdown-content user-access-buttons">
-                    <a class="nav-link " href="{{ route('dashboard') }}" role="button">
-                        Dashboard
-                    </a>
-
-                    <a class="nav-link " href="{{route('tickets.create')}}"  role="button">
-                        Create a Ticket
-                    </a>
-
-                    <a class="nav-link " href="" role="button" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                        Logout
-                    </a>
-
-                    <form id="logout-form" method="POST" action="{{ route('logout') }}" style="display: none;">
-                        @csrf
-                        <button type="submit">Logout </button>
-                    </form>
-                </div>
-            </div>
-
-
+            {{-- @if (auth()->check())
+            <!-- User is logged in, show logout link -->
+            <a class="nav-link" href="" role="button" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                Logout
+            </a>
+            <form id="logout-form" method="POST" action="{{ route('logout') }}" style="display: none;">
+                @csrf
+                <button type="submit">Logout</button>
+            </form>
             @else
                 <!-- User is not logged in, show login link -->
-                {{-- <a href="{{ route('login') }}" class="nav-item nav-link">Login 2</a> --}}
+                <a href="{{ route('loginfromfrontend') }}" class="nav-item nav-link">Login</a>
+            @endif --}}
 
-                <div class="dropdown">
-                    <a href="" class="dropbtn nav-item nav-link">Login<i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                    <div class="dropdown-content">
-                        <button onclick="showLoginModal()">Login</button>
-                        <button onclick="showRegisterModal()">Registrar</button>
-                    </div>
-                </div>
-
-            @endif
-
-
-
-
-
-
-
-
-
-
-
-            {{-- <div class="dropdown">
-                <a href="" class="dropbtn nav-item nav-link">Login<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <div class="dropdown">
+                <a class="dropbtn nav-item nav-link" onclick="showLoginModal()">Login<i class="fa fa-caret-down" aria-hidden="true"></i></a>
                 <div class="dropdown-content">
-                    <button onclick="showLoginModal()">Login</button>
-                    <button onclick="showRegisterModal()">Registrar</button>
+                    <a onclick="showLoginModal()" style="width:auto;">Login</a>
+                    <a onclick="showRegisterModal()" style="width:auto;">Registrar</a>
                 </div>
-            </div> --}}
+            </div>
 
         </div>
     </div>
@@ -120,7 +79,6 @@
           <div class="imgcontainer">
             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
             <img src="{{ asset('frontend/img/logo.png') }}" alt="logo" class="avatar">
-            <p class="text-head">Dream Diver</p>
           </div>
 
           <div class="container">
@@ -153,7 +111,6 @@
           <div class="imgcontainer">
             <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
             <img src="{{ asset('frontend/img/logo.png') }}" alt="logo" class="avatar">
-            <p class="text-head">Dream Diver</p>
           </div>
 
           <div class="container">

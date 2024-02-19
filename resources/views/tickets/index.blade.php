@@ -31,7 +31,8 @@
                     <thead>
                       <tr>
                         <th scope="col">sl</th>
-                        <th scope="col">Ticket user email</th>
+                        <th scope="col">Ticket creator email</th>
+                        <th scope="col">Phone</th>
                         <th scope="col">Issue</th>
                         <th scope="col">Status</th>
                         <th scope="col">View</th>
@@ -47,18 +48,31 @@
                       <tr>
                         <th scope="row">{{ $sl++ }}</th>
                         <td>{{ $ticket->email; }}</td>
+                        <td>{{ $ticket->phone; }}</td>
                         <td>{{ $ticket->issue; }}</td>
                         <td>{{ $ticket->status; }}</td>
                         {{-- <td><a href="{{ route('projects.edit', ['id' => $project->id]) }}">edit</a></td> --}}
+
                         <td><a href="{{ route('tickets.edit', ['ticket' => $ticket->id]) }}">View</a></td>
 
-                        <td><form action="{{ route('tickets.destroy', ['ticket' => $ticket->id]) }}" method="POST">
-                            @csrf
-                            @method('DELETE')
-                            <p>
-                                <button type="submit">Delete</button> <br>
-                            </p>
-                        </form></td>
+                        <td>
+                            <form id="deleteForm" action="{{ route('tickets.destroy', ['ticket' => $ticket->id]) }}" method="POST">
+                                @csrf
+                                @method('DELETE')
+                                <p>
+                                    <button type="button" onclick="confirmDelete()">Delete</button> <br>
+                                </p>
+                            </form>
+                        </td>
+
+                        <script>
+                            function confirmDelete() {
+                                if (confirm('Are you sure you want to delete this ticket?')) {
+                                    document.getElementById('deleteForm').submit();
+                                }
+                            }
+                        </script>
+
                       </tr>
                       @endforeach
 

@@ -110,8 +110,10 @@
 
             </ul>
           </li>
+          {{-- project single page --}}
 
-          <li class="nav-item ">
+
+          {{-- <li class="nav-item ">
             <a href="#" class="nav-link ">
               <i class=" nav-icon fas fa-fill-drip"></i>
               <p>
@@ -135,7 +137,8 @@
 
 
             </ul>
-          </li>
+          </li> --}}
+
 
           <li class="nav-item ">
             <a href="#" class="nav-link ">
@@ -272,7 +275,7 @@
               <li class="nav-item">
                 <a href="{{route('tickets.create')}}" class="nav-link ">
                     <i class="nav-icon fas fa-angle-right"></i>
-                  <p>Ticket Create</p>
+                  <p>Create a Ticket</p>
                 </a>
               </li>
 

@@ -46,14 +46,28 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-row justify-content-between display-none">
+
+                            @role('admin')
+
+                            <div class="form-row justify-content-between ">
                                 <div class="col-lg-12">
                                     <div class="form-group form-row">
-                                        <label for="inputAddress2" class="col-3 text-right">User Email</label>
+                                        <label for="inputAddress2" class="col-3 text-right">User's Email</label>
                                         <input type="text"  name="email"  class="form-control col-9" id="inputAddress2" value="{{ $ticket->email}}" readonly>
                                     </div>
                                 </div>
                             </div>
+                            <div class="form-row justify-content-between ">
+                                <div class="col-lg-12">
+                                    <div class="form-group form-row">
+                                        <label for="inputAddress2" class="col-3 text-right">User's Phone</label>
+                                        <input type="text"  name="phone"  class="form-control col-9" id="inputAddress2" value="{{ $ticket->phone}}" readonly>
+                                    </div>
+                                </div>
+                            </div>
+
+                            @endrole
+
                             <div class="form-row justify-content-between">
                                 <div class="col-lg-12">
                                     <div class="form-group form-row">

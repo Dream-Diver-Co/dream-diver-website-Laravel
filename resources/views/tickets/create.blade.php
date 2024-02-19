@@ -46,6 +46,14 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="form-row justify-content-between " >
+                                <div class="col-lg-12">
+                                    <div class="form-group form-row">
+                                        <label for="inputAddress2" class="col-3 text-right">Phone</label>
+                                        <input type="text"  name="phone"  class="form-control col-5" id="inputAddress2"  placeholder="" >
+                                    </div>
+                                </div>
+                            </div>
                             <div class="form-row justify-content-between">
                                 <div class="col-lg-12">
                                     <div class="form-group form-row">

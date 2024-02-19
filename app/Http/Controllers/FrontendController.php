@@ -105,15 +105,15 @@ class FrontendController extends Controller
 
     public function aeon() {
 
-        //return view('frontend.page.aeon');
+        return view('frontend.page.aeon');
 
 
-        $project = Projectsinglepage::where([
-            'status' => 'on',
-            'id' => 1
-        ])->first();
-        //$project = Projectsinglepage::where('status', 'on')->get();
-        return view('frontend.page.aeon', compact('project'));
+        // $project = Projectsinglepage::where([
+        //     'status' => 'on',
+        //     'id' => 1
+        // ])->first();
+        // //$project = Projectsinglepage::where('status', 'on')->get();
+        // return view('frontend.page.aeon', compact('project'));
 
 
     }
