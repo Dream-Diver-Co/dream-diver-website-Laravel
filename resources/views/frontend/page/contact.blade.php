@@ -160,9 +160,12 @@
         <div class="row g-5">
             <div class="col-lg-3 col-md-3 col-sm-6 text-center wow fadeIn" data-wow-delay="0.1s">
                 <div class="contact-icon">
-                    <span><i class="fa fa-phone" aria-hidden="true"></i></span>
-                    <h4>Phone</h4>
-                    <p>+31644215009</p>
+
+                    <a href="tel:+31644215009" style="color: #7A8499;">
+                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <h4>Phone</h4>
+                        <p>+31644215009</p>
+                    </a>
                 </div>
 
             </div>
@@ -183,9 +186,11 @@
              </div>
              <div class="col-lg-3 col-md-3 col-sm-6 text-center wow fadeIn" data-wow-delay="0.1s">
                 <div class="contact-icon">
-                    <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                    <h4>Email</h4>
-                    <p>info@dreamdiver.nl</p>
+                    <a href="mailto:info@dreamdiver.nl" style="color: #7A8499;">
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <h4>Email</h4>
+                        <p>info@dreamdiver.nl</p>
+                    </a>
                 </div>
              </div>
         </div>

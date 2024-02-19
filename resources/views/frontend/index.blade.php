@@ -45,8 +45,8 @@
     <!-- Choosing Us Start -->
     <section class="py-6">
         <div class="container py-5">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="display-6">Few Reasons Why People Choosing Us!</h1>
+            <div class="text-center mx-auto wow fadeInUp display-6" data-wow-delay="0.1s">
+                <h1>Few Reasons Why People Choosing Us!</h1>
             </div>
             <div class="row g-5">
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -62,12 +62,10 @@
                             <div class="timeline-box rounded-4 p-3" >
                               <div class="timeline-box-arrow" ></div>
                               <p class="h3 font-weight-700">
-                                    <font>Trusted Service Center</font>
+                                  Trusted Service Center
                               </p>
                               <p>
-                                    <font>
                                         "Welcome to our trusted service center, where reliability meets excellence. Clients choose us with confidence for several compelling reasons."
-                                    </font>
                                     <a class="" href="{{ route('trusted') }}">Read more..</a>
                               </p>
                             </div>
@@ -84,12 +82,11 @@
                             <div class="timeline-box rounded-4 p-3" >
                                 <div class="timeline-box-arrow" ></div>
                                 <p class="h3 font-weight-700">
-                                      <font>Reasonable Price</font>
+                                     Reasonable Price
                                 </p>
                                 <p>
-                                      <font>
                                         "At our service center, we take pride in offering top-notch solutions at a reasonable price."
-                                      </font>
+
                                       <a class="" href="{{ route('reasonable') }}">Read more..</a>
                                 </p>
                               </div>
@@ -106,14 +103,10 @@
                             <div class="timeline-box rounded-4 p-3" >
                               <div class="timeline-box-arrow" ></div>
                               <p class="h3 font-weight-700">
-                                    <font>
                                         24/7 Supports
-                                    </font>
                               </p>
                               <p>
-                                    <font>
                                         "Our 24/7 support is designed with your convenience in mind, providing peace of mind and minimizing downtime."
-                                    </font>
                                     <a class="" href="{{ route('twonty_four') }}">Read more..</a>
                               </p>
                             </div>
