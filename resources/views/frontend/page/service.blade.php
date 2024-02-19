@@ -5,7 +5,7 @@
    <!-- Page Header Start -->
    <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
     <div class=" text-center py-5">
-        <h1 class="display-4 text-white mb-4">Our Services</h1>
+        <p class="display-4 text-white mb-4">Our Services</p>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>

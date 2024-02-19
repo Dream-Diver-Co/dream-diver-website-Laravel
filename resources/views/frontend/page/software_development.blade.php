@@ -5,7 +5,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-4 text-white animated slideInDown mb-4">Software Development</h1>
+            <p class="display-4 text-white animated slideInDown mb-4">Software Development</p>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
@@ -38,7 +38,7 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <p class="text-head">Software development</p>
+                <h1>Software development</h1>
                 Software development is the intricate process of designing, coding, testing, and maintaining computer programs and applications. It's a fundamental pillar of the modern digital age, enabling the creation of software that powers everything from mobile apps and web applications to operating systems and beyond. The software development process begins with understanding user requirements. Developers collaborate with clients and stakeholders to gather and document specifications, ensuring that the software will meet its intended purpose. This phase involves defining the project scope, objectives, and functionality, as well as considering budget and timeline constraints.
                 <br><br>
                 Once the requirements are established, developers move on to the design phase. Here, they create a blueprint of the software's architecture, determining how it will be structured and how different components will interact. The design phase includes creating data models, user interface designs, and technical specifications. It lays the foundation for the actual coding work. Coding, also known as programming, is where developers write the actual lines of code that instruct the computer to perform specific tasks. Programming languages like Python, Java, C++, and JavaScript are used to create the software's functionality. Developers follow coding standards and best practices to ensure that the code is readable, maintainable, and efficient.

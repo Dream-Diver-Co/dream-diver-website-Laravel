@@ -5,7 +5,7 @@
      <!-- Page Header Start -->
      <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-4 text-white animated slideInDown mb-4">AEON</h1>
+            <p class="display-4 text-white animated slideInDown mb-4">AEON</p>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
@@ -38,7 +38,7 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-Summary" role="tabpanel" aria-labelledby="pills-Summary-tab" tabindex="0">
-                <p class="text-head">AEON</p>
+                <h1>Aeon</h1>
                 <br><br>
                 Digital marketing is a broad term that encompasses all marketing efforts that use an electronic device or the internet. It's a dynamic field that continues to evolve with new technologies and platforms. Digital marketing allows businesses to reach and connect with their target audience online and promote their products or services. Here are some key components of digital marketing:
                 <br><br>
@@ -76,7 +76,17 @@
                <p class="text-head">
                     Video
                </p>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+               <p><a href="{{ $project->project_video_link }}" target="_blank">Video Link</a></p>
+               <iframe width="420" height="315"
+               src="{{ $project->project_video_link }}">
+               </iframe>
+>>>>>>> c822c2a2eb55f1f901e5dc329109ef7f31da924d
 
+>>>>>>> 23e6aaa4ec37e1d4131626bd809595729deaf2ea
             </div>
             <div class="tab-pane fade slide-section" id="pills-link" role="tabpanel" aria-labelledby="pills-link-tab" tabindex="0">
                 <p class="text-head">

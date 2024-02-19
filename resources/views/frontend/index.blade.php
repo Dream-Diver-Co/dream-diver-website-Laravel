@@ -8,27 +8,33 @@
 
             <!-- Arif Begins Solar -->
             <div class="solar">
-            <div class="sun">
-                <img class="sun-img" src="{{ asset('frontend/img/logo.png') }}" alt="sun">
-              </div>
-                <a href="mobile-app.html" class="uranus-link">
-                    <div class="jupiter"></div>
-                </a>
-                <a href="software-services.html" class="uranus-link"></a>
-              <div class="saturn"></div>
-            </a>
-            <a href="web-design.html" class="uranus-link">
-                <div class="uranus"></div>
-            </a>
-            <a href="seo.html" class="uranus-link">
-                <div class="neptune"></div>
-            </a>
-            <a href="marketing.html" class="uranus-link">
-                <div class="pluto"></div>
-            </a>
-            <a href="software-development.html" class="uranus-link">
-                <div class="earth"></div>
-            </a>
+                    <div class="sun">
+                        <img class="sun-img" src="{{ asset('frontend/img/logo.png') }}" alt="sun">
+                    </div>
+
+                    <a href="{{ route('mobile_app') }}" class="uranus-link">
+                        <div class="jupiter"></div>
+                    </a>
+
+                    <a href="{{ route('software_service') }}" class="uranus-link">
+                        <div class="saturn"></div>
+                    </a>
+
+                    <a href="{{ route('web_design') }}" class="uranus-link">
+                        <div class="uranus"></div>
+                    </a>
+
+                    <a href="{{ route('seo') }}" class="uranus-link">
+                        <div class="neptune"></div>
+                    </a>
+
+                    <a href="{{ route('marketing') }}" class="uranus-link">
+                        <div class="pluto"></div>
+                    </a>
+
+                    <a href="{{ route('software_development') }}" class="uranus-link">
+                        <div class="earth"></div>
+                    </a>
             </div>
 
             <!-- Arif Ends Solar  -->

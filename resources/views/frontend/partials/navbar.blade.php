@@ -126,7 +126,7 @@
           <div class="container">
             <div class="input-group">
                 <i class='bx bxs-user'></i>
-                <input type="text" placeholder="Username" name="email">
+                <input type="text" placeholder="Email" name="email">
             </div>
             <div class="input-group">
                 <i class='bx bxs-lock-alt'></i>

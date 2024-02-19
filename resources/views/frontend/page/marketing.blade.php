@@ -5,7 +5,7 @@
      <!-- Page Header Start -->
      <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-4 text-white animated slideInDown mb-4">Digital Marketing</h1>
+            <p class="display-4 text-white animated slideInDown mb-4">Digital Marketing</p>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
@@ -38,7 +38,7 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <p class="text-head">Research</p>
+                <h1>Research</h1>
 
                 At this stage, you will collect all the information that will be required for decision making in the next stages. Information collected during the research will become your raw material to strategize & create your digital marketing campaign. This stage can also be called as Digital Marketing Research. At this stage, you will research 4 sets of information:
 
