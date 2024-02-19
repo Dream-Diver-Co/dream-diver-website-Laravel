@@ -2097,3 +2097,16 @@ p {
     height: 400px;
     width: 800px;
 }
+
+
+.user-access-buttons a {
+	background-color: #f1f1f1;
+	color: black;
+	padding: 5px 20px;
+	text-decoration: none;
+	display: block;
+	font-weight: 900;
+	text-align: left;
+	min-width: 100px !important;
+    margin-bottom: 3px;
+}
