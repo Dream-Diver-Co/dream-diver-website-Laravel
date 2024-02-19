@@ -76,17 +76,17 @@
                <p class="text-head">
                     Video
                </p>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-               <p><a href="{{ $project->project_video_link }}" target="_blank">Video Link</a></p>
-               <iframe width="420" height="315"
-               src="{{ $project->project_video_link }}">
-               </iframe>
->>>>>>> c822c2a2eb55f1f901e5dc329109ef7f31da924d
-
->>>>>>> 23e6aaa4ec37e1d4131626bd809595729deaf2ea
+               <center>
+                <video class="video" controls>
+                    <source src="mov_bbb.mp4" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg">
+                    Your browser does not support HTML video.
+                </video>
+                <p>
+                    Video courtesy of
+                    <a href="https://www.dreamdiver.nl/" target="_blank">Dream Diver</a>.
+                    </p>
+               </center>
             </div>
             <div class="tab-pane fade slide-section" id="pills-link" role="tabpanel" aria-labelledby="pills-link-tab" tabindex="0">
                 <p class="text-head">

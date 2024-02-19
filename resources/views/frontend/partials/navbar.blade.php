@@ -134,9 +134,9 @@
             </div>
 
             <button type="submit">Login</button>
-            <label>
+            {{-- <label>
               <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
+            </label> --}}
           </div>
 
           {{-- <div class="container" style="background-color:#f1f1f1">
@@ -175,9 +175,9 @@
             </div>
 
             <button type="submit">Registrar</button>
-            <label>
+            {{-- <label>
               <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
+            </label> --}}
           </div>
 
           {{-- <div class="container" style="background-color:#f1f1f1">
