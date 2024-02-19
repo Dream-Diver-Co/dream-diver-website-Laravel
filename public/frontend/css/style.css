@@ -262,7 +262,7 @@ body {
 .uranus,
 .neptune,
 .pluto {
-    position: absolute;
+    position:absolute;
     border-style: solid;
     border-color: rgb(212, 103, 103) transparent transparent transparent;
     border-width: 0.1em 0.1em 0 0;
@@ -273,42 +273,57 @@ body {
     left: -15em;
     width: 70em;
     height: 70em;
-    animation: orbit 22s linear infinite;
+    animation: orbit 20s linear infinite;
+    /* animation-delay: 0s; */
+
+
 }
 .jupiter {
     top: -15em;
     left: -15em;
     width: 70em;
     height: 70em;
-    animation: orbit 28s linear infinite;
+    animation: orbit 25s linear infinite;
+    /* animation-delay: 0.5s; */
+
+
 }
 .saturn {
     top: -15em;
     left: -15em;
     width: 70em;
     height: 70em;
-    animation: orbit 18s linear infinite;
+    animation: orbit 30s linear infinite;
+    /* animation-delay: 1s; */
+
+
 }
 .uranus {
     top: -30em;
     left: -30em;
     width: 100em;
     height: 100em;
-    animation: orbit 20s linear infinite;
+    animation: orbit 22s linear infinite;
+    /* animation-delay: 0s; */
+
 }
 .neptune {
     top: -30em;
     left: -30em;
     width: 100em;
     height: 100em;
-    animation: orbit 30s linear infinite;
+    animation: orbit 27s linear infinite;
+    /* animation-delay: 0.5s; */
+
 }
 .pluto {
     top: -30em;
     left: -30em;
     width: 100em;
     height: 100em;
-    animation: orbit 24s linear infinite;
+    animation: orbit 32s linear infinite;
+    /* animation-delay: 1s; */
+
 }
 
 .earth::before,
@@ -321,7 +336,7 @@ body {
     position: absolute;
     border-radius: 50%;
     transform-origin: center center;
-    animation: orbit 24s linear infinite;
+    /* animation: orbit 24s linear infinite; */
 }
 .earth::before {
     top: 3em;
@@ -330,7 +345,8 @@ body {
     height: 20em;
     background-image: url('./images/softwaredev.png');
     background-size: cover;
-    transform: rotate(-25deg);
+    /* transform: rotate(-25deg); */
+    transform: rotate(45deg);
 }
 .jupiter::before {
   top: 3em;
@@ -339,6 +355,7 @@ body {
     height: 20em;
     background-image: url('./images/appdev.png');
     background-size: cover;
+    transform: rotate(-45deg);
 }
 .saturn::before {
   top: 3em;
@@ -1954,7 +1971,7 @@ p {
 }
 .dropdown-content button:hover {
     color: white !important;
-    background-color: #1F1F47;
+    background-color: #1f1f47;
     border-radius: 10px;
   }
 
@@ -2098,6 +2115,13 @@ p {
     width: 800px;
 }
 
+@media screen and (max-width: 1000px){
+    .video{
+        height: 200px;
+        width: 400px;
+    }
+
+}
 
 .user-access-buttons a {
 	background-color: #f1f1f1;
@@ -2109,4 +2133,5 @@ p {
 	text-align: left;
 	min-width: 100px !important;
     margin-bottom: 3px;
+
 }

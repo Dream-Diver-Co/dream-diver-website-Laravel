@@ -5,7 +5,7 @@
      <!-- Page Header Start -->
      <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-4 text-white animated slideInDown mb-4">Software Services</h1>
+            <p class="display-4 text-white animated slideInDown mb-4">Software Services</p>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
@@ -43,7 +43,7 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <p class="text-head">Software Services</p>
+               <h1>Software Services</h1>
 
                 Software services refer to a broad range of offerings provided by companies or individuals to support the development, deployment, maintenance, and optimization of software applications and systems. These services play a crucial role in helping businesses and individuals harness the power of technology to achieve their goals. Here, we will explore various aspects of software services:
                 <br><br>
