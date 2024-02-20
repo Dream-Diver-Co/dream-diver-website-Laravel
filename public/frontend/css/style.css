@@ -117,10 +117,13 @@ body {
   box-shadow: white !important;
 }
 /*** Navbar ***/
-/* .navbar.sticky-top {
-    top: -100px;
-    transition: .5s;
-} */
+.sticky-top {
+    /* top: -100px; */
+    /* transition: .5s; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
 
 .navbar .navbar-brand img {
     max-height: 60px;
@@ -2138,8 +2141,6 @@ p {
 
 }
 
-
-
 .hero {
     position: relative;
 }
@@ -2178,4 +2179,3 @@ p {
 .astro-icon img {
     width: 100px;
 } */
-
