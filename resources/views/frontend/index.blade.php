@@ -370,6 +370,43 @@
             </section>
             <!-- Service End -->
 
+            <div id="cookies" class="cookie-modal show">
+                <div class="cookie-modal-card slide-form">
+                    <span class="cookie-modal-close" onclick="acceptCookies()">&times;</span>
+                    <div class="cookie-modal-container">
+                        <div class="cookie-modal-content">
+                            <p>This website uses cookies to ensure you get the best experience on our website.<a href="#">More info.</a></p>
+                            <button class="cookie-modal-btn" onclick="acceptCookies()">Accept!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <script>
+                // Function to set a cookie when the user accepts cookies
+                function acceptCookies() {
+                    document.cookie = 'acceptedCookies=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/';
+                    document.getElementById('cookies').classList.remove('show'); // Hide the modal after acceptance
+                }
+
+                // Check if the user has already accepted cookies
+                function checkAcceptedCookies() {
+                    var cookies = document.cookie.split(';');
+                    for (var i = 0; i < cookies.length; i++) {
+                        var cookie = cookies[i].trim();
+                        if (cookie.indexOf('acceptedCookies=') === 0) {
+                            return true; // Cookies have been accepted
+                        }
+                    }
+                    return false; // Cookies have not been accepted
+                }
+
+                // Check if cookies have already been accepted
+                window.onload = function() {
+                    if (!checkAcceptedCookies()) {
+                        document.getElementById('cookies').classList.add('show'); // Show the modal if cookies have not been accepted
+                    }
+                };
+            </script>
 @endsection
 
