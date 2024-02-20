@@ -55,6 +55,10 @@
     <!-- Spinner End -->
 
 
+
+
+
+
     @include('frontend.partials.navbar')
 
 
@@ -64,6 +68,8 @@
     <!-- Footer Start -->
     @include('frontend.partials.footer')
     <!-- Footer End -->
+
+
 
     <!-- whatsapp -->
     <a href="https://web.whatsapp.com/send?phone=+31644215009text=Hi,%20How%20can%20i%20help%20you?"  target="_blank" class="whatsapp_float"><i class="bi bi-whatsapp whatsapp-icon-bi"></i></a>

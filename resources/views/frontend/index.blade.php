@@ -6,6 +6,10 @@
     <div class="container-fluid p-0">
         <div class="hero">
 
+            <a href="{{ route('faq') }}" target="_blank" class="astro-icon ">
+                <img src="{{ asset('frontend/img/astronaut.png') }}" alt="logo" >
+            </a>
+
             <!-- Arif Begins Solar -->
             <div class="solar">
                     <div class="sun">
