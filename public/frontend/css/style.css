@@ -1968,14 +1968,15 @@ p {
   border-radius: 15px;
 }
 .dropdown-content button{
-    background-color: #f1f1f1;
-    color: black;
+    /* background-color: #f1f1f1;
+    color: black; */
     padding: 5px 20px;
-    text-decoration: none;
+    /* text-decoration: none; */
     display: block;
     font-weight: 900;
-    text-align: left;
-    min-width: 100px !important;
+    /* text-align: left;
+    min-width: 100px !important; */
+    border: none;
 
 
 }
@@ -2184,3 +2185,8 @@ p {
 .astro-icon img {
     width: 100px;
 } */
+
+.dream{
+ padding-left: 10px;
+ font-weight: 600;
+}
