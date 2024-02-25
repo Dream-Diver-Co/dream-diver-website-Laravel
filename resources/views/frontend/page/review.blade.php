@@ -63,7 +63,7 @@
                                             </button>
                                           </div>
                                             <a href="{{ route('aeon') }}">
-                                                <button class="custom-btn-review">AEON</button>
+                                                <button class="custom-btn-review">Aeon</button>
                                               </a>
                                     </div>
                                     <div class="custom-blob-review"></div>
