@@ -1,10 +1,10 @@
 
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
-    
+
     <a href="{{ route('index') }}" class="navbar-brand d-flex align-items-center">
         <h1 class="m-0"><img class="img-fluid " src="{{ asset('frontend/img/logo.png') }}" alt="logo" ></h1>
-        <h1>DREAM DIVER</h1>
+         <span class="dream">DREAM DIVER</span>
     </a>
     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -135,8 +135,7 @@
                 <i class='bx bxs-lock-alt'></i>
                 <input type="password" placeholder="Password" name="password">
             </div>
-
-            <button type="submit">Login</button>
+            <button class="modal-button" type="submit">Login</button>
             {{-- <label>
               <input type="checkbox" checked="checked" name="remember"> Remember me
             </label> --}}
@@ -177,7 +176,7 @@
                 <input type="password" placeholder="Confirm password" name="password_confirmation">
             </div>
 
-            <button type="submit">Registrar</button>
+            <button class="modal-button" type="submit">Registrar</button>
             {{-- <label>
               <input type="checkbox" checked="checked" name="remember"> Remember me
             </label> --}}
