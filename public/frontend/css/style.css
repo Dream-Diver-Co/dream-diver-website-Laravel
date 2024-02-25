@@ -28,7 +28,7 @@ body {
     position: fixed;
     display: none;
     right: 30px;
-    bottom: 30px;
+    bottom: 60px;
     z-index: 99;
     background-color: #001064;
 }
@@ -2052,7 +2052,7 @@ p {
   position: fixed;
   width: 50px;
   height: 50px;
-  bottom: 88px;
+  bottom: 120px;
   right: 34px;
   background-color: #25d366;
   color: #fff;
@@ -2078,7 +2078,7 @@ p {
     .whatsapp_float {
     width: 45px;
     height: 45px;
-    bottom: 89px;
+    bottom: 110px;
     right: 34px;
     font-size: 22px;
     }
@@ -2189,4 +2189,37 @@ p {
 .dream{
  padding-left: 10px;
  font-weight: 600;
+}
+
+
+
+.js-cookie-consent {
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+    width:100%;
+	z-index: 9999;
+	background-color: rgb(182, 177, 231);
+}
+
+.js-cookie-consent-agree{
+    color: rgb(18, 18, 18);
+    margin-left: 10px;
+}
+
+.bottom-0 {
+	bottom: 0 !important;
+}
+
+.cookie-text-container{
+    display: flex;
+    align-items: center;
+}
+
+.cookie-text-container p{
+    margin-bottom: 0;
+}
+
+.cookie-text-detail a{
+    color:rgb(31, 38, 220);
 }

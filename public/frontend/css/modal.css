@@ -12,7 +12,7 @@
     } */
 
     /* Set a style for all buttons */
-    .modal-button {
+.modal-button{
       background-color: #2B48DA;
       color: white;
       padding: 14px 20px;
@@ -22,7 +22,7 @@
       width: 100%;
     }
 
-    .modal-button:hover {
+    .modal-button:hover{
       opacity: 0.8;
     }
 
@@ -238,17 +238,6 @@
       }
 
 
-      .js-cookie-consent{
-        position: absolute;
-        top: 0px;
-        padding: 10px;
-        text-align: center;
-        width: 100%;
-        z-index: 9999;
-        background-color: #fffbdb;
-        border-color: #fffacc;
-        border: solid 1px;
-      }
 
 
 
