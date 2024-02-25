@@ -237,3 +237,19 @@
 
       }
 
+
+      .js-cookie-consent{
+        position: absolute;
+        top: 0px;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        z-index: 9999;
+        background-color: #fffbdb;
+        border-color: #fffacc;
+        border: solid 1px;
+      }
+
+
+
+

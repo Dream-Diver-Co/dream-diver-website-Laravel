@@ -143,9 +143,9 @@ body {
     background-color: #010A35;
     border-radius: 10%;
 }
-.navbar .navbar-nav .nav-link.active {
-    /* color: #ffffff !important; */
-}
+/* .navbar .navbar-nav .nav-link.active {
+    color: #ffffff !important;
+} */
 
 .navbar .dropdown-toggle::after {
     border: none;
@@ -1108,10 +1108,10 @@ body {
     border: 1px solid #7F8499;
 }
 
-.footer .btn.btn-square:hover {
-    /* color: var(--light);
-    border-color: var(--primary); */
-}
+/* .footer .btn.btn-square:hover {
+    color: var(--light);
+    border-color: var(--primary);
+} */
 
 .footer .copyright {
     padding: 25px 0;
