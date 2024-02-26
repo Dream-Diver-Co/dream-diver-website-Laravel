@@ -1,22 +1,22 @@
 <?php $__env->startSection('content'); ?>
 
-          <!-- Page Header Start -->
-          <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
-            <div class="container text-center py-5">
-                <h1 class="display-4 text-white animated slideInDown mb-4">POS Portfilio Details</h1>
-                <nav aria-label="breadcrumb animated slideInDown">
-                    <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a href="<?php echo e(route('index')); ?>">Home</a></li>
-                        <li class="breadcrumb-item"><a href="<?php echo e(route('portfolio')); ?>">Portfolio</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">POS</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-        <!-- Page Header End -->
+<!-- Page Header Start -->
+<div class="container-fluid page-header py-5" data-wow-delay="0.1s">
+    <div class="container text-center py-5">
+        <h1 class="display-4 text-white animated slideInDown mb-4">POS Portfolio Details</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="<?php echo e(route('index')); ?>">Home</a></li>
+                <li class="breadcrumb-item"><a href="<?php echo e(route('portfolio')); ?>">Portfolio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">POS</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Page Header End -->
 
-   <!-- Page Header End -->
-   <div class="container top-bottom mb-5 wow fadeIn" data-wow-delay="0.1s">
+<!-- Page Header End -->
+<div class="container top-bottom mb-5 wow fadeIn" data-wow-delay="0.1s">
     <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
             <button class="nav-link active" id="pills-Summary-tab" data-bs-toggle="pill" data-bs-target="#pills-Summary" type="button" role="tab" aria-controls="pills-Summary" aria-selected="true">Summary</button>
@@ -39,7 +39,7 @@
     <div class="tab-content slide-section" id="pills-tabContent">
         <div class="tab-pane fade slide-section show active" id="pills-Summary" role="tabpanel" aria-labelledby="pills-Summary-tab" tabindex="0">
             <p class="text-head">Pos</p>
-            
+
             Digital marketing is a broad term that encompasses all marketing efforts that use an electronic device or the internet. It's a dynamic field that continues to evolve with new technologies and platforms. Digital marketing allows businesses to reach and connect with their target audience online and promote their products or services. Here are some key components of digital marketing:
             <br><br>
             1. Search Engine Optimization (SEO): As discussed earlier, SEO focuses on improving a website's visibility in search engine results. It involves optimizing content, improving website structure, and building high-quality backlinks to increase organic traffic.
@@ -73,9 +73,9 @@
 
         </div>
         <div class="tab-pane fade slide-section" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab" tabindex="0">
-           <p class="text-head">
+            <p class="text-head">
                 Video
-           </p>
+            </p>
 
         </div>
         <div class="tab-pane fade slide-section" id="pills-link" role="tabpanel" aria-labelledby="pills-link-tab" tabindex="0">
@@ -84,12 +84,12 @@
             </p>
         </div>
         <div class="tab-pane fade" id="pills-aeon" role="tabpanel" aria-labelledby="pills-aeon-tab" tabindex="0">
-                <div class="container-xxl py-5">
-                    <div class="container">
-                        <div class="row g-5">
-                            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="slide-form">
-                                    <p class="text-head text-center">Text Review</p>
+            <div class="container-xxl py-5">
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="slide-form">
+                                <p class="text-head text-center">Text Review</p>
                                 <p class="about-us">Our core values are the fundamental base for our business culture and business philosophy.
                                     The values define us as a service provider and help us make our decisions and deploy them.</p>
                                 <br>
@@ -113,52 +113,53 @@
                                     communications within the organization, and with the stakeholders. Dream Diver respects the
                                     differences in each other providing a safe ambience for every individual and acknowledge in
                                     open communication and transparent work culture.</p>
-                                </div>
                             </div>
-                            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class=" slide-benar">
-                                    <p class="text-head text-center">Video Review</p>
+                        </div>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class=" slide-benar">
+                                <p class="text-head text-center">Video Review</p>
                                 <div class="small-container align-items-center ">
                                     <div class="custom-card">
-                                          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                             <div class="carousel-inner">
-                                              <div class="carousel-item active" style="text-align: center;">
-                                                <h5 class="custom-title">Dream Diver!</h5>
-                                                <p>We provide all kind of software solutions to your projects.</p>
-                                              </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title">Web Development</h5>
-                                                <p>Web Design & Development, Android Applications</p>
-                                              </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title">SEO</h5>
-                                                <p>Search Engine Optimization, contact us for details</p>
-                                              </div>
+                                                <div class="carousel-item active" style="text-align: center;">
+                                                    <h5 class="custom-title">Dream Diver!</h5>
+                                                    <p>We provide all kind of software solutions to your projects.</p>
+                                                </div>
+                                                <div class="carousel-item" style="text-align: center;">
+                                                    <h5 class="custom-title">Web Development</h5>
+                                                    <p>Web Design & Development, Android Applications</p>
+                                                </div>
+                                                <div class="carousel-item" style="text-align: center;">
+                                                    <h5 class="custom-title">SEO</h5>
+                                                    <p>Search Engine Optimization, contact us for details</p>
+                                                </div>
                                             </div>
                                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Previous</span>
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
                                             </button>
                                             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Next</span>
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
                                             </button>
-                                          </div>
-                                            <a href="contact.html">
-                                                <button class="custom-btn">Contact Us</button>
-                                              </a>
+                                        </div>
+                                        <a href="contact.html">
+                                            <button class="custom-btn">Contact Us</button>
+                                        </a>
                                     </div>
                                     <div class="custom-blob"></div>
-                                </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
 
-   </div>
+
+</div>
 
 <?php $__env->stopSection(); ?>
 

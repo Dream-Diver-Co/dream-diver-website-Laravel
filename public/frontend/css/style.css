@@ -147,9 +147,13 @@ body {
     border-radius: 10%;
 }
 
-/* .navbar .navbar-nav .nav-link.active {
-    color: #ffffff !important;
-} */
+.navbar .navbar-nav .nav-link.active {
+    color: #493bc5 !important;
+}
+
+.dd-active {
+    color: #493bc5 !important;
+}
 
 .navbar .dropdown-toggle::after {
     border: none;
@@ -261,7 +265,7 @@ body {
 
 .sun-img {
     height: 200%;
-    width: 200%;
+    /* width: 200%; */
 }
 
 .sun {
@@ -2339,4 +2343,38 @@ a:hover {
 
 .cookie-text-detail a {
     color: rgb(31, 38, 220);
+}
+
+
+#fileInput {
+    display: none;
+}
+
+/* Style the custom button */
+#customButton {
+    background-color: #6272ce;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cv-button {
+    /* width: 100% !important; */
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    background-color: var(--gray);
+    /* background-color: gray; */
+    border-radius: .5rem;
+    border: 0.125rem solid var(--white);
+    border: 0.125rem;
+    /* border-color: white; */
+    outline: none;
+}
+
+#fileName {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
