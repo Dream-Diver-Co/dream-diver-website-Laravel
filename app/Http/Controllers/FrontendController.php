@@ -10,21 +10,30 @@ use App\Models\Projectsinglepage;
 
 class FrontendController extends Controller
 {
-    public function index() {
+    public function index()
+    {
         $services = HomeService::where('status', 'on')->get();
         $projects = Project::where('status', 'on')->get();
-        return view('frontend.index', compact('services','projects'));
+        return view('frontend.index', compact('services', 'projects'));
     }
 
-    public function contact() {
+    public function contact()
+    {
         return view('frontend.page.contact');
     }
 
-    public function about() {
+    public function cookie()
+    {
+        return view('frontend.page.cookie');
+    }
+
+    public function about()
+    {
         return view('frontend.page.about');
     }
 
-    public function service() {
+    public function service()
+    {
         return view('frontend.page.service');
     }
 
@@ -33,68 +42,82 @@ class FrontendController extends Controller
     //     return view('frontend.page.portfolio', compact('projects'));
     // }
 
-    public function ticket() {
+    public function ticket()
+    {
         return view('frontend.page.ticket');
     }
 
-    public function faq() {
+    public function faq()
+    {
         $faqs = Faq::where('status', 'on')->get();
         return view('frontend.page.faq', compact('faqs'));
     }
 
-    public function career() {
+    public function career()
+    {
         return view('frontend.page.career');
     }
 
-    public function review() {
+    public function review()
+    {
         return view('frontend.page.review');
     }
 
-    public function softwareDevelopment() {
+    public function softwareDevelopment()
+    {
         return view('frontend.page.software_development');
     }
 
-    public function mobileApp() {
+    public function mobileApp()
+    {
         return view('frontend.page.mobile_app');
     }
 
-    public function softwareService() {
+    public function softwareService()
+    {
         return view('frontend.page.software_service');
     }
 
-    public function webDesign() {
+    public function webDesign()
+    {
         return view('frontend.page.web_design');
     }
 
-    public function seo() {
+    public function seo()
+    {
         return view('frontend.page.seo');
     }
 
-    public function marketing() {
+    public function marketing()
+    {
         return view('frontend.page.marketing');
     }
 
-    public function login() {
+    public function login()
+    {
         return view('frontend.page.login');
     }
 
-    public function registrar(){
+    public function registrar()
+    {
         return view('frontend.page.registrar');
     }
 
-    public function portfolio() {
+    public function portfolio()
+    {
         $projects = Project::where('status', 'on')->get();
         return view('frontend.page.portfolio', compact('projects'));
     }
 
-    public function project_single_view($project_id) {
+    public function project_single_view($project_id)
+    {
         $project = Project::find($project_id);
 
         if (!$project) {
             abort(404);
         }
 
-    return view('frontend.page.single_project', compact('project'));
+        return view('frontend.page.single_project', compact('project'));
 
         // $project = Project::where([
         //     'id' => $project->id
@@ -103,7 +126,8 @@ class FrontendController extends Controller
 
     }
 
-    public function aeon() {
+    public function aeon()
+    {
 
         return view('frontend.page.aeon');
 
@@ -118,50 +142,58 @@ class FrontendController extends Controller
 
     }
 
-    public function pos() {
+    public function pos()
+    {
         return view('frontend.page.pos');
     }
 
-    public function misi() {
+    public function misi()
+    {
         return view('frontend.page.misi');
     }
 
-    public function shobKhobor() {
+    public function shobKhobor()
+    {
         return view('frontend.page.shob_khobor');
     }
 
-    public function fnfStay() {
+    public function fnfStay()
+    {
         return view('frontend.page.fnf_stay');
     }
 
-    public function deWas() {
+    public function deWas()
+    {
         return view('frontend.page.de_was');
     }
 
-    public function deShop() {
+    public function deShop()
+    {
         return view('frontend.page.de_shop');
     }
 
-    public function bookChange() {
+    public function bookChange()
+    {
         return view('frontend.page.book_change');
     }
 
-    public function foodyMoody() {
+    public function foodyMoody()
+    {
         return view('frontend.page.foody_moody');
     }
 
-    public function trusted() {
+    public function trusted()
+    {
         return view('frontend.page.trusted');
     }
 
-    public function reasonable() {
+    public function reasonable()
+    {
         return view('frontend.page.reasonable');
     }
 
-    public function twonty_four(){
+    public function twonty_four()
+    {
         return view('frontend.page.twonty_four');
     }
-
-
-
 }
