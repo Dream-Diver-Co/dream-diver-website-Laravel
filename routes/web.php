@@ -8,9 +8,9 @@ use App\Http\Controllers\ProjectsinglepageController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\TicketController;
 use App\Http\Controllers\TickethistoryController;
-Use App\Http\Controllers\FrontendController;
-Use App\Http\Controllers\ContactformController;
-Use App\Http\Controllers\BasicticketController;
+use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\ContactformController;
+use App\Http\Controllers\BasicticketController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,6 +36,8 @@ Route::get('/ticket', [FrontendController::class, 'ticket'])->name('ticket');
 Route::get('/faq', [FrontendController::class, 'faq'])->name('faq');
 Route::get('/career', [FrontendController::class, 'career'])->name('career');
 Route::get('/review', [FrontendController::class, 'review'])->name('review');
+
+Route::get('/cookie', [FrontendController::class, 'cookie'])->name('cookie');
 
 
 Route::get('/software_development', [FrontendController::class, 'softwareDevelopment'])->name('software_development');
@@ -71,7 +73,7 @@ Route::get('/registrar', [FrontendController::class, 'registrar'])->name('regist
 
 Route::get('/admin', function () {
     return view('admin.index');
-})->middleware(['auth', 'verified','role:admin'])->name('admin.index');
+})->middleware(['auth', 'verified', 'role:admin'])->name('admin.index');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -117,8 +119,6 @@ Route::group(['middleware' => ['auth', 'verified', 'role:admin']], function () {
     Route::get('/basicticket_edit/{id}', [BasicticketController::class, 'edit'])->name('basicticket_edit');
     Route::put('/basicticket_update/{id}', [BasicticketController::class, 'update'])->name('basicticket_update');
     Route::put('/basicticket_destroy/{id}', [BasicticketController::class, 'destroy'])->name('basicticket_destroy');
-
-
 });
 
 Route::post('/basicticket_store', [BasicticketController::class, 'store'])->name('basicticket_store');
@@ -136,4 +136,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
