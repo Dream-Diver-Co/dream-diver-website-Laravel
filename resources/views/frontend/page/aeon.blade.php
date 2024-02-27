@@ -46,10 +46,9 @@
 
                 </div>
             <div class="tab-pane fade slide-section" id="pills-details" role="tabpanel" aria-labelledby="pills-details-tab" tabindex="0">
-                Garment order process system.
+                From sourcing to shipment.
                 <br><br>
-                1. Place order by uploading pdf.<br><br>
-                2. Follow different process of completing a order  <br><br>
+                1. Read pdf and place order from that data<br><br>
 
             </div>
             <div class="tab-pane fade slide-section" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab" tabindex="0">
