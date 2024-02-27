@@ -55,7 +55,7 @@
     <section class="py-6">
         <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp display-6" data-wow-delay="0.1s">
-                <h1>Few Reasons Why People Choosing Us!</h1>
+                <p class="display-6">Few Reasons Why People Choosing Us!</p>
             </div>
             <div class="row g-5">
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -74,7 +74,7 @@
                                   Trusted Service Center
                               </p>
                               <p>
-                                        "Welcome to our trusted service center, where reliability meets excellence. Clients choose us with confidence for several compelling reasons."
+                                        "Welcome to our trusted service center, where reliability meets excellence."
                                     <a class="" href="{{ route('trusted') }}">Read more..</a>
                               </p>
                             </div>
@@ -112,10 +112,10 @@
                             <div class="timeline-box rounded-4 p-3" >
                               <div class="timeline-box-arrow" ></div>
                               <p class="h3 font-weight-700">
-                                        24/7 Supports
+                                    24/7 Supports
                               </p>
                               <p>
-                                        "Our 24/7 support is designed with your convenience in mind, providing peace of mind and minimizing downtime."
+                                    "Our 24/7 support is designed with your convenience in mind, providing peace of mind."
                                     <a class="" href="{{ route('twonty_four') }}">Read more..</a>
                               </p>
                             </div>
@@ -190,13 +190,13 @@
                     </a>
                 </div>
                 <div class="item">
-                    <a href="{{ route('aeon') }}">
-                        <img src="{{ asset('frontend/img/aeon.png') }}" alt="aeon" class="card-img-top img-fluid">
+                    <a href="#">
+                        <img src="{{ asset('frontend/img/idea.jpg') }}" alt="idea" class="card-img-top img-fluid">
                     </a>
                 </div>
                 <div class="item">
-                    <a href="{{ route('misi') }}">
-                        <img src="{{ asset('frontend/img/misilogo.png') }}" alt="misi" class="card-img-top">
+                    <a href="{{ route('foody_moody') }}">
+                        <img src="{{ asset('frontend/img/foody-moody.png') }}" alt="foody-moody" class="card-img-top">
                     </a>
                 </div>
                 <div class="item">

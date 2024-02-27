@@ -5,7 +5,7 @@
   <!-- Page Header Start -->
   <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
     <div class="container text-center py-5">
-        <p class="display-4 text-white animated slideInDown mb-4">Support Ticket</p>
+        <h1 class="text-white">Support Ticket</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
@@ -21,7 +21,7 @@
 <section class="py-7">
     <div class="container-xxl py-5">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-            <h1>Ticket for great support track</h1>
+            <p class="text-head">Ticket for great support track</p>
         </div>
         <div class="container">
             <div class="row g-5">

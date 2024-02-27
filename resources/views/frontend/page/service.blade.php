@@ -5,7 +5,7 @@
    <!-- Page Header Start -->
    <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
     <div class=" text-center py-5">
-        <p class="display-4 text-white mb-4">Our Services</p>
+        <h1 class="text-white">Our Services</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
@@ -22,7 +22,7 @@
     <div class="container-xxl py-5">
         <div>
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-                <h1>We Provide professional IT Software Development & Services</h1>
+                <p class="text-head">We Provide professional IT Software Development & Services</p>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">

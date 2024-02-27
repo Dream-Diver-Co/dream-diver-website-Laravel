@@ -5,7 +5,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <p class="display-4 text-white animated slideInDown mb-4">Web Design & Development</p>
+            <h1 class="text-white">Web Design & Development</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
@@ -47,7 +47,7 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-Discovery" role="tabpanel" aria-labelledby="pills-Discovery-tab" tabindex="0">
-                <h1> Web Design & Development</h1>
+              
 
                 Web design and web development are two closely related but distinct disciplines that work together to create and maintain websites. Here's an overview of each:
                 <br><br>

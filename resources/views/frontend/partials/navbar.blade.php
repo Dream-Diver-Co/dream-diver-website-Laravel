@@ -42,7 +42,7 @@
             </div>
             <a href="{{ route('contact') }}" class="nav-item nav-link">Contact Us</a>
             <a href="{{ route('ticket') }}" class="nav-item nav-link">Support Ticket</a>
-            <a href="{{ route('faq') }}" class="nav-item nav-link">Faq</a>
+            <a href="{{ route('faq') }}" class="nav-item nav-link">FAQ</a>
             <a href="{{ route('career') }}" class="nav-item nav-link">Career</a>
             <a href="{{ route('review') }}" class="nav-item nav-link">Review</a>
 
@@ -83,10 +83,10 @@
                 {{-- <a href="{{ route('login') }}" class="nav-item nav-link">Login 2</a> --}}
 
                 <div class="dropdown">
-                    <a href="" class="dropbtn nav-item nav-link">Login<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    <button class="dropbtn nav-item nav-link" onclick="showLoginModal()">Login<i class="fa fa-caret-down" aria-hidden="true"></i></button>
                     <div class="dropdown-content">
                         <button onclick="showLoginModal()">Login</button>
-                        <button onclick="showRegisterModal()">Registrar</button>
+                        <button onclick="showRegisterModal()">Register</button>
                     </div>
                 </div>
 
