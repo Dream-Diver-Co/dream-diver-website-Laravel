@@ -29,7 +29,7 @@
     </div>
     <div class="container">
         <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="container">
                     <div class="row">
                         <div class="col align-items-center flex-col ">

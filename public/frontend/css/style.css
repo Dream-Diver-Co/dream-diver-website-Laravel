@@ -460,7 +460,7 @@ body {
     margin-top: 8px;
     background: #1f1f47;
     width: 100%;
-    max-width: 97%;
+    /* max-width: 97%; */
     height: 95%;
     position: relative;
     overflow: hidden;
@@ -1738,13 +1738,13 @@ body {
 
     .col {
         width: 100%;
-        position: absolute;
-        padding: 2rem;
+        /* position: absolute; */
+        /* padding: 2rem; */
         /* background-color: var(--white); */
         background-color: white;
         border-top-left-radius: 2rem;
         border-top-right-radius: 2rem;
-        transform: translateY(100%);
+        /* transform: translateY(100%); */
         transition: 1s ease-in-out;
     }
 
@@ -1755,9 +1755,9 @@ body {
 
     .form,
     .social-list {
-        box-shadow: none;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 14px;
         margin: 0;
-        padding: 0;
+        padding: 15px;
     }
 
     .text {
@@ -1773,6 +1773,7 @@ body {
         font-size: 2rem;
     }
 }
+
 
 .contact-sing-in {
     background-color: #000000;
