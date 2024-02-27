@@ -1,17 +1,18 @@
 @extends('frontend.layouts.master')
 
 @section('content')
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center py-5">
-            <p class="display-4 text-white animated slideInDown mb-4">FAQ</p>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">FAQ</li>
-                </ol>
-            </nav>
-        </div>
+
+
+  <!-- Page Header Start -->
+  <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
+    <div class="container text-center py-5">
+        <h1 class="text-white">FAQ</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">FAQ</li>
+            </ol>
+        </nav>
     </div>
     <!-- Page Header End -->
 

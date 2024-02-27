@@ -792,7 +792,7 @@ body {
 .flip-btn {
     padding-left: 5px;
     border-radius: 5px;
-    background-color: #1F1F47;
+    background-color: #ffffff;
     /* box-shadow: rgba(0, 0, 0, 0.35) 3px 3px 5px 2px; */
     /* border: teal; */
     font-weight: 900;
@@ -1504,6 +1504,7 @@ body {
     color: black !important;
     font-weight: 900;
     background-color: #f5f5f5 !important;
+    padding: 10px !important;
 }
 
 .form p {
@@ -2021,8 +2022,9 @@ p {
   color: white;
   padding: 16px;
   font-size: 16px; */
-    border: none;
-    /* background-color: rgb(182, 177, 231); */
+  border: none;
+  background-color:transparent;
+
 }
 
 /* .dropdown {

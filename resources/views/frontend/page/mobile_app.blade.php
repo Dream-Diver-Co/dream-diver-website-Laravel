@@ -5,7 +5,8 @@
      <!-- Page Header Start -->
      <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <p class="display-4 text-white animated slideInDown mb-4">Mobile App Development</p>
+            <p class="display-4 text-white animated slideInDown mb-4"></p>
+            <h1 class="text-white">Mobile App Development</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
@@ -40,7 +41,7 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <h1>Mobile App Development</h1>
+   
 
                 Mobile app development is the process of creating software applications that are designed to run on mobile devices, such as smartphones and tablets. This field has experienced explosive growth in recent years, driven by the widespread adoption of mobile devices and the increasing demand for apps that provide various services and functionality to users.
                 <br><br>

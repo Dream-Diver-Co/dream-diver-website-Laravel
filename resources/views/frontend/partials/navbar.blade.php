@@ -66,7 +66,6 @@
             <a href="{{ route('review') }}"
                 class="nav-item nav-link{{ request()->is('review') ? ' active' : '' }}">Review</a>
 
-
             @if (auth()->check())
                 <div class="dropdown">
 
@@ -101,8 +100,8 @@
                 {{-- <a href="{{ route('login') }}" class="nav-item nav-link">Login 2</a> --}}
 
                 <div class="dropdown">
-                    <a href="" class="dropbtn nav-item nav-link">Login<i class="fa fa-caret-down"
-                            aria-hidden="true"></i></a>
+                    <button class="dropbtn nav-item nav-link" onclick="showLoginModal()">Login<i class="fa fa-caret-down" aria-hidden="true"></i></button>
+
                     <div class="dropdown-content">
                         <button onclick="showLoginModal()">Login</button>
                         <button onclick="showRegisterModal()">Register</button>

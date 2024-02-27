@@ -27,13 +27,13 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-highlight mb-4">Follow Us</h5>
                     <div class="d-flex">
-                        <a class="btn btn-square rounded-circle me-1" href="https://twitter.com/home?logout=1701946567424"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square rounded-circle me-1" href="https://www.facebook.com/dreamdivernl"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square rounded-circle me-1" href="https://www.instagram.com/dream_diver1/?hl=en"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-square rounded-circle me-1" href="https://www.linkedin.com/company/dream-diver-nl/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" target="_blank" href="https://twitter.com/home?logout=1701946567424"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" target="_blank" href="https://www.facebook.com/dreamdivernl"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" target="_blank" href="https://www.instagram.com/dream_diver1/?hl=en"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" target="_blank" href="https://www.linkedin.com/company/dream-diver-nl/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <br>
-                    <a href="https://www.youtube.com/@DreamDiverIT">
+                    <a href="https://www.youtube.com/@DreamDiverIT" target="_blank">
                         <button class="Subscribe">Subscribe</button>
                     </a>
                 </div>
@@ -47,7 +47,7 @@
                     </div>
                     <div class="col-md-6 text-center text-md-end">
 
-                        Developed By <a href="https://dreamdiver.nl">Dream Diver</a>
+                        Developed By <a href="https://dreamdiver.nl" target="_blank">Dream Diver</a>
                     </div>
                 </div>
             </div>

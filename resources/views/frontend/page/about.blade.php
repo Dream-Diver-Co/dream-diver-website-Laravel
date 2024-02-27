@@ -5,7 +5,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header " data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <p class="display-4 text-white animated slideInDown mb-4">About Us</p>
+            <h1 class="text-white">About Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
@@ -31,8 +31,6 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <h1>Our History</h1>
-
                 <p class="text-two">Our Birth</p>
                 <p>
                     We started our journey in 2017 in Rotterdam, Netherlands. Initially, the founder, M A Hasan,
@@ -66,8 +64,7 @@
                 </p>
             </div>
             <div class="tab-pane fade slide-section" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                <p class="text-head">Our Mission and Vision</p>
-                <br>
+
                 <p class="text-two">Mission</p>
                 <br>
                 <p class="about-us">Our primary mission is to help the customers/clients attain their business goals by offering
@@ -81,7 +78,7 @@
 
             </div>
             <div class="tab-pane fade slide-section" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
-                <p class="text-head">Our Core Values</p>
+
                 <p class="about-us">Our core values are the fundamental base for our business culture and business philosophy.
                     The values define us as a service provider and help us make our decisions and deploy them.</p>
                 <br>
