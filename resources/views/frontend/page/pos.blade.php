@@ -1,7 +1,6 @@
 @extends('frontend.layouts.master')
 
 @section('content')
-
           <!-- Page Header Start -->
           <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
             <div class="container text-center py-5">
@@ -86,90 +85,110 @@
             <p>
                 Video courtesy of
                 <a href="https://www.dreamdiver.nl/" target="_blank">Dream Diver</a>.
-                </p>
-           </center>
 
-        </div>
-        <div class="tab-pane fade slide-section" id="pills-link" role="tabpanel" aria-labelledby="pills-link-tab" tabindex="0">
-            <p class="text-head">
-                Link
             </p>
-        </div>
-        <div class="tab-pane fade" id="pills-aeon" role="tabpanel" aria-labelledby="pills-aeon-tab" tabindex="0">
+            </center>
+
+            </div>
+            <div class="tab-pane fade slide-section" id="pills-link" role="tabpanel" aria-labelledby="pills-link-tab"
+                tabindex="0">
+                <p class="text-head">
+                    Link
+                </p>
+            </div>
+            <div class="tab-pane fade" id="pills-aeon" role="tabpanel" aria-labelledby="pills-aeon-tab" tabindex="0">
                 <div class="container-xxl py-5">
                     <div class="container">
                         <div class="row g-5">
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="slide-form">
                                     <p class="text-head text-center">Text Review</p>
-                                <p class="about-us">Our core values are the fundamental base for our business culture and business philosophy.
-                                    The values define us as a service provider and help us make our decisions and deploy them.</p>
-                                <br>
-                                <p class="about-h33">Quality</p>
-                                <p class="about-us">Dream Diver considers Quality as an implicit business practice. We take huge pride in adding
-                                    value to the services and solutions and the best industry practices to our clients and
-                                    customers. As an organisation we always stand supportive for the evolving future of our
-                                    employees, customer satisfaction, and our growth and profitability. We don’t believe in
-                                    shortcuts and we optimize quality through efficient teamwork and a continuous learning
-                                    process.</p>
-                                <br>
-                                <p class="about-h33">Growth and learning</p>
-                                <p class="about-us">Dream Diver embraces its journey with the success of its clients and the continuous growth
-                                    of the team. We encompass a constant learning process, that helps us to grow as a team, and
-                                    as an organization as a whole, and thereby giving us scopes for improvement. We support
-                                    and encourage chances for skilled and talented resources to recognise their full potential and
-                                    create an ambience where the continuous flow of creative ideas strongly drives us to provide
-                                    better services.</p>
-                                <p class="about-h33">Integrity and honesty</p>
-                                <p class="about-us">We ensure to showcase integrity, honesty, fairness, and openness in our practices and
-                                    communications within the organization, and with the stakeholders. Dream Diver respects the
-                                    differences in each other providing a safe ambience for every individual and acknowledge in
-                                    open communication and transparent work culture.</p>
+                                    <p class="about-us">Our core values are the fundamental base for our business culture
+                                        and business philosophy.
+                                        The values define us as a service provider and help us make our decisions and deploy
+                                        them.</p>
+                                    <br>
+                                    <p class="about-h33">Quality</p>
+                                    <p class="about-us">Dream Diver considers Quality as an implicit business practice. We
+                                        take huge pride in adding
+                                        value to the services and solutions and the best industry practices to our clients
+                                        and
+                                        customers. As an organisation we always stand supportive for the evolving future of
+                                        our
+                                        employees, customer satisfaction, and our growth and profitability. We don’t believe
+                                        in
+                                        shortcuts and we optimize quality through efficient teamwork and a continuous
+                                        learning
+                                        process.</p>
+                                    <br>
+                                    <p class="about-h33">Growth and learning</p>
+                                    <p class="about-us">Dream Diver embraces its journey with the success of its clients
+                                        and the continuous growth
+                                        of the team. We encompass a constant learning process, that helps us to grow as a
+                                        team, and
+                                        as an organization as a whole, and thereby giving us scopes for improvement. We
+                                        support
+                                        and encourage chances for skilled and talented resources to recognise their full
+                                        potential and
+                                        create an ambience where the continuous flow of creative ideas strongly drives us to
+                                        provide
+                                        better services.</p>
+                                    <p class="about-h33">Integrity and honesty</p>
+                                    <p class="about-us">We ensure to showcase integrity, honesty, fairness, and openness in
+                                        our practices and
+                                        communications within the organization, and with the stakeholders. Dream Diver
+                                        respects the
+                                        differences in each other providing a safe ambience for every individual and
+                                        acknowledge in
+                                        open communication and transparent work culture.</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class=" slide-benar">
                                     <p class="text-head text-center">Video Review</p>
-                                <div class="small-container align-items-center ">
-                                    <div class="custom-card">
-                                          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                            <div class="carousel-inner">
-                                              <div class="carousel-item active" style="text-align: center;">
-                                                <h5 class="custom-title">Dream Diver!</h5>
-                                                <p>We provide all kind of software solutions to your projects.</p>
-                                              </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title">Web Development</h5>
-                                                <p>Web Design & Development, Android Applications</p>
-                                              </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title">SEO</h5>
-                                                <p>Search Engine Optimization, contact us for details</p>
-                                              </div>
+                                    <div class="small-container align-items-center ">
+                                        <div class="custom-card">
+                                            <div id="carouselExampleControls" class="carousel slide"
+                                                data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active" style="text-align: center;">
+                                                        <h5 class="custom-title">Dream Diver!</h5>
+                                                        <p>We provide all kind of software solutions to your projects.</p>
+                                                    </div>
+                                                    <div class="carousel-item" style="text-align: center;">
+                                                        <h5 class="custom-title">Web Development</h5>
+                                                        <p>Web Design & Development, Android Applications</p>
+                                                    </div>
+                                                    <div class="carousel-item" style="text-align: center;">
+                                                        <h5 class="custom-title">SEO</h5>
+                                                        <p>Search Engine Optimization, contact us for details</p>
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
                                             </div>
-                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Previous</span>
-                                            </button>
-                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Next</span>
-                                            </button>
-                                          </div>
                                             <a href="contact.html">
                                                 <button class="custom-btn">Contact Us</button>
-                                              </a>
+                                            </a>
+                                        </div>
+                                        <div class="custom-blob"></div>
                                     </div>
-                                    <div class="custom-blob"></div>
-                                </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
+
+
     </div>
-
-   </div>
-
 @endsection

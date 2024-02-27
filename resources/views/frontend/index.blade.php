@@ -379,7 +379,7 @@
             </section>
             <!-- Service End -->
 
-            <div id="cookies" class="cookie-modal show">
+            {{-- <div id="cookies" class="cookie-modal show">
                 <div class="cookie-modal-card slide-form">
                     <span class="cookie-modal-close" onclick="acceptCookies()">&times;</span>
                     <div class="cookie-modal-container">
@@ -389,7 +389,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
+
+
+
 
             <script>
                 // Function to set a cookie when the user accepts cookies

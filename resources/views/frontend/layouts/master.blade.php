@@ -56,6 +56,7 @@
 
 
 
+    @include('cookie-consent::index')
 
 
 
@@ -129,7 +130,7 @@
         }
     </script>
 
-   
+
 
 
 </body>
