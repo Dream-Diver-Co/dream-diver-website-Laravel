@@ -35,7 +35,7 @@
                         <div class="col align-items-center flex-col ">
                             <div class=" form-wrapper slide-form align-items-center">
                                 <div class="form ">
-                                    <p class="from-head">Please Contact</p>
+                                    <p class="from-head">Contact Form</p>
 
                                     @if(session('success'))
                                         <div id="successMessage" class="alert alert-success">
@@ -76,7 +76,7 @@
 
                                         <div class="input-group">
                                             <i class='bx bxs-lock-alt'></i>
-                                            <input type="number" placeholder="Phone" name="phone" >
+                                            <input type="tel" placeholder="Phone" name="phone" >
                                         </div>
                                         @error('phone')
                                             <div class="alert alert-danger">{{ $message }}</div>
