@@ -35,32 +35,22 @@
                 <div class="container-xxl py-5">
                     <div>
                         <div class="row g-4 justify-content-center">
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="small-container-review">
                                     <div class="custom-card-review">
                                           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                             <div class="carousel-inner">
                                               <div class="carousel-item active" style="text-align: center;">
                                                 <h5 class="custom-title-review">AEON!</h5>
-                                                <p>We provide all kind of software solutions to your projects.</p>
+                                                <p>HI Rumio,
+
+                                                    Thanks so much for a great meeting today. The aeon system is looking great and we are
+                                                    very happy with the work put in so far!
+                                                </p>
                                               </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title-review">AEON</h5>
-                                                <p>Web Design & Development, Android Applications</p>
-                                              </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title-review">AEON</h5>
-                                                <p>Search Engine Optimization, contact us for details</p>
-                                              </div>
+
                                             </div>
-                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Previous</span>
-                                            </button>
-                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Next</span>
-                                            </button>
+
                                           </div>
                                             <a href="{{ route('aeon') }}">
                                                 <button class="custom-btn-review">Aeon</button>
@@ -69,32 +59,18 @@
                                     <div class="custom-blob-review"></div>
                                 </div>
                             </div>
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="small-container-review">
                                     <div class="custom-card-review">
                                           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                             <div class="carousel-inner">
                                               <div class="carousel-item active" style="text-align: center;">
                                                 <h5 class="custom-title-review">Pos!</h5>
-                                                <p>We provide all kind of software solutions to your projects.</p>
+                                                <p>Your POS System project offers a seamless and efficient solution for businesses. Its intuitive interface simplifies transactions while advanced features enhance productivity. The system's reliability ensures uninterrupted service, instilling confidence in operations. Highly recommend for businesses seeking a streamlined and dependable POS solution.</p>
                                               </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title-review">Pos</h5>
-                                                <p>Web Design & Development, Android Applications</p>
-                                              </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title-review">Pos</h5>
-                                                <p>Search Engine Optimization, contact us for details</p>
-                                              </div>
+
                                             </div>
-                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Previous</span>
-                                            </button>
-                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Next</span>
-                                            </button>
+
                                           </div>
                                             <a href="{{ route('pos') }}">
                                                 <button class="custom-btn-review">Pos</button>
@@ -103,32 +79,18 @@
                                     <div class="custom-blob-review"></div>
                                 </div>
                             </div>
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="small-container-review">
                                     <div class="custom-card-review">
                                           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                             <div class="carousel-inner">
                                               <div class="carousel-item active" style="text-align: center;">
                                                 <h5 class="custom-title-review">Misi !</h5>
-                                                <p>We provide all kind of software solutions to your projects.</p>
+                                                <p>Misi Hospital Project has truly exceeded expectations with its exceptional healthcare services. The state-of-the-art facilities, compassionate staff, and efficient management ensure top-notch patient care. Misi sets a new standard in the healthcare industry, providing a seamless and compassionate experience for all.</p>
                                               </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title-review">Misi </h5>
-                                                <p>Web Design & Development, Android Applications</p>
-                                              </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title-review">Misi </h5>
-                                                <p>Search Engine Optimization, contact us for details</p>
-                                              </div>
+
                                             </div>
-                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Previous</span>
-                                            </button>
-                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Next</span>
-                                            </button>
+
                                           </div>
                                             <a href="{{ route('misi') }}">
                                                 <button class="custom-btn-review">Misi </button>
@@ -138,67 +100,18 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="small-container-review">
-                                    <div class="custom-card-review">
-                                          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                            <div class="carousel-inner">
-                                              <div class="carousel-item active" style="text-align: center;">
-                                                <h5 class="custom-title-review">De-Shopper!</h5>
-                                                <p>We provide all kind of software solutions to your projects.</p>
-                                              </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title-review">De-Shopper</h5>
-                                                <p>Web Design & Development, Android Applications</p>
-                                              </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title-review">De-Shopper</h5>
-                                                <p>Search Engine Optimization, contact us for details</p>
-                                              </div>
-                                            </div>
-                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Previous</span>
-                                            </button>
-                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Next</span>
-                                            </button>
-                                          </div>
-                                            <a href="{{ route('de_shop') }}">
-                                                <button class="custom-btn-review">De-Shopper</button>
-                                              </a>
-                                    </div>
-                                    <div class="custom-blob-review"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="small-container-review">
                                     <div class="custom-card-review">
                                           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                             <div class="carousel-inner">
                                               <div class="carousel-item active" style="text-align: center;">
                                                 <h5 class="custom-title-review">Book Exchanger!</h5>
-                                                <p>We provide all kind of software solutions to your projects.</p>
+                                                <p>Exceptional experience with the book exchange website! User-friendly interface, vast selection, and prompt service. A must-visit for avid readers looking to swap and discover new treasures.</p>
                                               </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title-review">Book Exchanger</h5>
-                                                <p>Web Design & Development, Android Applications</p>
-                                              </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title-review">Book Exchanger</h5>
-                                                <p>Search Engine Optimization, contact us for details</p>
-                                              </div>
+
                                             </div>
-                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Previous</span>
-                                            </button>
-                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Next</span>
-                                            </button>
+
                                           </div>
                                             <a href="{{ route('book_change') }}">
                                                 <button class="custom-btn-review">Book Exchanger</button>
@@ -208,40 +121,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="small-container-review">
-                                    <div class="custom-card-review">
-                                          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                            <div class="carousel-inner">
-                                              <div class="carousel-item active" style="text-align: center;">
-                                                <h5 class="custom-title-review">Foody Moody</h5>
-                                                <p>We provide all kind of software solutions to your projects.</p>
-                                              </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title-review">Foody Moody</h5>
-                                                <p>Web Design & Development, Android Applications</p>
-                                              </div>
-                                              <div class="carousel-item" style="text-align: center;">
-                                                <h5 class="custom-title-review">Foody Moody</h5>
-                                                <p>Search Engine Optimization, contact us for details</p>
-                                              </div>
-                                            </div>
-                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Previous</span>
-                                            </button>
-                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden">Next</span>
-                                            </button>
-                                          </div>
-                                            <a href="{{ route('foody_moody') }}">
-                                                <button class="custom-btn-review">Foody-Moody</button>
-                                              </a>
-                                    </div>
-                                    <div class="custom-blob-review"></div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
