@@ -99,14 +99,14 @@
                 <!-- User is not logged in, show login link -->
                 {{-- <a href="{{ route('login') }}" class="nav-item nav-link">Login 2</a> --}}
 
-                <div class="dropdown">
+                {{-- <div class="dropdown">
                     <button class="dropbtn nav-item nav-link" >Login<i class="fa fa-caret-down" aria-hidden="true"></i></button>
 
                     <div class="dropdown-content">
                         <button onclick="showLoginModal()">Login</button>
                         <button onclick="showRegisterModal()">Register</button>
                     </div>
-                </div>
+                </div> --}}
 
 
                 {{-- <li class="nav-item dropdown">
