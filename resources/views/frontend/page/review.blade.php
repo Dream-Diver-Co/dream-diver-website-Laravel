@@ -86,7 +86,8 @@
                                             <div class="carousel-inner">
                                               <div class="carousel-item active" style="text-align: center;">
                                                 <h5 class="custom-title-review">Misi !</h5>
-                                                <p>Misi Hospital Project has truly exceeded expectations with its exceptional healthcare services. The state-of-the-art facilities, compassionate staff, and efficient management ensure top-notch patient care. Misi sets a new standard in the healthcare industry, providing a seamless and compassionate experience for all.</p>
+                                                <p>
+                                                    Misi Hospital Project has truly exceeded expectations with its exceptional healthcare services. The state-of-the-art facilities, compassionate staff, and efficient management ensure top-notch patient care. Misi sets a new standard in the healthcare industry, providing a seamless and compassionate experience for all.</p>
                                               </div>
 
                                             </div>
