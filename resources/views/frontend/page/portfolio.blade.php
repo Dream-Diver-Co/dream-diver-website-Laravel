@@ -247,13 +247,13 @@
                                         <img class="img-service" src="{{ asset('frontend/img/foody_moody_logo.png') }}" alt="foody">
                                         <div class="flip-text">
                                             <p class="portfolio-text">Dream Diver</p>
-                                            <p>FOODY MOODY</p>
+                                            <p>Foody Moody</p>
                                             <button class="flip-btn">Read more...</button>
                                         </div>
                                       </div>
                                     </div>
                                     <div>
-                                        <p class="service-item-text">FOODY-MOODY</p>
+                                        <p class="service-item-text">Foody Moody</p>
                                     </div>
 
                                 </div>
