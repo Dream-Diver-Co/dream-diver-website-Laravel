@@ -69,10 +69,20 @@
                </center>
             </div>
             <div class="tab-pane fade slide-section" id="pills-link" role="tabpanel" aria-labelledby="pills-link-tab" tabindex="0">
-                <p class="text-head">
-                    Link
-                </p>
-                <a href="http://erpaeon.dreamdiver.nl/login">AEON LINK</a>
+                <center>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="card">
+                            <img src="{{ asset('frontend/img/aeon.png') }}" class="card-img-top" alt="aeon">
+                            <div class="card-body">
+                              <h5 class="card-title">AEON</h5>
+                              <p class="card-text"> Garment order process system.<br>
+                                1. Place order by uploading pdf.<br>
+                                2. Follow different process of completing a order  <br></p>
+                              <a href="http://erpaeon.dreamdiver.nl/login" target="_blank" class="custom-btn">Aeon Link</a>
+                            </div>
+                          </div>
+                    </div>
+                </center>
             </div>
             <div class="tab-pane fade" id="pills-aeon" role="tabpanel" aria-labelledby="pills-aeon-tab" tabindex="0">
                     <div class="container-xxl py-5">

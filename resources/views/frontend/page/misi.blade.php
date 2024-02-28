@@ -44,61 +44,52 @@
 
             <div class="tab-pane fade slide-section show active" id="pills-Summary" role="tabpanel" aria-labelledby="pills-Summary-tab" tabindex="0">
 
-                Digital marketing is a broad term that encompasses all marketing efforts that use an electronic device or the internet. It's a dynamic field that continues to evolve with new technologies and platforms. Digital marketing allows businesses to reach and connect with their target audience online and promote their products or services. Here are some key components of digital marketing:
-                <br><br>
-                1. Search Engine Optimization (SEO): As discussed earlier, SEO focuses on improving a website's visibility
-                in search engine results. It involves optimizing content, improving website structure, and building
-                high-quality backlinks to increase organic traffic.
-                <br><br>
-                2. Content Marketing: Content marketing involves creating and distributing valuable, relevant, and
-                consistent content to attract and engage a target audience. Content can take various forms, such as blog
-                posts, videos, infographics, e-books, and more. The goal is to provide information that helps users and, in
-                turn, builds trust and brand loyalty.
-                <br><br>
-                3. Social Media Marketing: This includes marketing and advertising on social media platforms like Facebook,
-                Instagram, Twitter, LinkedIn, and others. Social media marketing can involve organic (unpaid) content, paid
-                advertising, and influencer collaborations to reach and engage a brand's target audience.
-                <br><br>
-                4. Email Marketing: Email marketing involves sending targeted emails to a list of subscribers or customers.
-                It is a cost-effective way to promote products, share news, and maintain relationships with your audience.
-                Email marketing automation tools are commonly used to manage and personalize email campaigns.
-                <br><br>
-                5. Pay-Per-Click (PPC) Advertising: PPC advertising allows businesses to display ads on search engines like
-                Google and on various websites. Advertisers pay a fee each time their ad is clicked. This model can be
-                highly effective for driving traffic and conversions when managed correctly.
-                <br><br>
-                6. Affiliate Marketing: In affiliate marketing, businesses reward affiliates (partners) for driving traffic
-                or sales to their website. Affiliates promote products or services and earn a commission on each successful
-                referral or sale.
-                <br><br>
-                7. Influencer Marketing: This involves collaborating with social media influencers and individuals with a
-                significant following to promote products or services. Influencers can reach a highly targeted and engaged
-                audience, increasing brand exposure.
-                <br><br>
-                8. Video Marketing: Video content is becoming increasingly popular. It can be used on social media, YouTube,
-                websites, and more. Video marketing can include product demos, tutorials, vlogs, and storytelling to engage
-                and inform the audience.
-                <br><br>
-                9. Mobile Marketing: As mobile device usage continues to grow, mobile marketing strategies, such as mobile
-                app marketing, in-app advertising, and SMS marketing, have become essential to reach a mobile-first audience
-                effectively.
-                <br><br>
-                10. Analytics and Data Analysis: Digital marketing relies heavily on data and analytics tools to measure the
-                performance of marketing campaigns. Marketers use data to track website traffic, user behavior, conversion
-                rates, and other key performance indicators.
-                <br><br>
-                11. Marketing Automation: Automation tools help streamline and optimize marketing processes. They can be
-                used for email marketing, social media posting, lead nurturing, and more.
-                <br><br>
-                Digital marketing is highly versatile, allowing businesses to tailor their strategies to reach specific
-                goals and audiences. It's essential to stay updated with the latest digital marketing trends and
-                technologies to remain competitive in the online marketplace. Additionally, ethical considerations, such as
-                data privacy and online security, play a significant role in digital marketing practices.
+                <p>
+                    A hospital ticket system for sorting summaries typically involves organizing and managing various types of information related to patient care, administrative tasks, and communication within the hospital setting. Here's an overview of how such a system might work:
+                    <br><br>
+                    Patient Intake and Registration: When a patient arrives at the hospital, their information is collected and entered into the system. This includes personal details, medical history, insurance information, and the reason for their visit.
+                    <br><br>
+                    Ticket Generation: Once the patient is registered, a ticket is generated based on the reason for their visit. For example, if they are visiting the emergency room, a ticket is created for triage. If they have an appointment with a specific department, a ticket is generated for that department.
+                    <br><br>
+                    Triage and Priority: In the case of emergencies, the ticket system prioritizes patients based on the severity of their condition. Triage nurses assess patients and assign priority levels accordingly. The ticket system ensures that patients are seen in the order of urgency.
+                    <br><br>
+                    Routing and Assignment: Tickets are routed to the appropriate departments or healthcare providers based on the nature of the patient's condition. For instance, if a patient presents with cardiac symptoms, their ticket is routed to the cardiology department.
+                    <br><br>
+                    Medical Documentation and Summary: Healthcare providers document their interactions with patients using the ticket system. This includes diagnosis, treatment provided, medications prescribed, and any other relevant information. Summaries of patient encounters are generated and stored within the system for future reference.
+                    <br><br>
+                    Communication and Collaboration: The ticket system facilitates communication and collaboration among healthcare providers. They can exchange messages, share updates on patient status, and coordinate care plans using the system.
+                    <br><br>
+                    Follow-Up and Discharge Planning: After treatment, the ticket system assists with discharge planning and follow-up care. It generates discharge summaries outlining the patient's treatment, instructions for post-discharge care, and follow-up appointments.
+                    <br><br>
+                    Analytics and Reporting: The ticket system collects data on patient encounters, wait times, resource utilization, and other metrics. This data can be analyzed to identify trends, optimize workflows, and improve overall hospital operations.
+                    <br><br>
+                    Security and Compliance: The ticket system adheres to strict security protocols to protect patient confidentiality and comply with healthcare regulations such as HIPAA (Health Insurance Portability and Accountability Act).
+                    <br><br>
+                    Integration with Electronic Health Records (EHR): The ticket system may be integrated with the hospital's EHR system to ensure seamless sharing of patient information and continuity of care across different healthcare settings.
+                </p>
             </div>
             <div class="tab-pane fade slide-section" id="pills-details" role="tabpanel" aria-labelledby="pills-details-tab"
                 tabindex="0">
-                <p class="text-head">
-                    Details
+                <p>
+                    A hospital ticket system, also known as a ticketing system or queuing system, is a software application or platform used by hospitals and healthcare facilities to manage patient flow and appointments efficiently. Here's an overview of how such a system typically works:
+                    <br><br>
+                    Appointment Scheduling: Patients can book appointments online, via phone, or in person. The system should allow for easy scheduling, taking into account the availability of healthcare providers and resources.
+                    <br><br>
+                    Check-in Process: Upon arrival at the hospital or clinic, patients check in using the ticket system. This could involve self-service kiosks, receptionists, or mobile check-in options.
+                    <br><br>
+                    Queue Management: The system assigns patients to specific queues based on factors such as appointment type, urgency, and specialty. Patients may receive a physical ticket or a digital queue number.
+                    <br><br>
+                    Notifications: Patients are kept informed about their status in the queue through notifications. This could include SMS alerts, mobile app notifications, or digital display screens in the waiting area.
+                    <br><br>
+                    Resource Allocation: The system helps hospital staff manage resources efficiently by allocating appointments based on the availability of doctors, nurses, examination rooms, and equipment.
+                    <br><br>
+                    Priority Handling: Patients with urgent medical needs or emergencies are prioritized within the system to ensure timely care.
+                    <br><br>
+                    Tracking and Reporting: The system collects data on patient flow, waiting times, appointment cancellations, and other relevant metrics. This information can be used to optimize scheduling and resource allocation.
+                    <br><br>
+                    Integration: Ideally, the ticket system integrates with other hospital software such as electronic health records (EHR), billing systems, and patient management platforms for seamless data exchange.
+                    <br><br>
+                    Feedback Collection: Some ticket systems allow patients to provide feedback on their experience, which can help hospitals identify areas for improvement.
                 </p>
 
             </div>
@@ -122,9 +113,18 @@
             </div>
             <div class="tab-pane fade slide-section" id="pills-link" role="tabpanel" aria-labelledby="pills-link-tab"
                 tabindex="0">
-                <p class="text-head">
-                    Link
-                </p>
+                <center>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="card">
+                            <img src="{{ asset('frontend/img/misilogo2.png') }}" class="card-img-top" alt="misi">
+                            <div class="card-body">
+                              <h5 class="card-title">MISI</h5>
+                              <p class="card-text">A hospital ticket system for sorting summaries typically involves organizing and managing various types of information related to patient care, administrative tasks, and communication within the hospital setting.</p>
+                              <a href="https://misineuro.netlify.app/" target="_blank" class="custom-btn">Misi Link</a>
+                            </div>
+                          </div>
+                    </div>
+                </center>
             </div>
             <div class="tab-pane fade" id="pills-aeon" role="tabpanel" aria-labelledby="pills-aeon-tab" tabindex="0">
                 <div class="container-xxl py-5">
