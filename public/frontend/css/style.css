@@ -133,7 +133,9 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-left: 10px;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
     /* padding: 10px 0; */
     color: #000000;
     font-weight: 900;
