@@ -74,7 +74,7 @@
                                   Trusted Service Center
                               </p>
                               <p>
-                                        "Welcome to our trusted service center, where reliability meets excellence."
+                                        "Welcome to our trusted service center"
                                     <a class="" href="{{ route('trusted') }}">Read more..</a>
                               </p>
                             </div>
@@ -94,7 +94,7 @@
                                      Reasonable Price
                                 </p>
                                 <p>
-                                        "At our service center, we take pride in offering top-notch solutions at a reasonable price."
+                                        "At our service center, we take pride in offering top-notch solutions,"
 
                                       <a class="" href="{{ route('reasonable') }}">Read more..</a>
                                 </p>
@@ -115,7 +115,7 @@
                                     24/7 Supports
                               </p>
                               <p>
-                                    "Our 24/7 support is designed with your convenience in mind, providing peace of mind."
+                                    "Our 24/7 support is designed with your convenience in mind providing"
                                     <a class="" href="{{ route('twonty_four') }}">Read more..</a>
                               </p>
                             </div>
