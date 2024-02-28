@@ -2374,3 +2374,9 @@ a:hover {
     font-size: 18px;
     font-weight: bold;
 }
+
+
+
+.dropdown-toggle::after {
+    display: none;
+}

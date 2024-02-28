@@ -109,13 +109,24 @@
                 </div>
 
 
-                <li class="nav-item dropdown">
+                {{-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
                     <ul class="dropdown-menu" aria-labelledby="dropdown09">
                       <li><a onclick="showLoginModal()"  class="dropdown-item" href="#">login</a></li>
                       <li><a onclick="showRegisterModal()" class="dropdown-item" href="#">Register</a></li>
                     </ul>
+                </li> --}}
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown09">
+                        <li><a onclick="showLoginModal()" class="dropdown-item" href="#">Login</a></li>
+                        <li><a onclick="showRegisterModal()" class="dropdown-item" href="#">Register</a></li>
+                    </ul>
                 </li>
+
 
             @endif
 
