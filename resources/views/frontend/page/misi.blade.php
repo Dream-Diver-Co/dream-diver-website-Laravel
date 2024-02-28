@@ -133,44 +133,10 @@
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="slide-form">
                                     <p class="text-head text-center">Text Review</p>
-                                    <p class="about-us">Our core values are the fundamental base for our business culture
-                                        and business philosophy.
-                                        The values define us as a service provider and help us make our decisions and deploy
-                                        them.</p>
+                                    <p class="about-us">Misi Hospital Project has truly exceeded expectations with its exceptional healthcare services. The state-of-the-art facilities, compassionate staff, and efficient management ensure top-notch patient care. Misi sets a new standard in the healthcare industry, providing a seamless and compassionate experience for all.
+                                              </p>
                                     <br>
-                                    <p class="about-h33">Quality</p>
-                                    <p class="about-us">Dream Diver considers Quality as an implicit business practice. We
-                                        take huge pride in adding
-                                        value to the services and solutions and the best industry practices to our clients
-                                        and
-                                        customers. As an organisation we always stand supportive for the evolving future of
-                                        our
-                                        employees, customer satisfaction, and our growth and profitability. We don’t believe
-                                        in
-                                        shortcuts and we optimize quality through efficient teamwork and a continuous
-                                        learning
-                                        process.</p>
-                                    <br>
-                                    <p class="about-h33">Growth and learning</p>
-                                    <p class="about-us">Dream Diver embraces its journey with the success of its clients
-                                        and the continuous growth
-                                        of the team. We encompass a constant learning process, that helps us to grow as a
-                                        team, and
-                                        as an organization as a whole, and thereby giving us scopes for improvement. We
-                                        support
-                                        and encourage chances for skilled and talented resources to recognise their full
-                                        potential and
-                                        create an ambience where the continuous flow of creative ideas strongly drives us to
-                                        provide
-                                        better services.</p>
-                                    <p class="about-h33">Integrity and honesty</p>
-                                    <p class="about-us">We ensure to showcase integrity, honesty, fairness, and openness in
-                                        our practices and
-                                        communications within the organization, and with the stakeholders. Dream Diver
-                                        respects the
-                                        differences in each other providing a safe ambience for every individual and
-                                        acknowledge in
-                                        open communication and transparent work culture.</p>
+
                                 </div>
                             </div>
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
