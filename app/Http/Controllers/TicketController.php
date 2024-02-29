@@ -125,7 +125,7 @@ class TicketController extends Controller
      */
     public function destroy(Ticket $ticket)
     {
-
+        $ticket->attachments()->delete();
         $ticket->delete();
 
         // You can add a redirect or any other logic after the deletion.
