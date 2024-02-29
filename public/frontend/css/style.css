@@ -2403,3 +2403,53 @@ p {
 .dropdown-toggle::after {
     display: none;
 }
+
+.smallscreen{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .hidebigscreen{
+        display: none;
+    }
+
+    .smallscreen{
+        background-color: rgb(255, 255, 255);
+        display: block;
+    }
+
+    .timeline-item {
+        /* border: 1px solid rgb(139, 171, 196); */
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(238, 238, 238);
+    }
+
+    .timeline .timeline-box {
+        padding: auto;
+        position: relative;
+        background-color: rgb(240, 240, 240);
+        border-radius: 10px;
+        box-shadow: rgba(255, 255, 255, 0.35) 2px 2px 5px 0px;
+        height: 150px;
+    }
+
+    .timeline .timeline-circle {
+        width: 64px;
+        height: 64px;
+        background-color:rgb(182, 177, 231);
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 10px 5px;
+    }
+
+    .timeline .timeline-circle i {
+        font-size: 30px;
+        color: white;
+    }
+
+
+
+
+
+
+}
