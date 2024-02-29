@@ -13,12 +13,10 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav mx-auto pe-4 py-3 py-lg-0">
             <a href="{{ route('index') }}" class="nav-item nav-link {{ request()->is('/') ? ' active' : '' }}">Home</a>
-            <a href="{{ route('about') }}" class="nav-item nav-link {{ request()->is('about') ? ' active' : '' }}">About
-                Us</a>
+            <a href="{{ route('about') }}" class="nav-item nav-link {{ request()->is('about') ? ' active' : '' }}">About</a>
             <div class="dropdown">
                 <a href="{{ route('service') }}"
-                    class="dropbtn nav-item nav-link {{ request()->is('service', 'software_development', 'mobile_app', 'software_service', 'web_design', 'seo', 'marketing') ? 'active' : '' }}">Our
-                    Services <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    class="dropbtn nav-item nav-link {{ request()->is('service', 'software_development', 'mobile_app', 'software_service', 'web_design', 'seo', 'marketing') ? 'active' : '' }}">Services <i class="fa fa-caret-down" aria-hidden="true"></i></a>
 
                 <div class="dropdown-content">
                     <a class=" {{ request()->is('software_development') ? ' dd-active' : '' }} "
@@ -57,7 +55,7 @@
                 </div>
             </div>
             <a href="{{ route('contact') }}"
-                class="nav-item nav-link {{ request()->is('contact') ? ' active' : '' }}">Contact Us</a>
+                class="nav-item nav-link {{ request()->is('contact') ? ' active' : '' }}">Contact</a>
             <a href="{{ route('ticket') }}"
                 class="nav-item nav-link{{ request()->is('ticket') ? ' active' : '' }}">Support Ticket</a>
             <a href="{{ route('faq') }}" class="nav-item nav-link{{ request()->is('faq') ? ' active' : '' }}">FAQ</a>

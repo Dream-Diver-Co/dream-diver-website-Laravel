@@ -2065,7 +2065,7 @@ p {
     border-radius: 15px;
 }
 .dropdown-menu{
-    /* min-width: 281px !important; */
+    min-width: 150px !important;
     padding: 0%;
 }
 ul.dropdown-content {list-style-type: none;}
