@@ -51,8 +51,8 @@
     </div>
     <!-- Header End -->
 
-    <!-- Choosing Us Start -->
-    <section class="py-6">
+    <!-- Choosing Us desktop Start -->
+    <section class="py-6 hidebigscreen">
         <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp display-6" data-wow-delay="0.1s">
                 <p class="display-6">Few Reasons Why People Choosing Us!</p>
@@ -121,6 +121,144 @@
                             </div>
                           </div>
                         </div>
+                    </div>
+
+                </div>
+
+                <!-- Arif Starts -->
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="small-container">
+                        <div class="custom-card">
+                              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" style="text-align: center;">
+                                    <h5 class="custom-title">Dream Diver!</h5>
+                                    <p>We provide all kind of software solutions to your projects.</p>
+                                  </div>
+                                  <div class="carousel-item" style="text-align: center;">
+                                    <h5 class="custom-title">Web Development</h5>
+                                    <p>Web Design & Development, Android Applications</p>
+                                  </div>
+                                  <div class="carousel-item" style="text-align: center;">
+                                    <h5 class="custom-title">SEO</h5>
+                                    <p>Search Engine Optimization, contact us for details</p>
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                                <a href="{{ route('contact') }}">
+                                    <button class="custom-btn">Contact Us</button>
+                                  </a>
+                        </div>
+                        <div class="custom-blob"></div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Choosing Us End -->
+
+
+
+    <!-- Choosing Us mobile Start -->
+    <section class="py-6 smallscreen">
+        <div class="container py-5">
+            <div class="text-center mx-auto wow fadeInUp display-6" data-wow-delay="0.1s">
+                <p class="display-6"> Few Reasons Why People Choosing Us!</p>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="timeline">
+
+                        <div class="timeline-item timeline-item-start  pb-3">
+
+
+                          <div class="flex-shrink-1  align-items-center me-3 mb-4">
+                            <div class="timeline-circle rounded-circle text-white  align-items-center justify-content-center">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                          </div>
+
+                          <div class="flex-grow-1">
+                            <div class="timeline-box rounded-4 p-3 " >
+                              <p class="h3 font-weight-700 text-center">
+                                  Trusted Service Center
+                              </p>
+                              <p class="text-center">
+                                        "Welcome to our trusted service center"
+                              </p>
+                              <p class="text-center">
+                                    <a class="" href="{{ route('trusted') }}">Read more..</a>
+                                </p>
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div class="timeline-item timeline-item-start  pb-3">
+
+
+                            <div class="flex-shrink-1  align-items-center me-3 mb-4">
+                              <div class="timeline-circle rounded-circle text-white  align-items-center justify-content-center">
+                                <i class="fas fa-tag"></i>
+                              </div>
+                            </div>
+
+                            <div class="flex-grow-1">
+                              <div class="timeline-box rounded-4 p-3 " >
+                                <p class="h3 font-weight-700 text-center">
+                                    Reasonable Price
+                                </p>
+                                <p class="text-center">
+                                    "WE offer resonable price for our services."
+                                </p>
+                                <p class="text-center">
+                                      <a class="" href="{{ route('reasonable') }}">Read more..</a>
+                                  </p>
+                              </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="timeline-item timeline-item-start  pb-3">
+
+
+                            <div class="flex-shrink-1  align-items-center me-3 mb-4">
+                              <div class="timeline-circle rounded-circle text-white  align-items-center justify-content-center">
+                                <i class="fas fa-headset"></i>
+                              </div>
+                            </div>
+
+                            <div class="flex-grow-1">
+                              <div class="timeline-box rounded-4 p-3 " >
+                                <p class="h3 font-weight-700 text-center">
+                                    24/7 Supports
+                                </p>
+                                <p class="text-center">
+                                    "Our 24/7 support is designed with your convenience in mind providing"
+                                </p>
+                                <p class="text-center">
+                                      <a class="" href="{{ route('twonty_four') }}">Read more..</a>
+                                  </p>
+                              </div>
+                            </div>
+
+                        </div>
+
+
+
+
                     </div>
 
                 </div>
