@@ -99,14 +99,14 @@
                 <!-- User is not logged in, show login link -->
                 {{-- <a href="{{ route('login') }}" class="nav-item nav-link">Login 2</a> --}}
 
-                <div class="dropdown">
+                {{-- <div class="dropdown">
                     <button class="dropbtn nav-item nav-link" >Login<i class="fa fa-caret-down" aria-hidden="true"></i></button>
 
                     <div class="dropdown-content">
                         <button onclick="showLoginModal()">Login</button>
                         <button onclick="showRegisterModal()">Register</button>
                     </div>
-                </div>
+                </div> --}}
 
 
                 {{-- <li class="nav-item dropdown">
@@ -118,10 +118,8 @@
                 </li> --}}
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown <i class="fa fa-caret-down" aria-hidden="true"></i>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdown09">
+                    <a class="nav-link" href="#">Login<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    <ul class="dropdown-menu dropdown-content">
                         <li><a onclick="showLoginModal()" class="dropdown-item" href="#">Login</a></li>
                         <li><a onclick="showRegisterModal()" class="dropdown-item" href="#">Register</a></li>
                     </ul>

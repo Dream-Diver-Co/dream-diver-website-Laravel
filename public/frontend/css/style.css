@@ -177,9 +177,9 @@ body {
         margin-bottom: 15px;
     }
 
-    .navbar .nav-item .dropdown-menu {
+    /* .navbar .nav-item .dropdown-menu {
         padding-left: 30px;
-    }
+    } */
 }
 
 @media (min-width: 992px) {
@@ -2064,6 +2064,11 @@ p {
     /* text-align: center; */
     border-radius: 15px;
 }
+.dropdown-menu{
+    /* min-width: 281px !important; */
+    padding: 0%;
+}
+ul.dropdown-content {list-style-type: none;}
 
 .dropdown-content button{
     /* background-color: #f1f1f1;
@@ -2075,9 +2080,8 @@ p {
     /* text-align: left;
     min-width: 100px !important; */
     border: none;
-
-
 }
+
 
 .dropdown-content button:hover {
     color: white !important;
