@@ -74,7 +74,7 @@
 
                                             <div class="input-group">
                                                 <i class='bx bxs-lock-alt'></i>
-                                                <input type="text" placeholder="Phone" name="phone">
+                                                <input type="tel" placeholder="Phone" name="phone">
                                             </div>
                                             @error('phone')
                                                 <div class="alert alert-danger">{{ $message }}</div>
