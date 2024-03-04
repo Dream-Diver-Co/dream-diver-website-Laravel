@@ -61,6 +61,7 @@ Route::get('/de_was', [FrontendController::class, 'deWas'])->name('de_was');
 Route::get('/de_shop', [FrontendController::class, 'deShop'])->name('de_shop');
 Route::get('/book_change', [FrontendController::class, 'bookChange'])->name('book_change');
 Route::get('/foody_moody', [FrontendController::class, 'foodyMoody'])->name('foody_moody');
+Route::get('/ideabd', [FrontendController::class, 'ideaBd'])->name('ideabd');
 
 Route::get('/trusted', [FrontendController::class, 'trusted'])->name('trusted');
 Route::get('/reasonable', [FrontendController::class, 'reasonable'])->name('reasonable');

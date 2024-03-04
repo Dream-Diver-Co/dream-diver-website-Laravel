@@ -25,7 +25,7 @@
                 <p class="text-head">We Provide professional IT Software Development & Services</p>
             </div>
             <div class="row g-4 justify-content-center">
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s" data-aos="fade-up">
                     <div class="service-item">
                         <a href="{{ route('software_development') }} ">
                             <div class="flip-box">
@@ -34,7 +34,7 @@
                                     <img class="img-service" src="{{ asset('frontend/img/service/Software Development1.jpg') }}" alt="Paris">
                                   </div>
                                   <div class="flip-box-back">
-                                    <img class="img-service" src="{{ asset('frontend/img/service/Software Development.jpg') }}" alt="Paris">
+                                    <img class="img-service" src="{{ asset('frontend/img/service/Software Development1.jpg') }}" alt="Paris">
                                     <div class="flip-text">
                                         <h2>Dream Diver</h2>
                                         <p>Software Development</p>

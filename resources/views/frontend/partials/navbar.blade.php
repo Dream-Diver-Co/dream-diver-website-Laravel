@@ -44,8 +44,10 @@
                         href="{{ route('shob_khobor') }}">Shob Khobor</a>
                     <a class=" {{ request()->is('fnf_stay') ? ' dd-active' : '' }} "
                         href="{{ route('fnf_stay') }}">Fnf-Stay</a>
-                    <a class=" {{ request()->is('de_was') ? ' dd-active' : '' }} "
-                        href="{{ route('de_was') }}">De-Was</a>
+                    {{-- <a class=" {{ request()->is('de_was') ? ' dd-active' : '' }} "
+                        href="{{ route('de_was') }}">De-Was</a> --}}
+                    <a class=" {{ request()->is('ideabd') ? ' dd-active' : '' }} "
+                        href="{{ route('ideabd') }}">IdeaBd</a>
                     <a class=" {{ request()->is('de_shop') ? ' dd-active' : '' }} "
                         href="{{ route('de_shop') }}">De-Shopper</a>
                     <a class=" {{ request()->is('book_change') ? ' dd-active' : '' }} "
@@ -114,16 +116,13 @@
                       <li><a onclick="showRegisterModal()" class="dropdown-item" href="#">Register</a></li>
                     </ul>
                 </li> --}}
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#">Login<i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                    <ul class="dropdown-menu dropdown-content">
-                        <li><a onclick="showLoginModal()" class="dropdown-item" href="#">Login</a></li>
-                        <li><a onclick="showRegisterModal()" class="dropdown-item" href="#">Register</a></li>
-                    </ul>
-                </li>
-
-
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Login<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu dropdown-content">
+                            <li><a onclick="showLoginModal()" class="dropdown-item" href="#">Login</a></li>
+                            <li><a onclick="showRegisterModal()" class="dropdown-item" href="#">Register</a></li>
+                        </ul>
+                    </li>
             @endif
 
         </div>
