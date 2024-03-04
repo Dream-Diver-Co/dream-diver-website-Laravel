@@ -47,7 +47,7 @@ class AuthenticatedSessionController extends Controller
         // Authentication failed
         // return redirect()->route('index')->with('status', 'Invalid credentials. Please try again.');
 
-        return redirect()->route('index')->with('status', 'Your credentials not correct. Please try again.')
+        return redirect()->back()->with('status', 'Your credentials not correct. Please try again.')
             ->with('showLoginModal', true);
     }
 

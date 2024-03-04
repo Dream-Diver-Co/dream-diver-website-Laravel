@@ -94,26 +94,6 @@
                     </div>
                 </div>
             @else
-                <!-- User is not logged in, show login link -->
-                {{-- <a href="{{ route('login') }}" class="nav-item nav-link">Login 2</a> --}}
-
-                {{-- <div class="dropdown">
-                    <button class="dropbtn nav-item nav-link" >Login<i class="fa fa-caret-down" aria-hidden="true"></i></button>
-
-                    <div class="dropdown-content">
-                        <button onclick="showLoginModal()">Login</button>
-                        <button onclick="showRegisterModal()">Register</button>
-                    </div>
-                </div> --}}
-
-
-                {{-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdown09">
-                      <li><a onclick="showLoginModal()"  class="dropdown-item" href="#">login</a></li>
-                      <li><a onclick="showRegisterModal()" class="dropdown-item" href="#">Register</a></li>
-                    </ul>
-                </li> --}}
 
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="#">Login<i class="fa fa-caret-down" aria-hidden="true"></i></a>
@@ -166,134 +146,52 @@
 </div>
 
 <div id="id02" class="modal">
-
-    @once
-        <script>
-            // Get the register modal
-            var registerModal = document.getElementById('id02');
-            var loginModal = document.getElementById('id01');
-
-            // Function to close register modal
-            function closeRegisterModal() {
-                registerModal.style.display = "none";
-            }
-
-            function showRegisterModal() {
-                loginModal.style.display = "none"; // hide login modal
-                registerModal.style.display = "block";
-            }
-
-            // Check if the showRegisterModal variable is set (from Laravel)
-            @if(session('showRegisterModal'))
-                // Trigger the JavaScript function to show the register modal
-                showRegisterModal();
-            @endif
-        </script>
-    @endonce
-
     <form class="modal-content animate" action="{{ route('register') }}" method="post">
         @csrf
         <div class="imgcontainer">
-            <span onclick="closeRegisterModal()" class="close" title="Close Modal">&times;</span>
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
             <img src="{{ asset('frontend/img/logo.png') }}" alt="logo" class="avatar">
             <p class="text-head">Dream Diver</p>
         </div>
 
         <div class="container">
-            @if(session('showRegisterModal'))
-                <div class="alert alert-info" role="alert">
-                    Welcome! Please complete the registration.
-                </div>
-            @endif
-
-            @if(session('status2'))
-                <div class="alert alert-danger" role="alert">
-                    {{ session('status2') }}
-                </div>
-            @endif
-
             <div class="input-group">
                 <i class='bx bxs-user'></i>
-                <input type="text" placeholder="Username" name="name" value="{{ old('name') }}" required>
+                <input type="text" placeholder="Username" name="name" value="{{ old('name') }}">
             </div>
+            @error('name')
+                <div class="alert alert-danger">{{ $message }}</div>
+            @enderror
 
             <div class="input-group">
                 <i class='bx bx-mail-send'></i>
-                <input type="email" placeholder="Email" name="email" value="{{ old('email') }}" required>
+                <input type="email" placeholder="Email" name="email" value="{{ old('email') }}">
             </div>
+            @error('email')
+                <div class="alert alert-danger">{{ $message }}</div>
+            @enderror
 
             <div class="input-group">
                 <i class='bx bxs-lock-alt'></i>
-                <input type="password" placeholder="Password" name="password" required>
+                <input type="password" placeholder="Password" name="password">
             </div>
+            @error('password')
+                <div class="alert alert-danger">{{ $message }}</div>
+            @enderror
 
             <div class="input-group">
                 <i class='bx bxs-lock-alt'></i>
-                <input type="password" placeholder="Confirm password" name="password_confirmation" required>
+                <input type="password" placeholder="Confirm password" name="password_confirmation">
             </div>
 
             <button class="modal-button" type="submit">Registrar</button>
         </div>
     </form>
-
-
-
-
-
-
 </div>
+
 <!-- modal -->
 
-
-
-{{-- <script>
-    // Get the login modal
-    var loginModal = document.getElementById('id01');
-    // Get the register modal
-    var registerModal = document.getElementById('id02');
-
-    // When the user clicks anywhere outside of the login modal, close it
-    window.onclick = function(event) {
-        if (event.target == loginModal) {
-            loginModal.style.display = "none";
-        }
-    }
-
-    // Function to show login modal and hide register modal
-    function showLoginModal() {
-        loginModal.style.display = "block";
-        registerModal.style.display = "none"; // hide register modal
-    }
-
-    // Function to show register modal and hide login modal
-    function showRegisterModal() {
-        loginModal.style.display = "none"; // hide login modal
-        registerModal.style.display = "block";
-    }
-</script> --}}
-
-{{-- <script>
-    // Get the register modal
-    var registerModal = document.getElementById('id02');
-    var loginModal = document.getElementById('id01');
-
-    // Function to close register modal
-    function closeRegisterModal() {
-        registerModal.style.display = "none";
-    }
-    function showRegisterModal() {
-        loginModal.style.display = "none"; // hide login modal
-        registerModal.style.display = "block";
-    }
-
-    // Check if the showRegisterModal variable is set (from Laravel)
-    @if(session('showRegisterModal'))
-        // Trigger the JavaScript function to show the register modal
-        showRegisterModal();
-    @endif
-</script> --}}
-
-
+{{--
 <script>
     // Get the login modal
     var loginModal = document.getElementById('id01');
@@ -324,7 +222,66 @@
         // Trigger the JavaScript function to show the login modal
         showLoginModal();
     @endif
-</script>
+
+
+    @if(session('showRegisterModal'))
+        // Trigger the JavaScript function to show the login modal
+        showRegisterModal();
+    @endif
+</script> --}}
+
+
+
+{{-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var loginModal = document.getElementById('id01');
+        var registerModal = document.getElementById('id02');
+
+        window.onclick = function (event) {
+            if (event.target == loginModal) {
+                loginModal.style.display = "none";
+            }
+        }
+
+        function showLoginModal() {
+            loginModal.style.display = "block";
+            registerModal.style.display = "none";
+        }
+
+        function showRegisterModal() {
+            loginModal.style.display = "none";
+            registerModal.style.display = "block";
+        }
+
+        // Check if the showLoginModal variable is set (from Laravel)
+        @if(session('showLoginModal'))
+            showLoginModal();
+        @endif
+
+        // Check if the showRegisterModal variable is set (from Laravel)
+        @if(session('showRegisterModal'))
+            showRegisterModal();
+        @endif
+    });
+
+    // Define the showLoginModal and showRegisterModal functions
+    function showLoginModal() {
+        var loginModal = document.getElementById('id01');
+        var registerModal = document.getElementById('id02');
+        loginModal.style.display = "block";
+        registerModal.style.display = "none";
+    }
+
+    function showRegisterModal() {
+        var loginModal = document.getElementById('id01');
+        var registerModal = document.getElementById('id02');
+        loginModal.style.display = "none";
+        registerModal.style.display = "block";
+    }
+</script> --}}
+
+
+
 
 
 

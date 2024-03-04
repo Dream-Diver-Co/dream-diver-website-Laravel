@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use Illuminate\View\View;
+use Illuminate\Validation\Rules\Password;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class RegisteredUserController extends Controller
 {
@@ -28,6 +30,9 @@ class RegisteredUserController extends Controller
      *
      * @throws \Illuminate\Validation\ValidationException
      */
+
+
+
     // public function store(Request $request): RedirectResponse
     // {
     //     $request->validate([
@@ -51,40 +56,43 @@ class RegisteredUserController extends Controller
 
 
 
-    public function store(Request $request)
-    {
-        $request->validate([
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
-            'password' => ['required', 'confirmed', Rules\Password::defaults()],
-        ]);
 
-        // If validation fails, redirect to home with errors and open register modal
-        if ($errors->any()) {
-            return redirect()->back()
-                ->withInput($request->except('password', 'password_confirmation'))
-                ->withErrors($errors)
-                ->with('showRegisterModal', true);
+    public function store(Request $request): RedirectResponse
+{
+    // Validate the request
+    $validator = $request->validate([
+        'name' => ['required', 'string', 'max:255'],
+        'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
+        'password' => ['required', 'confirmed', Password::defaults()],
+    ]);
 
-        }
+    // If validation fails, redirect to the 'index' route
+    if ($validator->fails()) {
 
-
-
-        // Validation passed, set the session variable to show the register modal
-        session(['showRegisterModal' => true]);
-
-        $user = User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'password' => Hash::make($request->password),
-        ]);
-
-        event(new Registered($user));
-
-        Auth::login($user);
-
-        return redirect(RouteServiceProvider::HOME);
+        Alert::success('Success', 'Registration not successfull, try again!');
+        return redirect()->back()->withErrors($validator)->withInput();
     }
+
+    // Create a new user
+    $user = User::create([
+        'name' => $request->name,
+        'email' => $request->email,
+        'password' => Hash::make($request->password),
+    ]);
+
+    // Trigger the Registered event
+    event(new Registered($user));
+
+    // Log in the user
+    Auth::login($user);
+
+    // Redirect to the HOME route
+    return redirect(RouteServiceProvider::HOME);
+}
+
+
+
+
 
 
 

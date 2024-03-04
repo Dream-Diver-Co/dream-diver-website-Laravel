@@ -45,6 +45,8 @@
     <link href="{{ asset('frontend/css/modal.css') }}" rel="stylesheet">
 
 
+
+
 </head>
 
 <body>
@@ -54,7 +56,9 @@
     </div> -->
     <!-- Spinner End -->
 
-
+    @error('password')
+    <div class="alert alert-danger">{{ $message }}</div>
+    @enderror
 
     @include('cookie-consent::index')
 
@@ -77,7 +81,7 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-    @include('sweetalert::alert')
+
 
 
 
@@ -132,6 +136,54 @@
 
 
 
+    <script>
+        $(document).ready(function () {
+            console.log('Document ready function fired');
+
+            var loginModal = document.getElementById('id01');
+            var registerModal = document.getElementById('id02');
+
+            $(window).click(function (event) {
+                if (event.target == loginModal) {
+                    loginModal.style.display = "none";
+                }
+            });
+
+            $(window).click(function (event) {
+                if (event.target == registerModal) {
+                    registerModal.style.display = "none";
+                }
+            });
+
+            // Check if the showLoginModal variable is set (from Laravel)
+            @if(session('showLoginModal'))
+                showLoginModal();
+            @endif
+
+            // Check if the showRegisterModal variable is set (from Laravel)
+            @if(session('showRegisterModal'))
+                showRegisterModal();
+            @endif
+        });
+
+        // Define the showLoginModal and showRegisterModal functions
+        function showLoginModal() {
+            var loginModal = document.getElementById('id01');
+            var registerModal = document.getElementById('id02');
+            loginModal.style.display = "block";
+            registerModal.style.display = "none";
+        }
+
+        function showRegisterModal() {
+            var loginModal = document.getElementById('id01');
+            var registerModal = document.getElementById('id02');
+            loginModal.style.display = "none";
+            registerModal.style.display = "block";
+        }
+    </script>
+
+
+@include('sweetalert::alert')
 
 </body>
 
