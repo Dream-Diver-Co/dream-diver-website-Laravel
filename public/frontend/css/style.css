@@ -744,8 +744,11 @@ body {
     height: 100px;
     width: 70% !important;
     /* border-radius: 50%; */
-    margin: auto;
+    /* margin: auto; */
     padding: 10px;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    margin-top: auto;
 }
 .card {
     position: relative;
