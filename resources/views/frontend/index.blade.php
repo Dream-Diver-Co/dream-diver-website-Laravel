@@ -65,7 +65,9 @@
                             <div class="timeline-line-hover" ></div>
                           </div>
                           <div class="flex-shrink-1 d-flex align-items-center me-3">
-                            <div class="timeline-circle rounded-circle text-white d-flex align-items-center justify-content-center">1</div>
+                            <div class="timeline-circle rounded-circle text-white d-flex align-items-center justify-content-center">
+                                <i class="fas fa-tools choosing-font"></i>
+                            </div>
                           </div>
                           <div class="flex-grow-1">
                             <div class="timeline-box rounded-4 p-3" >
@@ -85,7 +87,9 @@
                             <div class="timeline-line-hover"></div>
                           </div>
                           <div class="flex-shrink-1 d-flex align-items-center me-3">
-                            <div class="timeline-circle rounded-circle text-white d-flex align-items-center justify-content-center">2</div>
+                            <div class="timeline-circle rounded-circle text-white d-flex align-items-center justify-content-center">
+                                <i class="fas fa-tag choosing-font"></i>
+                            </div>
                           </div>
                           <div class="flex-grow-1">
                             <div class="timeline-box rounded-4 p-3" >
@@ -106,7 +110,9 @@
                             <div class="timeline-line-hover" ></div>
                           </div>
                           <div class="flex-shrink-1 d-flex align-items-center me-3">
-                            <div class="timeline-circle rounded-circle text-white d-flex align-items-center justify-content-center">3</div>
+                            <div class="timeline-circle rounded-circle text-white d-flex align-items-center justify-content-center">
+                                <i class="fas fa-headset choosing-font"></i>
+                            </div>
                           </div>
                           <div class="flex-grow-1">
                             <div class="timeline-box rounded-4 p-3" >
@@ -174,7 +180,7 @@
     <section class="py-6 smallscreen">
         <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp display-6" data-wow-delay="0.1s">
-                <p class="display-6"> Few Reasons Why People Choosing Us!</p>
+                <p class="display-6"> Few Reasons Why People Choosing Us! sazal</p>
             </div>
             <div class="row g-5">
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -363,7 +369,7 @@
                                                 <img class="img-service" src="{{ asset('frontend/img/service/Software Development1.jpg') }}" alt="Paris">
                                               </div>
                                               <div class="flip-box-back">
-                                                <img class="img-service" src="{{ asset('frontend/img/service/Software Development.jpg') }}" alt="Paris">
+                                                <img class="img-service" src="{{ asset('frontend/img/service/Software Development1.jpg') }}" alt="Paris">
                                                 <div class="flip-text">
                                                     <h2>Dream Diver</h2>
                                                     <p>Software Development</p>
