@@ -1,15 +1,17 @@
 @extends('frontend.layouts.master')
 
 @section('content')
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
+
+     <!-- Page Header Start -->
+     <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="text-white">De-Shopper Portfilio Details</h1>
+            {{-- <p class="display-4 text-white animated slideInDown mb-4">AEON</p> --}}
+            <h1 class="text-white">IdeaBd</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                     <li class="breadcrumb-item"><a href="{{ route('portfolio') }}">Portfolio</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">De-Shopper</li>
+                    <li class="breadcrumb-item active" aria-current="page">IdeaBd</li>
                 </ol>
             </nav>
         </div>
@@ -50,6 +52,10 @@
 
             </div>
             <div class="tab-pane fade slide-section" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab" tabindex="0">
+               <p class="text-head">
+                    Video
+               </p>
+
                <center>
                 <video class="video" controls>
                     <source src="mov_bbb.mp4" type="video/mp4">
@@ -66,13 +72,13 @@
                 <center>
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="card">
-                            <img src="{{ asset('frontend/img/aeon.png') }}" class="card-img-top" alt="aeon">
+                            <img src="{{ asset('frontend/img/idea.jpg') }}" class="card-img-top" alt="aeon">
                             <div class="card-body">
-                              <h5 class="card-title">AEON</h5>
+                              <h5 class="card-title">IdeaBd</h5>
                               <p class="card-text"> Garment order process system.<br>
                                 1. Place order by uploading pdf.<br>
                                 2. Follow different process of completing a order  <br></p>
-                              <a href="http://erpaeon.dreamdiver.nl/login" target="_blank" class="custom-btn">Aeon Link</a>
+                              <a href="" target="_blank" class="custom-btn">IdeaBd Link</a>
                             </div>
                           </div>
                     </div>
@@ -136,4 +142,5 @@
         </div>
 
     </div>
+
 @endsection

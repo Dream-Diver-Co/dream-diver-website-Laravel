@@ -156,7 +156,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    {{-- <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item">
                             <a href="{{ route('de_was') }}">
                                 <div class="flip-box">
@@ -175,6 +175,32 @@
                                     </div>
                                     <div>
                                         <p class="service-item-text">De-Was</p>
+                                    </div>
+
+                                </div>
+
+                            </a>
+                        </div>
+                    </div> --}}
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <a href="{{ route('ideabd') }}">
+                                <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                      <div class="flip-box-front">
+                                        <img class="img-service" src="{{ asset('frontend/img/idea.jpg') }}" alt="was">
+                                      </div>
+                                      <div class="flip-box-back">
+                                        <img class="img-service" src="{{ asset('frontend/img/idea.jpg') }}" alt="was">
+                                        <div class="flip-text">
+                                            <p class="portfolio-text">Dream Diver</p>
+                                            <p>IdeaBd</p>
+                                            <button class="flip-btn">Read more...</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div>
+                                        <p class="service-item-text">IdeaBd</p>
                                     </div>
 
                                 </div>
@@ -241,10 +267,10 @@
                                 <div class="flip-box">
                                     <div class="flip-box-inner">
                                       <div class="flip-box-front">
-                                        <img class="img-service" src="{{ asset('frontend/img/foody_moody_logo.png') }}" alt="foody">
+                                        <img class="img-service" src="{{ asset('frontend/img/foody-moody.png') }}" alt="foody">
                                       </div>
                                       <div class="flip-box-back">
-                                        <img class="img-service" src="{{ asset('frontend/img/foody_moody_logo.png') }}" alt="foody">
+                                        <img class="img-service" src="{{ asset('frontend/img/foody-moody.png') }}" alt="foody">
                                         <div class="flip-text">
                                             <p class="portfolio-text">Dream Diver</p>
                                             <p>Foody Moody</p>

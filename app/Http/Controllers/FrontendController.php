@@ -161,6 +161,10 @@ class FrontendController extends Controller
     {
         return view('frontend.page.fnf_stay');
     }
+    public function ideaBd()
+    {
+        return view('frontend.page.ideabd');
+    }
 
     public function deWas()
     {
