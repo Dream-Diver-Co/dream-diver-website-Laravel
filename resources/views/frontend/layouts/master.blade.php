@@ -43,6 +43,8 @@
     <link href="{{ asset('frontend/css/custome.css') }}" rel="stylesheet">
     {{-- modal --}}
     <link href="{{ asset('frontend/css/modal.css') }}" rel="stylesheet">
+    {{-- AOS Animition --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
 
 </head>
@@ -93,6 +95,8 @@
 
      <!-- owl carousel -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     {{-- AOS Animition --}}
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
      <script>
         $('.owl-carousel').owlCarousel({
             loop:true,
@@ -129,10 +133,10 @@
             }
         }
     </script>
-
+    {{-- AOS Animition --}}
     <script>
        AOS.init({
-      duration: 1200,
+      duration: 1000,
       })
     </script>
 

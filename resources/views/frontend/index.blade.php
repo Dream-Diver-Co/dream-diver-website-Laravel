@@ -55,7 +55,7 @@
     <section class="py-6 hidebigscreen">
         <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp display-6" data-wow-delay="0.1s">
-                <p class="display-6">Few Reasons Why People Choosing Us!</p>
+                <p class="display-6">Why People Choosing Us!</p>
             </div>
             <div class="row g-5">
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -180,7 +180,7 @@
     <section class="py-6 smallscreen">
         <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp display-6" data-wow-delay="0.1s">
-                <p class="display-6"> Few Reasons Why People Choosing Us! sazal</p>
+                <p class="display-6">Why People Choosing Us!</p>
             </div>
             <div class="row g-5">
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -314,7 +314,7 @@
 
 
     <!-- Our Client -->
-    <div class="container">
+    <div class="container client-bg">
         <div class="row owl-carousel-row">
          <div class="owl-carousel owl-theme">
 
@@ -334,7 +334,7 @@
                     </a>
                 </div>
                 <div class="item">
-                    <a href="#">
+                    <a href="{{ route('ideabd') }}">
                         <img src="{{ asset('frontend/img/idea.jpg') }}" alt="idea" class="card-img-top img-fluid">
                     </a>
                 </div>
@@ -357,11 +357,11 @@
                 <div class="container-xxl py-5">
                     <div>
                         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-                            <p class="display-6">We Provide professional IT Software Development & Services</p>
+                            <p class="display-6">Our Services</p>
                         </div>
                         <div class="row g-4 justify-content-center">
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="service-item">
+                            <div class="col-md-4 service-bottom wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item" data-aos="zoom-in-down">
                                     <a href="{{ route('software_development') }} ">
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
@@ -384,8 +384,8 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="service-item">
+                            <div class="col-md-4 service-bottom wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item" data-aos="zoom-in-up">
                                     <a href="{{ route('mobile_app') }} ">
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
@@ -410,8 +410,8 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="service-item">
+                            <div class="col-md-4 service-bottom wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item" data-aos="zoom-in-down">
                                     <a href="{{ route('software_service') }} ">
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
@@ -436,9 +436,8 @@
                                     </a>
                                 </div>
                             </div>
-
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="service-item">
+                            <div class="col-md-4 service-bottom wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item" data-aos="zoom-in-up">
                                     <a href="{{ route('web_design') }} ">
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
@@ -463,9 +462,8 @@
                                     </a>
                                 </div>
                             </div>
-
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="service-item">
+                            <div class="col-md-4 service-bottom wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item" data-aos="zoom-in-down">
                                     <a href="{{ route('seo') }} ">
                                         <div class="flip-box">
                                             <div class="flip-box-inner">
@@ -490,9 +488,8 @@
                                     </a>
                                 </div>
                             </div>
-
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="service-item">
+                            <div class="col-md-4 service-bottom wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item" data-aos="zoom-in-up">
                                     <a href="{{ route('marketing') }} ">
                                         <div class="flip-box">
                                             <div class="flip-box-inner">

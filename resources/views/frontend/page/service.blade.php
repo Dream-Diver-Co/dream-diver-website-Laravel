@@ -22,11 +22,11 @@
     <div class="container-xxl py-5">
         <div>
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-                <p class="text-head">We Provide professional IT Software Development & Services</p>
+                <p class="display-6">Our Services</p>
             </div>
             <div class="row g-4 justify-content-center">
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s" data-aos="fade-up">
-                    <div class="service-item">
+                <div class="col-md-4 service-bottom wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item" data-aos="zoom-in-down">
                         <a href="{{ route('software_development') }} ">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
@@ -49,8 +49,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
+                <div class="col-md-4 service-bottom wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item" data-aos="zoom-in-up">
                         <a href="{{ route('mobile_app') }} ">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
@@ -60,7 +60,6 @@
                                   <div class="flip-box-back">
                                     <img class="img-service" src="{{ asset('frontend/img/service/Mobile App Development1.jpg') }}" alt="Paris">
                                     <div class="flip-text">
-                                        <!-- <img class="img-service" src="img/portfolio/portfolio-2.jpg" alt="Paris"> -->
                                         <h2>Dream Diver</h2>
                                         <p>Mobile App Development</p>
                                         <button class="flip-btn">Read more...</button>
@@ -76,8 +75,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
+                <div class="col-md-4 service-bottom wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item" data-aos="zoom-in-down">
                         <a href="{{ route('software_service') }} ">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
@@ -102,9 +101,8 @@
                         </a>
                     </div>
                 </div>
-
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
+                <div class="col-md-4 service-bottom wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item" data-aos="zoom-in-up">
                         <a href="{{ route('web_design') }} ">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
@@ -129,9 +127,8 @@
                         </a>
                     </div>
                 </div>
-
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
+                <div class="col-md-4 service-bottom wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item" data-aos="zoom-in-down">
                         <a href="{{ route('seo') }} ">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
@@ -156,9 +153,8 @@
                         </a>
                     </div>
                 </div>
-
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
+                <div class="col-md-4 service-bottom wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item" data-aos="zoom-in-up">
                         <a href="{{ route('marketing') }} ">
                             <div class="flip-box">
                                 <div class="flip-box-inner">
