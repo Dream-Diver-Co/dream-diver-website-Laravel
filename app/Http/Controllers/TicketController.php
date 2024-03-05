@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\StoreTicketRequest;
 use App\Http\Requests\UpdateTicketRequest;
 use RealRashid\SweetAlert\Facades\Alert;
+use Illuminate\Support\Facades\Validator;
 
 class TicketController extends Controller
 {
@@ -42,6 +43,35 @@ class TicketController extends Controller
      */
     public function store(Request $request)
     {
+
+        // Validation rules
+    $rules = [
+        'ticket_creator_id' => 'required',
+        'email' => 'required|email',
+        'phone' => 'required',
+        'issue' => 'required',
+        'status' => 'required',
+        'files.*' => 'mimes:jpeg,png,pdf|max:2048', // Adjust file type and size as needed
+        //'g-recaptcha-response' => 'required|captcha',
+    ];
+
+    // Custom validation messages
+    $messages = [
+        'files.*.mimes' => 'The file must be a valid image (jpeg, png) or PDF.',
+        'files.*.max' => 'The file size must not exceed 2MB.',
+    ];
+
+    // Validate the request
+    $validator = Validator::make($request->all(), $rules, $messages);
+
+    // Check if validation fails
+    if ($validator->fails()) {
+        return redirect()->back()
+            ->withErrors($validator)
+            ->withInput();
+    }
+
+
         $data = $request->all();
 
         //dd($data);

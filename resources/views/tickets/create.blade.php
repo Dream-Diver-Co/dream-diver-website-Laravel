@@ -71,6 +71,26 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="form-row justify-content-between">
+                                <div class="col-lg-12">
+                                    <div class="form-group form-row">
+                                        <div class="input-group">
+                                            <label for="inputAddress2" class="col-3 text-right">Captcha </label>
+                                            <div class="col-5">
+                                                {!! NoCaptcha::renderJs() !!}
+                                                {!! NoCaptcha::display() !!}
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
                             <div class="form-row justify-content-between" style="display: none">
                                 <div class="col-lg-12">
                                     <label for="inputAddress2" class="form-label">Status</label>
@@ -85,6 +105,20 @@
                                 </div>
                             </div>
                             <div class="form-row justify-content-between">
+
+                                @if($errors->any())
+            <div class="col-lg-12">
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            </div>
+        @endif
+
+
                                 <div class="col-lg-12">
                                     <label for="inputAddress2" class="col-3 text-right"></label>
                                     <button type="submit" class="btn btn-primary ">Create</button>
