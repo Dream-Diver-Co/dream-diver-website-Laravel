@@ -67,11 +67,9 @@ class RegisteredUserController extends Controller
     ]);
 
     // If validation fails, redirect to the 'index' route
-    if ($validator->fails()) {
-
-        Alert::success('Success', 'Registration not successfull, try again!');
-        return redirect()->back()->withErrors($validator)->withInput();
-    }
+    // if ($validator->fails()) {
+    //     return redirect()->back()->withErrors($validator)->withInput();
+    // }
 
     // Create a new user
     $user = User::create([

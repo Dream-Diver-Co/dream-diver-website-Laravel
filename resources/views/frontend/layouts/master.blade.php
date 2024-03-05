@@ -56,6 +56,14 @@
     </div> -->
     <!-- Spinner End -->
 
+    @error('name')
+        <div class="alert alert-danger">{{ $message }}</div>
+    @enderror
+
+    @error('email')
+    <div class="alert alert-danger">{{ $message }}</div>
+    @enderror
+
     @error('password')
     <div class="alert alert-danger">{{ $message }}</div>
     @enderror
