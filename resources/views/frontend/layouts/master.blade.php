@@ -148,7 +148,7 @@
     {{-- AOS Animition --}}
     <script>
        AOS.init({
-      duration: 1000,
+      duration: 1500,
       })
     </script>
 

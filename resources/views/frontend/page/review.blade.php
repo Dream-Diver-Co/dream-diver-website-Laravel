@@ -36,7 +36,7 @@
                     <div>
                         <div class="row g-4 justify-content-center">
                             <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="small-container-review">
+                                <div class="small-container-review" data-aos="zoom-in-up">
                                     <div class="custom-card-review">
                                           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                             <div class="carousel-inner">
@@ -60,7 +60,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="small-container-review">
+                                <div class="small-container-review" data-aos="zoom-in-down">
                                     <div class="custom-card-review">
                                           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                             <div class="carousel-inner">
@@ -80,7 +80,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="small-container-review">
+                                <div class="small-container-review" data-aos="zoom-in-down">
                                     <div class="custom-card-review">
                                           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                             <div class="carousel-inner">
@@ -102,7 +102,7 @@
                             </div>
 
                             <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="small-container-review">
+                                <div class="small-container-review" data-aos="zoom-in-up">
                                     <div class="custom-card-review">
                                           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                             <div class="carousel-inner">
@@ -128,7 +128,6 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-               <p class="text-head">Video</p>
                <center>
                 <video class="video" controls>
                     <source src="mov_bbb.mp4" type="video/mp4">
