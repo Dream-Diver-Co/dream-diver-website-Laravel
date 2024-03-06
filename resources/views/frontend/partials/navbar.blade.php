@@ -190,6 +190,17 @@
                 <input type="password" placeholder="Confirm password" name="password_confirmation">
             </div>
 
+            @error('g-recaptcha-response')
+            <div class="alert alert-danger">{{ $message }}</div>
+            @enderror
+
+            <div class="input-group">
+                {!! NoCaptcha::renderJs() !!}
+                {!! NoCaptcha::display() !!}
+            </div>
+
+
+
             <button class="modal-button" type="submit">Registrar</button>
         </div>
     </form>
