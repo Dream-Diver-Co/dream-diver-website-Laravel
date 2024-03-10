@@ -344,8 +344,8 @@
                     </a>
                 </div>
                 <div class="item">
-                    <a href="{{ route('pos') }}">
-                        <img src="{{ asset('frontend/img/pos.png') }}" alt="pos" class="card-img-top img-fluid">
+                    <a href="{{ route('kaan') }}">
+                        <img src="{{ asset('frontend/img/kaan.jpg') }}" alt="pos" class="card-img-top img-fluid">
                     </a>
                 </div>
           </div>
