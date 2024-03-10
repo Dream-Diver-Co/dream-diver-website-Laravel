@@ -64,6 +64,7 @@ class RegisteredUserController extends Controller
         'name' => ['required', 'string', 'max:255'],
         'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
         'password' => ['required', 'confirmed', Password::defaults()],
+        'g-recaptcha-response' => ['required', 'captcha'],
     ]);
 
     // If validation fails, redirect to the 'index' route

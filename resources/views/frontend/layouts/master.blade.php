@@ -59,7 +59,7 @@
     </div> -->
     <!-- Spinner End -->
 
-    @error('name')
+    {{-- @error('name')
         <div class="alert alert-danger">{{ $message }}</div>
     @enderror
 
@@ -70,6 +70,15 @@
     @error('password')
     <div class="alert alert-danger">{{ $message }}</div>
     @enderror
+
+    @error('g-recaptcha-response')
+            <div class="alert alert-danger">{{ $message }}</div>
+    @enderror --}}
+
+    @if($errors->has('name') || $errors->has('email') || $errors->has('password') || $errors->has('g-recaptcha-response'))
+    <div class="alert alert-danger">Registration failed, please try again.</div>
+    @endif
+
 
     @include('cookie-consent::index')
 
