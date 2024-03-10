@@ -27,7 +27,7 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-highlight">Follow Us</h5>
                     <div class="d-flex">
-                        <a class="btn btn-square rounded-circle twitter me-1" target="_blank" href="https://twitter.com/Dream_Diver1"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square rounded-circle twitter me-1" target="_blank" href="https://twitter.com/Dream_Diver1"><i class="fa-brands fa-x-twitter"></i></a>
                         <a class="btn btn-square rounded-circle facebook me-1" target="_blank" href="https://www.facebook.com/dreamdiverit/"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square rounded-circle instagram me-1" target="_blank" href="https://www.instagram.com/dream_diver_it/"><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-square rounded-circle linkedin me-1" target="_blank" href="https://www.linkedin.com/company/dream-diver-nl/"><i class="fab fa-linkedin-in"></i></a>

@@ -171,9 +171,9 @@ class FrontendController extends Controller
         return view('frontend.page.de_was');
     }
 
-    public function deShop()
+    public function kaan()
     {
-        return view('frontend.page.de_shop');
+        return view('frontend.page.kaan');
     }
 
     public function bookChange()

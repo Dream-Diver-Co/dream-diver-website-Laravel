@@ -2320,7 +2320,7 @@ ul.dropdown-content {list-style-type: none;}
 }
 
 .user-access-buttons a {
-    background-color: #f1f1f1;
+    background-color:#B6B1E7;
     color: black;
     padding: 5px 20px;
     text-decoration: none;
@@ -2479,7 +2479,10 @@ ul.dropdown-content {list-style-type: none;}
 }
 
 @media only screen and (max-width: 600px) {
-
+    .py-6 {
+        padding-top: 15px !important;
+        padding-bottom:15px !important;
+    }
     .hidebigscreen{
         display: none;
     }

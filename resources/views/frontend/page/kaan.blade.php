@@ -4,12 +4,12 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="text-white">De-Shopper Portfilio Details</h1>
+            <h1 class="text-white">Kaan GYM Portfilio Details</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                     <li class="breadcrumb-item"><a href="{{ route('portfolio') }}">Portfolio</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">De-Shopper</li>
+                    <li class="breadcrumb-item active" aria-current="page">Kaan GYM</li>
                 </ol>
             </nav>
         </div>
@@ -66,13 +66,13 @@
                 <center>
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="card">
-                            <img src="{{ asset('frontend/img/aeon.png') }}" class="card-img-top" alt="aeon">
+                            <img src="{{ asset('frontend/img/kaan.jpg') }}" class="card-img-top" alt="aeon">
                             <div class="card-body">
-                              <h5 class="card-title">AEON</h5>
+                              <h5 class="card-title">Kaan GYM</h5>
                               <p class="card-text"> Garment order process system.<br>
                                 1. Place order by uploading pdf.<br>
                                 2. Follow different process of completing a order  <br></p>
-                              <a href="http://erpaeon.dreamdiver.nl/login" target="_blank" class="custom-btn">Aeon Link</a>
+                              <a href="https://kinetickaan.com/" target="_blank" class="custom-btn">Kaan GYM Link</a>
                             </div>
                           </div>
                     </div>

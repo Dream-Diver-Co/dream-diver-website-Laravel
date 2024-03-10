@@ -26,7 +26,6 @@
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Core Values</button>
             </li>
-
         </ul>
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">

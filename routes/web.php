@@ -58,7 +58,7 @@ Route::get('/misi', [FrontendController::class, 'misi'])->name('misi');
 Route::get('/shob_khobor', [FrontendController::class, 'shobKhobor'])->name('shob_khobor');
 Route::get('/fnf_stay', [FrontendController::class, 'fnfStay'])->name('fnf_stay');
 Route::get('/de_was', [FrontendController::class, 'deWas'])->name('de_was');
-Route::get('/de_shop', [FrontendController::class, 'deShop'])->name('de_shop');
+Route::get('/kaan', [FrontendController::class, 'kaan'])->name('kaan');
 Route::get('/book_change', [FrontendController::class, 'bookChange'])->name('book_change');
 Route::get('/foody_moody', [FrontendController::class, 'foodyMoody'])->name('foody_moody');
 Route::get('/ideabd', [FrontendController::class, 'ideaBd'])->name('ideabd');

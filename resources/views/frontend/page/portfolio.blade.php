@@ -208,23 +208,23 @@
                     </div>
                     <div class="col-md-4 service-bottom wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item" data-aos="zoom-in-down">
-                            <a href="{{ route('de_shop') }}">
+                            <a href="{{ route('kaan') }}">
                                 <div class="flip-box">
                                     <div class="flip-box-inner">
                                       <div class="flip-box-front">
-                                        <img class="img-service" src="{{ asset('frontend/img/portfolio/portfolio-1.jpg') }}" alt="shopper">
+                                        <img class="img-service" src="{{ asset('frontend/img/kaan.jpg') }}" alt="shopper">
                                       </div>
                                       <div class="flip-box-back">
-                                        <img class="img-service" src="{{ asset('frontend/img/portfolio/portfolio-1.jpg') }}" alt="shopper">
+                                        <img class="img-service" src="{{ asset('frontend/img/kaan.jpg') }}" alt="shopper">
                                         <div class="flip-text">
                                             <p class="portfolio-text">Dream Diver</p>
-                                            <p>De-Shopper</p>
+                                            <p>Kaan GYM</p>
                                             <button class="flip-btn">Read more...</button>
                                         </div>
                                       </div>
                                     </div>
                                     <div>
-                                        <p class="service-item-text">De-Shopper</p>
+                                        <p class="service-item-text">Kaan GYM</p>
                                     </div>
 
                                 </div>
