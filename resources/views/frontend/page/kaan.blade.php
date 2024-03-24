@@ -37,16 +37,34 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-Summary" role="tabpanel" aria-labelledby="pills-Summary-tab" tabindex="0">
-                Garment order process system.
-                <br><br>
-                1. Place order by uploading pdf.<br><br>
-                2. Follow different process of completing a order  <br><br>
+
+            It seems like you're asking for information about a portfolio related to a gym named "Kaan Gym." However, without more context or specific details, I can only provide a general overview of what might be included in a gym portfolio. Typically, a gym portfolio might contain:
+            <br><br>
+            Introduction: A brief overview of the gym, its mission, vision, and values.
+            <br><br>
+            Location and Facilities: Details about the gym's location(s), including addresses and contact information. Description of the facilities available at the gym, such as workout areas, equipment, locker rooms, showers, etc.
+            <br><br>
+            Membership Information: Types of memberships offered (e.g., monthly, yearly), pricing details, any special offers or discounts available.
+            <br><br>
+            Fitness Programs: Description of fitness programs offered at the gym, such as group fitness classes, personal training sessions, specialized programs (e.g., weight loss, strength training, yoga).
+            <br><br>
+            Trainers and Staff: Profiles of the trainers and staff members, including their qualifications, certifications, and areas of expertise.
+            <br><br>
+            Client Testimonials: Feedback or testimonials from current or past clients about their experiences at the gym.
+            <br><br>
+            Success Stories: Highlighting any notable success stories of clients who have achieved their fitness goals at the gym.
+            <br><br>
+            Events and Community Involvement: Information about any events hosted by the gym (e.g., fitness challenges, workshops) and its involvement in the local community.
+            <br><br>
+            Gallery: Photos or videos showcasing the gym's facilities, equipment, classes, and events.
+            <br><br>
+            Contact Information: How prospective clients can get in touch with the gym for inquiries, memberships, or bookings.
+            <br><br>
+            If you're looking for specific details about the "Kaan Gym Portfolio," please provide more context or details, and I'd be happy to assist you further.<br><br>
 
                 </div>
             <div class="tab-pane fade slide-section" id="pills-details" role="tabpanel" aria-labelledby="pills-details-tab" tabindex="0">
-                From sourcing to shipment.
-                <br><br>
-                1. Read pdf and place order from that data<br><br>
+                It seems like you're asking for information about a portfolio related to a gym named "Kaan Gym." However, without more context or specific details, I can only provide a general overview of what might be included in a gym portfolio. <br><br>
 
             </div>
             <div class="tab-pane fade slide-section" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab" tabindex="0">
@@ -69,9 +87,7 @@
                             <img src="{{ asset('frontend/img/kaan.jpg') }}" class="card-img-top" alt="aeon">
                             <div class="card-body">
                               <h5 class="card-title">Kaan GYM</h5>
-                              <p class="card-text"> Garment order process system.<br>
-                                1. Place order by uploading pdf.<br>
-                                2. Follow different process of completing a order  <br></p>
+                              <p class="card-text">It seems like you're asking for information about a portfolio related to a gym named "Kaan Gym." <br></p>
                               <a href="https://kinetickaan.com/" target="_blank" class="custom-btn">Kaan GYM Link</a>
                             </div>
                           </div>
@@ -87,7 +103,7 @@
                                         <p class="text-head text-center">Text Review</p>
                                     <p class="about-us">HI Rumio,
 
-                                        Thanks so much for a great meeting today. The aeon system is looking great and we are
+                                        Thanks so much for a great meeting today. The Kaan GYM system is looking great and we are
                                         very happy with the work put in so far!<br>
 
                                     </div>

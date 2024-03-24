@@ -80,7 +80,7 @@
                                         <p class="text-head text-center">Text Review</p>
                                     <p class="about-us">HI Rumio,
 
-                                        Thanks so much for a great meeting today. The aeon system is looking great and we are
+                                        Thanks so much for a great meeting today. The Shob Khobor system is looking great and we are
                                         very happy with the work put in so far!<br>
 
                                     </div>

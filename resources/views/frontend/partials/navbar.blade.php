@@ -48,7 +48,7 @@
                         href="{{ route('de_was') }}">De-Was</a> --}}
                     <a class=" {{ request()->is('ideabd') ? ' dd-active' : '' }} "
                         href="{{ route('ideabd') }}">IdeaBd</a>
-                    <a class=" {{ request()->is('de_shop') ? ' dd-active' : '' }} "
+                    <a class=" {{ request()->is('kaan') ? ' dd-active' : '' }} "
                         href="{{ route('kaan') }}">Kaan GYM</a>
                     <a class=" {{ request()->is('book_change') ? ' dd-active' : '' }} "
                         href="{{ route('book_change') }}">Book-Exchanger</a>

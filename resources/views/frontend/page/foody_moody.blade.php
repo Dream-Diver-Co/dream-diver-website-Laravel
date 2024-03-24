@@ -37,16 +37,39 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-Summary" role="tabpanel" aria-labelledby="pills-Summary-tab" tabindex="0">
-                Garment order process system.
+
+                "Online Foody" appears to be a restaurant or food delivery service. Here's some general information about such a concept:
                 <br><br>
-                1. Place order by uploading pdf.<br><br>
-                2. Follow different process of completing a order  <br><br>
+                Online Ordering Platform: "Online Foody" likely operates primarily through a website or mobile application where customers can browse the menu, place orders, and make payments digitally.
+                <br><br>
+                Menu Variety: A successful online food service typically offers a wide variety of cuisines to cater to different tastes and preferences. This could include options like Italian, Chinese, Mexican, Indian, etc.
+                <br><br>
+                Delivery Options: "Online Foody" likely offers various delivery options to accommodate different customer needs, such as standard delivery, express delivery, or even subscription-based services.
+                <br><br>
+                Quality Control: Maintaining food quality during the delivery process is crucial for customer satisfaction. "Online Foody" likely has systems in place to ensure that food remains fresh and hot during transit.
+                <br><br>
+                Customer Reviews and Ratings: Like most online services, "Online Foody" probably allows customers to leave reviews and ratings. Positive reviews can help attract more customers, while negative feedback can prompt improvements in service.
+                <br><br>
+                Discounts and Promotions: Offering discounts, promotions, and loyalty programs can help attract and retain customers. "Online Foody" may have special deals during certain times or events to incentivize orders.
+                <br><br>
+                Customer Support: A reliable customer support system is essential for addressing any issues or inquiries that customers may have regarding their orders. This could include a helpline, online chat support, or email assistance.
+                <br><br>
+                Sustainability and Packaging: With increasing awareness about environmental issues, "Online Foody" might prioritize sustainable packaging options to minimize its ecological footprint.
+                <br><br>
+                Local Partnerships: Collaborating with local restaurants and suppliers can help "Online Foody" offer a diverse range of dishes while also supporting local businesses.
+                <br><br>
+                Data Analytics: Utilizing data analytics can help "Online Foody" understand customer preferences, optimize delivery routes, and make informed business decisions.
+                <br><br>
+                Overall, "Online Foody" likely aims to provide a convenient and efficient way for customers to enjoy a variety of delicious meals from the comfort of their homes.<br><br>
 
                 </div>
             <div class="tab-pane fade slide-section" id="pills-details" role="tabpanel" aria-labelledby="pills-details-tab" tabindex="0">
-                From sourcing to shipment.
+                01:Online Ordering Platform: "Online Foody" likely operates primarily through a website or mobile application where customers can browse the menu, place orders, and make payments digitally.
                 <br><br>
-                1. Read pdf and place order from that data<br><br>
+                02:Menu Variety: A successful online food service typically offers a wide variety of cuisines to cater to different tastes and preferences. This could include options like Italian, Chinese, Mexican, Indian, etc.
+                <br><br>
+                03:Delivery Options: "Online Foody" likely offers various delivery options to accommodate different customer needs, such as standard delivery, express delivery, or even subscription-based services.
+                <br><br>
 
             </div>
             <div class="tab-pane fade slide-section" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab" tabindex="0">
@@ -73,10 +96,8 @@
                             <img src="{{ asset('frontend/img/foody-moody.png') }}" class="card-img-top" alt="aeon">
                             <div class="card-body">
                               <h5 class="card-title">Foody Moody</h5>
-                              <p class="card-text"> Garment order process system.<br>
-                                1. Place order by uploading pdf.<br>
-                                2. Follow different process of completing a order  <br></p>
-                              <a href="http://erpaeon.dreamdiver.nl/login" target="_blank" class="custom-btn">Foody Moody Link</a>
+                              <p class="card-text"> "Online Foody" appears to be a restaurant or food delivery service<br></p>
+                              <a href="https://foody-moody-restaurant.web.app/" target="_blank" class="custom-btn">Foody Moody Link</a>
                             </div>
                           </div>
                     </div>
@@ -91,7 +112,7 @@
                                         <p class="text-head text-center">Text Review</p>
                                     <p class="about-us">HI Rumio,
 
-                                        Thanks so much for a great meeting today. The aeon system is looking great and we are
+                                        Thanks so much for a great meeting today. The Foody Moody system is looking great and we are
                                         very happy with the work put in so far!<br>
 
                                     </div>
