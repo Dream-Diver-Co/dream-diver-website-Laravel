@@ -39,16 +39,32 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-Summary" role="tabpanel" aria-labelledby="pills-Summary-tab" tabindex="0">
-                Garment order process system.
-                <br><br>
-                1. Place order by uploading pdf.<br><br>
-                2. Follow different process of completing a order  <br><br>
+
+                "Beautiful All Design & Printing" sounds like a business name or a service offering graphic design and printing solutions. If you're looking for assistance or advice regarding design and printing, feel free to ask! Whether it's about creating eye-catching designs, selecting appropriate printing methods, or anything related, I'm here to help.<br>
 
                 </div>
             <div class="tab-pane fade slide-section" id="pills-details" role="tabpanel" aria-labelledby="pills-details-tab" tabindex="0">
-                From sourcing to shipment.
+
+                It seems like you're asking for information or guidance on design and printing. Design and printing encompass a broad range of topics, from graphic design principles to printing techniques and technologies. Here's a brief overview:
                 <br><br>
-                1. Read pdf and place order from that data<br><br>
+                Graphic Design: Graphic design is the process of visual communication and problem-solving through the use of typography, photography, iconography, and illustration. It involves creating visually appealing layouts for various purposes, such as branding, advertising, and publication design.
+                <br><br>
+                Print Design: Print design specifically focuses on creating materials intended for print, such as business cards, brochures, flyers, posters, magazines, and packaging. Print designers need to consider factors like color, typography, layout, and printing techniques to ensure the final product looks great in print.
+                <br><br>
+                Printing Techniques: There are various printing techniques used to transfer digital designs onto physical surfaces. Some common printing methods include:
+                <br><br>
+                Offset printing: A traditional printing method where ink is transferred from a plate to a rubber blanket, then onto the printing surface.
+                Digital printing: A modern printing method that directly transfers digital files onto paper or other substrates, suitable for short print runs and variable data printing.
+                Screen printing: A technique where ink is forced through a mesh stencil onto the printing surface, often used for apparel, posters, and signage.
+                Large format printing: Used for printing oversized graphics such as banners, posters, and signage.
+                Flexography: Primarily used for packaging printing, employing flexible relief plates and fast-drying inks.
+                Design Software: Professionals in the design and printing industry often use software like Adobe Creative Suite (including Photoshop, Illustrator, and InDesign), CorelDRAW, and Affinity Designer for creating and editing designs.
+                <br><br>
+                Color Management: Ensuring color consistency across different devices and printing processes is crucial in design and printing. Color management tools and practices help achieve accurate color reproduction.
+                <br><br>
+                Typography: Typography plays a significant role in design, impacting readability, mood, and brand identity. Designers select appropriate typefaces, fonts, and font sizes to enhance the visual appeal and effectiveness of their designs.
+                <br><br>
+                Finishing Techniques: After printing, various finishing techniques may be applied to enhance the appearance or functionality of printed materials. This includes processes like laminating, embossing, die-cutting, and foil stamping.
 
             </div>
             <div class="tab-pane fade slide-section" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab" tabindex="0">
@@ -75,10 +91,8 @@
                             <img src="{{ asset('frontend/img/idea.jpg') }}" class="card-img-top" alt="aeon">
                             <div class="card-body">
                               <h5 class="card-title">IdeaBd</h5>
-                              <p class="card-text"> Garment order process system.<br>
-                                1. Place order by uploading pdf.<br>
-                                2. Follow different process of completing a order  <br></p>
-                              <a href="" target="_blank" class="custom-btn">IdeaBd Link</a>
+                              <p class="card-text">"Beautiful All Design & Printing" sounds like a business name or a service offering graphic design and printing solutions.<br></p>
+                              <a href="https://ideabd.info/" target="_blank" class="custom-btn">IdeaBd Link</a>
                             </div>
                           </div>
                     </div>
@@ -93,7 +107,7 @@
                                         <p class="text-head text-center">Text Review</p>
                                     <p class="about-us">HI Rumio,
 
-                                        Thanks so much for a great meeting today. The aeon system is looking great and we are
+                                        Thanks so much for a great meeting today. The IdeaBd system is looking great and we are
                                         very happy with the work put in so far!<br>
 
                                     </div>

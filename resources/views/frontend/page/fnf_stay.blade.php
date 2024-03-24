@@ -38,16 +38,11 @@
         <hr>
         <div class="tab-content slide-section" id="pills-tabContent">
             <div class="tab-pane fade slide-section show active" id="pills-Summary" role="tabpanel" aria-labelledby="pills-Summary-tab" tabindex="0">
-                Garment order process system.
-                <br><br>
-                1. Place order by uploading pdf.<br><br>
-                2. Follow different process of completing a order  <br><br>
+                It seems like you're referring to a mobile network called "FnF - Stay Connected." However, as of my last update in January 2022, I don't have specific information about a network with that name. It's possible that it could be a new network that emerged after my last update, or it might be a regional or niche network that isn't widely known.
 
-                </div>
+            </div>
             <div class="tab-pane fade slide-section" id="pills-details" role="tabpanel" aria-labelledby="pills-details-tab" tabindex="0">
-                From sourcing to shipment.
-                <br><br>
-                1. Read pdf and place order from that data<br><br>
+                If it's a new network, you might want to check their official website or contact their customer support for more information about their services, coverage, and offerings. If it's a regional network, you might find more information by searching online or asking people in that region about their experiences with it.
 
             </div>
             <div class="tab-pane fade slide-section" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab" tabindex="0">
@@ -55,7 +50,6 @@
                 <video class="video" controls>
                     <source src="mov_bbb.mp4" type="video/mp4">
                     <source src="mov_bbb.ogg" type="video/ogg">
-                    Your browser does not support HTML video.
                 </video>
                 <p>
                     Video courtesy of
@@ -67,13 +61,11 @@
                 <center>
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="card">
-                            <img src="{{ asset('frontend/img/aeon.png') }}" class="card-img-top" alt="aeon">
+                            <img src="{{ asset('frontend/img/portfolio/portfolio-5.jpg') }}" class="card-img-top" alt="aeon">
                             <div class="card-body">
-                              <h5 class="card-title">AEON</h5>
-                              <p class="card-text"> Garment order process system.<br>
-                                1. Place order by uploading pdf.<br>
-                                2. Follow different process of completing a order  <br></p>
-                              <a href="http://erpaeon.dreamdiver.nl/login" target="_blank" class="custom-btn">Aeon Link</a>
+                              <h5 class="card-title">FnF-Stay</h5>
+                              <p class="card-text"> It seems like you're referring to a mobile network called "FnF - Stay Connected.<br></p>
+                              <a href="" target="_blank" class="custom-btn">FnF-Stay Link</a>
                             </div>
                           </div>
                     </div>
@@ -88,7 +80,7 @@
                                         <p class="text-head text-center">Text Review</p>
                                     <p class="about-us">HI Rumio,
 
-                                        Thanks so much for a great meeting today. The aeon system is looking great and we are
+                                        Thanks so much for a great meeting today. The FnF - Stay system is looking great and we are
                                         very happy with the work put in so far!<br>
 
                                     </div>
